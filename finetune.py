@@ -1,5 +1,6 @@
 from datasets import load_dataset, load_from_disk
 from peft import LoraConfig, get_peft_model
+import torch
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
@@ -74,7 +75,10 @@ else:
         cache_dir="./models",
     )
 
-
+if torch.cuda.device_count() > 1: # If more than 1 GPU
+    print(torch.cuda.device_count())
+    model.is_parallelizable = True
+    model.model_parallel = True
 
 # Load in the tokenizer
 tokenizer = AutoTokenizer.from_pretrained(
