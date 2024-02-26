@@ -21,8 +21,8 @@ lora_alpha = 16             # How much to weigh LoRA params over pretrained para
 lora_dropout = 0.1          # Dropout for LoRA weights to avoid overfitting
 lora_r = 16                 # Bottleneck size between A and B matrix for LoRA params
 lora_bias = "all"           # "all" or "none" for LoRA bias
-#base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        # base instruct model
-base_model = "mistralai/Mistral-7B-Instruct-v0.2"        # base instruct model -- small, for testing code
+base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        # base instruct model
+#base_model = "mistralai/Mistral-7B-Instruct-v0.2"        # base instruct model -- small, for testing code
 
 dataset_type = "telework"      # "qanda" to use the telework data set
 lora_target_modules = [     # Which modules to apply LoRA to (names of the modules in state_dict)
