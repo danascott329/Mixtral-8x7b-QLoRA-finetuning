@@ -40,11 +40,11 @@ output_dir = "outputs_squad"                              # Directory to save th
 optim_type = "adafactor"                            # Optimizer type to train with 
 learning_rate = 0.00005                              # Model learning rate
 weight_decay = 0.002                                # Model weight decay
-per_device_train_batch_size = 8                     # Train batch size on each GPU
-per_device_eval_batch_size = 8                      # Eval batch size on each GPU
-gradient_accumulation_steps = 2                     # Number of steps before updating model
+per_device_train_batch_size = 2                     # Train batch size on each GPU
+per_device_eval_batch_size = 2                      # Eval batch size on each GPU
+gradient_accumulation_steps = 8                     # Number of steps before updating model
 warmup_steps = 5                                    # Number of warmup steps for learning rate
-save_steps = 100                                     # Number of steps before saving model
+save_steps = 50                                     # Number of steps before saving model
 logging_steps = 25                                  # Number of steps before logging
 
 
@@ -222,7 +222,7 @@ trainer = Trainer(
     eval_dataset=data_test,
     tokenizer=tokenizer,
 )
-'''
+
 # Train the model
 trainer.train()
-'''
+
