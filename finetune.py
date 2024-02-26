@@ -102,7 +102,7 @@ if dataset_type == "squad":
 if dataset_type == "telework":
     # Load in the dataset and map using the tokenizer
     # Path to your CSV file
-    csv_file_path = 'trainset_fulltext_prompted.csv'
+    csv_file_path = 'trainset_linewise_prompted.csv'
 
     # Load the dataset
     dataset = load_dataset('csv', data_files=csv_file_path)
