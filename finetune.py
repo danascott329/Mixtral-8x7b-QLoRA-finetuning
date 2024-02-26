@@ -10,7 +10,8 @@ from transformers import (
     Trainer,
 )
 
-max_length = 2000
+max_length = 2500
+min_length = 50
 
 # Model loading params
 load_in_4bit = True
@@ -20,7 +21,9 @@ lora_alpha = 16             # How much to weigh LoRA params over pretrained para
 lora_dropout = 0.1          # Dropout for LoRA weights to avoid overfitting
 lora_r = 16                 # Bottleneck size between A and B matrix for LoRA params
 lora_bias = "all"           # "all" or "none" for LoRA bias
-base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        # base instruct model
+#base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        # base instruct model
+base_model = "mistralai/Mistral-7B-Instruct-v0.2"        # base instruct model -- small, for testing code
+
 dataset_type = "telework"      # "qanda" to use the telework data set
 lora_target_modules = [     # Which modules to apply LoRA to (names of the modules in state_dict)
      "q_proj",
@@ -79,6 +82,7 @@ if torch.cuda.device_count() > 1: # If more than 1 GPU
     print(torch.cuda.device_count())
     model.is_parallelizable = True
     model.model_parallel = True
+    print("Yay parallelization!")
 
 # Load in the tokenizer
 tokenizer = AutoTokenizer.from_pretrained(
@@ -90,13 +94,9 @@ tokenizer.pad_token = tokenizer.eos_token
 
 # Function to filter dataset based on token count
 def filter_by_token_count(examples):
-    inputs = tokenizer(examples["text"], truncation=True, max_length=max_length, return_length=True)
-    return {"keep": [length <= max_length for length in inputs["length"]]}
-
-
-if dataset_type == "squad":
-    dataset = load_dataset("squad")
-
+    #inputs = tokenizer(str(examples["input"]), truncation=True, max_length=max_length, return_length=True)
+    inputs = tokenizer(str(examples["input"]), return_length=True)
+    return {"keep": [length <= max_length - 500 and length >= min_length for length in inputs["length"]]}
 
 # Load in the dataset and map using the tokenizer
 if dataset_type == "telework":
@@ -108,8 +108,8 @@ if dataset_type == "telework":
     dataset = load_dataset('csv', data_files=csv_file_path)
 
     # Apply filtering by token count
-    filtered_dataset = dataset.map(filter_by_token_count, batched=True)
-    filtered_dataset = filtered_dataset.filter(lambda example: example["keep"])
+    dataset = dataset.map(filter_by_token_count)
+    dataset = dataset.filter(lambda example: (example["keep"]==[True]))
 
     """
     The dataset has context, questions, and answers.
@@ -187,7 +187,6 @@ test_size = len(dataset) - train_size
 data_train = dataset.select(range(train_size))
 data_test = dataset.select(range(train_size, train_size + test_size))
 
-
 # Adapt the model with LoRA weights
 peft_config = LoraConfig(
     lora_alpha=lora_alpha,
@@ -223,6 +222,7 @@ trainer = Trainer(
     eval_dataset=data_test,
     tokenizer=tokenizer,
 )
-
+'''
 # Train the model
 trainer.train()
+'''
