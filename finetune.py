@@ -10,7 +10,7 @@ from transformers import (
     Trainer,
 )
 
-max_length = 15000
+max_length = 2000
 
 # Model loading params
 load_in_4bit = True
@@ -88,10 +88,14 @@ tokenizer = AutoTokenizer.from_pretrained(
 )
 tokenizer.pad_token = tokenizer.eos_token
 
+# Function to filter dataset based on token count
+def filter_by_token_count(examples):
+    inputs = tokenizer(examples["text"], truncation=True, max_length=max_length, return_length=True)
+    return {"keep": [length <= max_length for length in inputs["length"]]}
+
 
 if dataset_type == "squad":
     dataset = load_dataset("squad")
-
 
 
 # Load in the dataset and map using the tokenizer
@@ -103,23 +107,9 @@ if dataset_type == "telework":
     # Load the dataset
     dataset = load_dataset('csv', data_files=csv_file_path)
 
-    '''
-    # Split the dataset into 80% train and 20% test
-    train_test_split = dataset["train"].train_test_split(test_size=0.2)
-
-    # Create a DatasetDict to hold the splits for convenience
-    from datasets import DatasetDict
-    dataset_split = DatasetDict({
-        'train': train_test_split['train'],
-        'test': train_test_split['test']
-    })
-
-    # Access the train dataset
-    train_dataset = dataset_split['train']
-
-    # Access the test dataset
-    test_dataset = dataset_split['test']
-    '''
+    # Apply filtering by token count
+    filtered_dataset = dataset.map(filter_by_token_count, batched=True)
+    filtered_dataset = filtered_dataset.filter(lambda example: example["keep"])
 
     """
     The dataset has context, questions, and answers.
