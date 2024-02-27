@@ -1,6 +1,9 @@
 from datasets import load_dataset, load_from_disk
 from peft import LoraConfig, get_peft_model
+import os
 import torch
+import torch.distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
@@ -13,6 +16,9 @@ from transformers import (
 max_length = 2500
 min_length = 50
 
+#`distributed` is a boolean that indicates whether to use distributed training
+distributed = True
+
 # Model loading params
 load_in_4bit = True
 
@@ -24,6 +30,7 @@ lora_bias = "all"           # "all" or "none" for LoRA bias
 base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        # base instruct model
 #base_model = "mistralai/Mistral-7B-Instruct-v0.2"        # base instruct model -- small, for testing code
 
+
 dataset_type = "telework"      # "qanda" to use the telework data set
 lora_target_modules = [     # Which modules to apply LoRA to (names of the modules in state_dict)
      "q_proj",
@@ -34,6 +41,11 @@ lora_target_modules = [     # Which modules to apply LoRA to (names of the modul
     "up_proj",
     "down_proj"
 ]
+
+# initialize distributed training
+#if distributed==True:
+#    torch.cuda.set_device(args.local_rank)  # args.local_rank is the GPU ID assigned
+#    dist.init_process_group(backend='nccl')
 
 # Trainer params
 output_dir = "outputs_squad"                              # Directory to save the model
@@ -200,6 +212,7 @@ peft_config = LoraConfig(
 model = get_peft_model(model, peft_config)
 model.print_trainable_parameters()
 
+#model = DDP(model, device_ids=[args.local_rank], output_device=args.local_rank)
 
 training_args = TrainingArguments(
     output_dir=output_dir,
@@ -214,6 +227,7 @@ training_args = TrainingArguments(
     warmup_steps=warmup_steps,
     save_steps=save_steps,
     logging_steps=logging_steps,
+    local_rank=int(os.getenv('LOCAL_RANK', '0')) 
 )
 trainer = Trainer(
     model=model,
