@@ -6,6 +6,7 @@ from transformers import (
 )
 import pandas as pd
 import os
+from peft import LoraConfig, get_peft_model, PeftModel
 
 cache_dir = "/vast/palmer/scratch/odea/das293/huggingface/"
 os.environ['TRANSFORMERS_CACHE'] = cache_dir
@@ -39,11 +40,15 @@ bnb_config = BitsAndBytesConfig(
 model = AutoModelForCausalLM.from_pretrained(
     base_model, 
     trust_remote_code=True, 
-    device_map=device, 
+    device_map=device#, 
     #load_in_8bit=True,
-    quantization_config=bnb_config
+    #quantization_config=bnb_config
 )
-model.load_lora_weights("fulltext-lora-weights/model_weights", weight_name="adapter_model.safetensors")
+
+model = PeftModel.from_pretrained(model, weights)
+model = model.merge_and_unload()
+
+#model.load_lora_weights("fulltext-lora-weights/model_weights", weight_name="adapter_model.safetensors")
 tokenizer = AutoTokenizer.from_pretrained(base_model)
 
 # inference function
@@ -71,5 +76,11 @@ files_in_directory = os.listdir('fulltext-pilot')
 txt_files = [file for file in files_in_directory if file.endswith('.txt')]
 print(txt_files)
 
-responses = txt_files.map(respond)
-responses.to_csv('pilot_responses.csv')
+responses = list(map(respond, txt_files))
+
+df = pd.DataFrame({
+    'doc': txt_files,
+    'summary': responses
+})
+
+df.to_csv('pilot_responses.csv')
