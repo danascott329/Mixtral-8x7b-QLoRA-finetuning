@@ -1,0 +1,955 @@
+
+
+
+
+
+
+
+
+
+
+ACCORD RELATIF AU TELETRAVAIL AU SEIN DE LA SOCIETE PRAXAIR MRC
+
+
+
+
+
+Entre :
+
+
+
+La Société Praxair MRC SAS, ayant son siège social sis au 66 bd de thibaud, 31100 Toulouse et représentée par ………………………. en sa qualité de président. 
+
+
+
+D'une part,
+
+
+
+Et :
+
+
+
+Les organisations syndicales représentatives dans l'entreprise représentées par :
+
+
+
+--	Monsieur ……………………… délégué syndical CFDT 
+
+
+
+D’autre part
+
+	
+
+
+
+
+Table des matières
+
+	Préambule	3
+
+	Article 1 : Cadre et principe généraux du télétravail	4
+
+	Article 2 : Conditions d’éligibilité au télétravail régulier	4
+
+	Article 3 : Modes d’organisation du télétravail	5
+
+	Article 3-1 : Télétravail régulier	5
+
+	Article 3-2 : Télétravail occasionnel	6
+
+	Article 4 : Candidatures et acceptation	6
+
+	Article 4-1 : Procédure de candidature et acceptation	6
+
+	Article 4-1-1 : Situation de télétravail régulier	6
+
+	Article 4-1-2 : Situation de télétravail occasionnel	7
+
+	Article 4-2 : Cas spécifiques de recours au télétravail	7
+
+	Article 4-2-1 : Salariés en situation de retour de maladie / accident  ou de situation de handicap, pour lesquels l’aménagement du poste de travail peut prendre la forme d’un recours au télétravail	7
+
+	Article 4-2-2 : Circonstances collectives particulières	8
+
+	Article 4-2-3 : Principes de mise en œuvre	8
+
+	Article 5 : Avenant au contrat de travail	8
+
+	Article 6 : Période d’adaptation et réversibilité permanente	9
+
+	Article 6-1 : Période d’adaptation	9
+
+	Article 6-2 : Réversibilité permanente	9
+
+	Article 7 : Modification de la situation du salarié	9
+
+	Article 8 : Suspension du télétravail	10
+
+	Article 9 : Modalités d’organisation de l’activité du télétravailleur	10
+
+	Article 9-1 : Maintien du lien avec l’entreprise	10
+
+	Article 9-2 : Organisation de l’activité du télétravailleur	10
+
+	Article 9-3 :  Contrôle et gestion du temps de travail	10
+
+	Article 10 : Environnement et équipement de travail	11
+
+	Article 10-1 : Conformité des installations et des lieux	11
+
+	Article 10-2 : Moyens mis à disposition du salarié	12
+
+	Article 10-3 : Frais liés à la situation de télétravail	12
+
+	Article 11 : Droits et devoirs du salarié et prévention des effets de l’isolement	13
+
+	Article 11-1 : Droits collectifs	13
+
+	Article 11-2 : Droits individuels	13
+
+	Article 11-3 : Santé et sécurité	13
+
+	Article 11-4 : Protection des données, confidentialité, respect des standards et règles d’éthique	14
+
+	Article 11-5 : Assurances	14
+
+	Article 12 : Dispositions finales	14
+
+	Article 12-1 : Suivi de l’accord	14
+
+	Article 12-2 :  Durée et entrée en vigueur de l’accord	15
+
+	Article 12-3- Révision de l’accord	15
+
+	Article 12-4 : Publicité et dépôt de l’accord	15
+
+
+
+
+
+
+Préambule 
+
+
+
+Conscientes de l’évolution sociétale des pratiques et des modes d’organisation du travail et des enjeux liés à la mobilité sur la région toulousaine, les parties ont mis en place en l’encadrant, la pratique du Télétravail au sein de Praxair MRC en signant un accord sur le télétravail le 13 mai 2019. 
+
+
+
+Cet accord avait notamment pour finalité de définir le cadre du télétravail au niveau de l’entreprise en préservant tant l’intérêt légitime de la Société, eu égard à ses contraintes organisationnelles, managériales et techniques, que le respect de la santé et de l’équilibre entre vie professionnelle et vie personnelle des salariés. 
+
+
+
+Les parties entendaient trouver un équilibre entre ces différents intérêts et soulignaient le fait que le télétravail était le résultat d’un engagement fondé sur le principe de confiance mutuelle.
+
+
+
+Le bilan de cet accord est positif et les parties entendent aujourd’hui reconduire la pratique du télétravail tout en élargissant ou modifiant certaines mesures. 
+
+
+
+Le présent accord remplace donc intégralement l’accord signé le 13 mai 2019. 
+
+
+
+Le présent accord s’inscrit toujours dans le cadre strict du volontariat des Collaborateurs candidats au Télétravail et ne peut pas être mis en œuvre comme une mesure de réorganisation du travail. 
+
+
+
+
+
+Les parties entendent poursuivre et accompagner avec ce nouvel accord l’évolution des modes d’organisation et de fonctionnement de l’entreprise en permettant de mieux concilier vie professionnelle et vie privée.
+
+
+
+Cet accord a été soumis pour information et consultation auprès du CSE le 15 septembre 2020. 
+
+
+
+
+
+
+Article 1 : Cadre et principe généraux du télétravail 
+
+
+
+Le télétravail désigne, au sens de l’article L.1222-9 du Code du travail, toute forme d’organisation du travail, utilisant les technologies de l’information dans le cadre d’un avenant au contrat de travail et dans laquelle un travail, qui aurait également pu être réalisé dans les locaux de l’employeur, est effectué hors de ces locaux. 
+
+
+
+Sur la base de cette définition générale, le télétravail au sein de PRAXAIR MRC s’entendra comme la situation où le collaborateur, sur la base du volontariat, effectuera son activité professionnelle alternativement à son domicile (adresse du bulletin de salaire) et dans les locaux de l’entreprise. Ceci sera formalisé par un avenant à son contrat de travail.
+
+
+
+Les parties conviennent des principes généraux suivants qui régiront le télétravail : 
+
+
+
+--	Volontariat : le télétravail revêt un caractère volontaire tant pour le salarié que l’employeur. 
+
+Il ne peut être mis en œuvre qu’à la demande du salarié et après examen et accord de l’employeur qui s’assurera de la compatibilité du télétravail avec la mission réalisée.
+
+Ce dernier ne peut imposer le télétravail au salarié, dont le refus ne peut donc pas être, par définition, un motif de rupture du contrat de travail. 
+
+
+
+--	Autonomie et confiance : le télétravail repose sur l’autonomie du collaborateur, sa bonne gestion du temps et des outils informatiques indispensables à son activité et sur la confiance mutuelle entre le responsable hiérarchique et son collaborateur.
+
+
+
+--	Réversibilité : la situation de télétravail est réversible. À tout moment, chacune des parties peut y mettre fin, sous réserve du respect d’un délai de prévenance dont la durée est fixée dans le présent accord. 
+
+
+
+--	Maintien des droits et obligations : le télétravailleur bénéficie des mêmes droits et avantages légaux que ceux applicables à ses collègues en situation comparable travaillant dans les locaux de l’entreprise. Il est soumis aux mêmes obligations. 
+
+
+
+--	Protection des données : il incombe à l’employeur de prendre, dans le respect des prescriptions de la Commission Nationale de l’Informatique et des Libertés (CNIL), les mesures qui s’imposent pour assurer la protection des données utilisées et traitées par le télétravailleur à des fins professionnelles. 
+
+
+
+--	Respect de la vie privée : l’employeur est tenu de respecter la vie privée du télétravailleur. À cet effet, il fixe en concertation avec celui-ci les plages horaires pendant lesquelles il peut le contacter.
+
+
+
+
+
+Article 2 : Conditions d’éligibilité au télétravail régulier
+
+
+
+
+
+Les conditions d’éligibilité au télétravail régulier sont notamment : 
+
+
+
+- Ancienneté et contrat : justifier d’un contrat à durée indéterminée, d’une ancienneté minimale de 18 mois dans la société et de 12 mois de travail effectif sur le poste. 
+
+
+
+- Présence effective dans les locaux : Travailler à temps plein ou à 80% minimum. Le télétravailleur devra être présent au minimum 3 jours par semaine au sein des locaux de Praxair MRC, afin de préserver le lien avec sa communauté de travail. 
+
+
+
+- Conditions matérielles : disposer d’un espace de travail dédié et adapté à ce mode d’organisation à son domicile, une connexion internet à haut débit, et une installation électrique conforme.
+
+
+
+- Nature du poste : Avoir un poste dont les fonctions peuvent s’exercer à distance dans le respect des impératifs de sécurité, de confidentialité et des contraintes de l’organisation des équipes. 
+
+
+
+A ce titre les salariés concernés par le télétravail régulier devront : 
+
+--	disposer d’une capacité d’autonomie suffisante dans le poste occupé et ne nécessitant pas de soutien managérial rapproché pendant le temps du télétravail
+
+--	occuper un poste pouvant être exercé de façon partielle et régulière à distance 
+
+--	occuper un poste dont  les fonctions n’exigent pas, par nature, une présence physique permanente dans les locaux de l’entreprise 
+
+
+
+Les postes concernés par le télétravail régulier sont les postes des services Comptabilité, Ressources Humaines, Ventes, CSD, IT, Achat, QA, Productivité, Amélioration continue. 
+
+
+
+La présence au sein de l’entreprise et l’accompagnement rapproché étant nécessaires à l’apprentissage du monde du travail, les salariés en contrat d’apprentissage, en contrat de professionnalisation, d’alternance, ainsi que les stagiaires ne pourront pas prétendre au télétravail.
+
+
+
+Pourront être également refusées, après examen, les demandes formulées par les salariés dont les fonctions :
+
+
+
+--	nécessitent déjà une absence importante et régulière de leur lieu habituel de travail compte tenu de la nature de leur activité ;
+
+--	impliquent l’accès et le traitement de certaines données ou l’utilisation de moyens à caractère confidentiel au poste de travail. 
+
+--	engendrent une difficulté matérielle et/ou technique. A titre d’exemple, lorsque la fonction nécessite une utilisation d’équipements qui ne peuvent être installés sur le lieu du télétravail ;
+
+--	nécessitent des contacts et échanges fréquents et obligatoires impliquant la présence permanente dans les locaux de l’entreprise pour la réalisation de la mission .
+
+
+
+
+
+Article 3 : Modes d’organisation du télétravail
+
+
+
+
+
+	Article 3-1 : Télétravail régulier
+
+
+
+Le télétravailleur pourra exercer son travail 1 ou 2 jours non fractionnables et fixes par semaine à son domicile (ou 1.5 jours fixes par semaine ou 1,5 jours en moyenne sur 2 semaines consécutives pour le salarié à 90%).  Ces jours sont fixés conjointement entre le salarié et son responsable. 
+
+
+
+Dans le cadre du bon fonctionnement des services, les responsables auront la faculté :
+
+
+
+--	d’organiser le télétravail dans leur service de telle manière que l’ensemble des salariés soient présents simultanément au sein des locaux habituels de travail  certains jours de la semaine, ces jours ne pouvant alors être « télétravaillés » ;
+
+--	de fixer avec chaque salarié concerné le jour de la semaine qui sera télétravaillé de telle sorte que soit assurée la présence simultanée, dans les locaux habituels de travail, d’un nombre minimum de salariés.   
+
+
+
+A titre exceptionnel, et en raison de nécessité de services (formation, audit, réunions de services, journée qualité/sécurité, déplacements…), certaines journées initialement prévues en télétravail pourront être effectuées sur site à la demande du salarié ou à la demande du management. 
+
+Un délai de prévenance de 24 heures minimum devra être respecté. 
+
+
+
+Dans cette situation le jour de télétravail pourra être reporté à une date choisie conjointement entre le salarié et le supérieur hiérarchique dans la même semaine et dans la mesure où cela ne nuira pas au bon fonctionnement du service. A défaut, le jour de télétravail ne sera pas reporté. 
+
+
+
+Il est rappelé que le collaborateur ne peut refuser un déplacement professionnel au motif que celui-ci intervient un jour de télétravail. 
+
+
+
+Les jours de télétravail ne se récupéreront pas s’ils tombent sur un jour férié ou sur un jour d’absence CP /RTT/Maladie…
+
+
+
+	 
+
+	Article 3-2 : Télétravail occasionnel 
+
+
+
+Le salarié ne s’inscrivant pas dans un dispositif de télétravail régulier, pourra solliciter, auprès de sa hiérarchie, de télétravailler de manière occasionnelle afin de répondre à des situations inhabituelles et temporaires liées à des contraintes personnelles exceptionnelles, à des évènements extérieurs, ou à des objectifs professionnels particuliers.  
+
+
+
+Le télétravail occasionnel est réservé aux salariés qui sont équipés, en raison de la nature de leur activité, d’outils de travail à distance et qui n’occupent pas des fonctions exigeant, par nature, une présence physique permanente dans les locaux de l’entreprise. 
+
+
+
+Les postes concernés par le télétravail occasionnel sont les mêmes que ceux du télétravail régulier ainsi que les postes du service HES et les postes cadres de management opérationnel. 
+
+
+
+Le nombre de jours ainsi télétravaillés ne pourra excéder 18 jours par année civile calculé au prorata temporis de la présence sur l’année. 
+
+
+
+
+
+Article 4 : Candidatures et acceptation
+
+ 
+
+	Article 4-1 : Procédure de candidature et acceptation
+
+
+
+Article 4-1-1 : Situation de télétravail régulier 
+
+
+
+Les parties au présent accord conviennent que le passage en télétravail est subordonné à l’accord du responsable hiérarchique et du service RH à la fois sur le principe et sur les modalités d’organisation du télétravail (notamment sur le choix du/des jours effectués en télétravail). 
+
+
+
+Le manager sera attentif à ce que le nombre de télétravailleurs au sein de son équipe soit compatible avec le bon fonctionnement du service et de l’organisation.
+
+
+
+Les étapes de la procédure de candidature sont les suivantes :
+
+
+
+- Le salarié qui souhaite bénéficier du télétravail doit en faire la demande auprès du service RH via le formulaire dédié (en annexe) un mois avant la date de démarrage désirée du télétravail 
+
+
+
+- Le service RH examine les critères d’éligibilité.
+
+
+
+- Si les critères sont réunis, le manager organise un entretien avec le salarié notamment pour apprécier ses motivations et les critères d’éligibilité (autonomie, etc…). 
+
+Le manager émet un avis (positif ou négatif) motivé.
+
+
+
+- La réponse est délivrée par écrit au salarié dans un délai maximum d’un mois après la réception de sa demande. 
+
+En cas d’acceptation, un avenant précisant les modalités de mise en œuvre du télétravail sera signé. Dans le cas d’un refus, celui-ci devra être motivé par écrit.
+
+
+
+Article 4-1-2 : Situation de télétravail occasionnel
+
+
+
+La demande de télétravail occasionnel est effectuée par le salarié par écrit (y compris par courrier électronique) auprès de son responsable hiérarchique, en mettant en copie le service Ressources Humaines, et mentionne le motif de la demande ainsi que le ou les jours visés. 
+
+
+
+Cette demande est acceptée ou refusée par le responsable hiérarchique dans les mêmes formes et dans un délai compatible avec la mise en œuvre effective de ce télétravail occasionnel. 
+
+Le refus devra être motivé par le responsable hiérarchique. 
+
+
+
+
+
+Article 4-2 : Cas spécifiques de recours au télétravail
+
+
+
+La procédure décrite ci-dessus s’applique en dehors des cas spécifiques de recours au télétravail précisés ci-dessous : 
+
+
+
+Article 4-2-1 : Salariés en situation de retour de maladie / accident  ou de situation de handicap, pour lesquels l’aménagement du poste de travail peut prendre la forme d’un recours au télétravail
+
+
+
+Les salariés en situation de reprise après un arrêt maladie ou accident du travail, ou en situation de handicap pour lesquels l’aménagement du poste de travail peut prendre la forme d’un recours au télétravail afin de favoriser le maintien dans l’emploi, pourront rejoindre une organisation en télétravail. 
+
+
+
+Sur demande individuelle, le principe du recours à ce mode d’organisation sera examiné avec bienveillance. 
+
+
+
+Le recours au télétravail se fera en application des dispositions du présent accord à l’exception de celles prévues en matière d’éligibilité et de candidature et d’acceptation. 
+
+Dans ce cadre, le nombre de jours télétravaillé pourra être supérieur à 18 jours. 
+
+Article 4-2-2 : Circonstances collectives particulières
+
+
+
+Dans l’hypothèse de circonstances collectives particulières (épisode de forte pollution, événements climatiques ou ponctuels affectant durablement et significativement la circulation des moyens de transport collectif, pandémie ou menace de pandémie...), le recours au télétravail pourra être possible, sur décision expresse de la Direction. 
+
+Dans ce cadre-là, le salarié ne pourra pas refuser la mise en place du télétravail. 
+
+
+
+Le recours au télétravail se fera en s’inspirant des dispositions du présent accord, à l’exception de celles prévues en matière d’éligibilité et de candidature et d’acceptation. 
+
+
+
+		Article 4-2-3 : Principes de mise en œuvre
+
+
+
+Dans les hypothèses visées aux articles 4-2-1 et 4-2-2 du présent accord, s’agissant du rythme du télétravail, il sera adapté pour tenir compte des caractéristiques des situations individuelles rencontrées et des circonstances particulières visées ci-dessus. 
+
+
+
+Le recours à une organisation en télétravail sera réservé aux seuls salariés qui sont dotés, en raison de la nature de leur activité, d’outils de travail à distance et qui n’occupent pas des fonctions exigeant, par nature, une présence physique permanente dans les locaux de l’entreprise.
+
+
+
+
+
+Article 5 : Avenant au contrat de travail
+
+
+
+La mise en œuvre du télétravail fera obligatoirement l’objet d’un avenant au contrat de travail, d’une durée de 12 mois renouvelable par tacite reconduction.
+
+
+
+En tout état de cause, le terme des avenants des salariés en situation de télétravail ne pourra excéder le terme du présent accord.
+
+
+
+Cet avenant précisera et/ou rappellera notamment : 
+
+--	Le lieu d’exercice du télétravail (adresse de la résidence principale)
+
+--	Les modalités d’exécution du télétravail (le ou les jours convenus en télétravail, les plages horaires pendant lesquelles le salarié pourra être contacté…) 
+
+--	La durée de la période d’adaptation
+
+--	Les conditions de réversibilité
+
+--	Le matériel mis à disposition du salarié
+
+--	Les restrictions d’utilisation des équipements informatiques et les sanctions associées le cas échéant.
+
+
+
+
+
+Cet avenant et la situation de télétravail afférente pourront faire l’objet d’une suspension temporaire dans un certain nombre de cas, décrits à l’article 8 ci-après. 
+
+
+
+
+
+Article 6 : Période d’adaptation et réversibilité permanente
+
+
+
+Article 6-1 : Période d’adaptation
+
+
+
+La mise en œuvre du télétravail fera l’objet d’une période d’adaptation d’une durée de trois mois afin de s’assurer que ce mode d’organisation soit compatible avec les intérêts de chacune des parties.
+
+
+
+Durant cette période, le salarié ou le responsable hiérarchique pourra mettre fin à la situation de télétravail sans délai pour le salarié et sous réserve du respect d’un délai de prévenance de 15 jours pour l’employeur (ou moins avec l’accord du salarié). Dans ce cas, au terme du délai de prévenance, le salarié reprendra son activité dans les mêmes conditions que celles applicables antérieurement à la signature de l’avenant de mise en place du télétravail. 
+
+
+
+A l’issue de la période d’adaptation, un entretien de bilan aura lieu entre le salarié et son responsable hiérarchique. 
+
+
+
+
+
+	Article 6-2 : Réversibilité permanente 
+
+
+
+A l’issue, le cas échéant, de la période d’adaptation, le salarié et le responsable hiérarchique pourront mettre fin à tout moment à la situation de télétravail sans délai pour le salarié et sous réserve du respect d’un délai de prévenance de 15 jours pour l’employeur (ou moins avec accord du salarié). 
+
+
+
+La décision de mettre fin à la situation de télétravail devra être notifiée à l’autre partie signataire de l’avenant, par écrit motivé (courrier électronique accepté). L’avenant conclu dans le cadre du télétravail prendra alors automatiquement fin.
+
+
+
+En cas de cessation de la situation de télétravail, le salarié reprendra son activité dans les mêmes conditions que celles applicables antérieurement à la signature de l’avenant de mise en place du télétravail. 
+
+
+
+
+
+Article 7 : Modification de la situation du salarié 
+
+
+
+En cas d’évolution de la situation du salarié, tels que notamment, changement de service, changement de poste ou mutation interne, la situation de télétravail sera réexaminée avec le responsable hiérarchique afin d’apprécier la compatibilité de la situation de télétravail avec l’évolution de l’environnement professionnel du salarié. 
+
+
+
+Dans ce cadre, le responsable hiérarchique ainsi que le salarié pourront mettre fin à la situation de télétravail dans les conditions et selon les modalités de réversibilité décrites à l’article 6-2 du présent accord. 
+
+
+
+En cas de changement de poste, l’avenant conclu dans le cadre du télétravail fera l’objet d’un réexamen en perspective du changement effectif de poste afin de s’assurer que l’exercice de ce dernier est compatible avec le télétravail.
+
+
+
+En cas de changement de résidence d’exercice du télétravail du salarié, la relation de télétravail sera également examinée et pourra prendre fin si ce changement est incompatible avec les modalités, notamment techniques, du télétravail. 
+
+
+
+
+
+Article 8 : Suspension du télétravail
+
+
+
+Par ailleurs, des cas de suspension temporaire du télétravail pourront être mis en œuvre à l’initiative du responsable hiérarchique sous réserve du respect d’un délai de prévenance minimum d’un mois. Cette suspension temporaire sera notifiée par écrit au salarié en indiquant la période de suspension et ses conditions, notamment en cas de :
+
+
+
+--	démarrage d’une nouvelle mission incompatible avec l’exercice du télétravail 
+
+--	demande du responsable hiérarchique d’une présence impérative du salarié dans les locaux de l’entreprise;
+
+
+
+Au terme de cette suspension, le télétravail reprendra alors automatiquement son cours normal pour la durée restante à la date de suspension, telle que prévue par l’avenant au télétravail signé avec le salarié.
+
+
+
+
+
+Article 9 : Modalités d’organisation de l’activité du télétravailleur
+
+
+
+	Article 9-1 : Maintien du lien avec l’entreprise
+
+
+
+Le responsable hiérarchique veillera à assurer un contact régulier avec le salarié en situation de télétravail, et sera attentif, dans la mesure du possible, à ce que l’organisation des réunions permette la présence du salarié. Le télétravail ne devra pas être un frein à la participation à la vie du service et notamment aux réunions organisées au sein de celui-ci.
+
+
+
+L’entretien annuel du salarié, abordera notamment les conditions d’activité du salarié et sa charge en télétravail. 
+
+
+
+
+
+	Article 9-2 : Organisation de l’activité du télétravailleur
+
+
+
+L’activité exigée du télétravailleur doit être équivalente à celle des salariés en situation comparable travaillant dans les locaux de l’entreprise. 
+
+
+
+
+
+Article 9-3 :  Contrôle et gestion du temps de travail 
+
+
+
+Le salarié en situation de télétravail gère l’organisation de son temps de travail à domicile dans le cadre des dispositions légales et conventionnelles applicables au sein de la Société PRAXAIR MRC. Pour ce faire, comme pour le travail réalisé dans l’entreprise, l’employeur s’assure que la charge de travail et les délais d’exécution permettent au télétravailleur de respecter notamment les durées maximales de travail et les durées minimales de repos. 
+
+
+
+L’exécution de l’activité du salarié en situation de télétravail doit rester compatible avec le principe du respect de la vie privée du salarié. 
+
+
+
+Le management, en concertation avec le télétravailleur, fixera les plages horaires durant lesquelles il pourra le contacter, en correspondance avec son horaire habituel de travail dans le cadre des dispositions conventionnelles en vigueur.
+
+Les plages fixes des horaires de la Société seront obligatoirement télétravaillées. 
+
+
+
+Pour les salariés non soumis à une convention de forfait en jours, la plage horaire journalière doit être de 7h24 de travail effectif avec une pause minimum de 45 min à l’heure du repas et de 15 minutes dans la journée. 
+
+
+
+L’amplitude horaire des plages définies devra impérativement permettre au télétravailleur de respecter les durées minimales légales de repos quotidien (11 heures) et hebdomadaire (35 heures) pour tous les salariés, ainsi que les durées maximales quotidiennes et hebdomadaires de travail pour les salariés soumis à un régime en heures. En tout état de cause, le temps de travail des cadres devra être maîtrisé de telle sorte que la durée quotidienne maximum de celui-ci soit limitée à 10 heures, sauf dépassements exceptionnels.
+
+
+
+Durant cette plage horaire, le salarié devra impérativement être connecté à la messagerie instantanée Skype / Team (ou système équivalent en vigueur) afin d’être facilement joignable par l’ensemble de ses collègues.     
+
+
+
+Le télétravailleur devra également faire un transfert d’appel de son téléphone fixe professionnel vers son téléphone mobile professionnel ou s’il n’en a pas vers son téléphone personnel. 
+
+
+
+Pour tout appel professionnel passé vers l’extérieur, les appels entre skype/ Team doivent être privilégiés. A défaut, le télétravailleur devra utiliser les fonctionnalités de Skype/ Team (ou système équivalent) pour les appels vers fixes et mobiles.
+
+
+
+Compte tenu de cette nouvelle forme d’organisation du travail, les parties reconnaissent que les Technologies de l’Information et de la Communication devront être maîtrisées. Dans ce cadre il est rappelé que le télétravailleur dispose d’un droit à la déconnexion en dehors des horaires d’ouverture de la Société qui lui sont applicables, ou à défaut, à tout le moins pendant la durée légale de repos quotidien. Le salarié en télétravail dispose à ce titre de la possibilité de se déconnecter des équipements mis à disposition par l’entreprise. Le management veillera au respect de ce droit, notamment en s’attachant à ne pas contacter le salarié hors de la période de télétravail définie par l’avenant au contrat de travail ou lorsque le salarié est en arrêt maladie, en congés payés ou en RTT/ jours de repos
+
+
+
+D’une manière générale, et sauf situation exceptionnelle, le salarié ne peut être sollicité professionnellement, quelle qu’en soit la forme (téléphone, messagerie…) en dehors de son temps de travail habituel.
+
+
+
+
+
+Article 10 : Environnement et équipement de travail
+
+
+
+	Article 10-1 : Conformité des installations et des lieux
+
+
+
+Le salarié devra s’assurer, préalablement à son passage en télétravail, de la compatibilité de son installation avec un fonctionnement en télétravail. 
+
+
+
+Dans ce cadre, le salarié devra remettre à la Société une attestation sur l’honneur de conformité indiquant que les installations électriques de sa résidence principale sont conformes à la réglementation en vigueur et lui permettent d’exercer son activité dans toutes les conditions de sécurité. 
+
+
+
+A défaut, le salarié ne pourra bénéficier du télétravail, peu importe qu’il remplisse par ailleurs les conditions d’éligibilité définies à l’article 1 du présent accord, la conformité des installations et des lieux étant une condition sine qua non au bénéfice du dispositif de télétravail. 
+
+
+
+Les conditions de travail du salarié en télétravail et son environnement personnel doivent être propices au travail et à la concentration afin de permettre la bonne exécution de son activité. Le télétravailleur s’engage donc à prévoir un espace de travail dédié à son domicile, qui soit conforme aux règles de sécurité et qui permette un aménagement en poste de télétravail.
+
+Comme dans les locaux de l’entreprise, il s’engage à respecter l’intégralité des standards sécurité de Praxair (notamment JSA dans les bureaux)
+
+
+
+
+
+
+
+	Article 10-2 : Moyens mis à disposition du salarié
+
+
+
+Les salariés en situation de télétravail doivent bénéficier des outils et moyens nécessaires à l’exécution de leur activité.
+
+
+
+A ce titre, la Société fournit à chaque salarié en situation de télétravail un ordinateur portable, une souris et un outil d’accès à distance sécurisé (VPN). Un écran, un clavier et un casque seront fournis à la discrétion de l’employeur selon la nature du poste.  
+
+
+
+Le salarié en situation de télétravail devra par ailleurs disposer d’une connexion Internet haut-débit à distance (type ADSL 2mb minimum ou fibre optique) afin d’avoir un accès sécurisé au réseau de la société et à ses applications (disque partagé professionnel, messagerie électronique …). 
+
+
+
+Il est rappelé que le matériel mis spécifiquement à la disposition du télétravailleur par l’entreprise reste la propriété de celle-ci et devra lui être restitué en fin de situation de télétravail. Le salarié en situation de télétravail doit utiliser le matériel qui lui est fourni par l’entreprise, à l’exclusion de tout autre. 
+
+
+
+Le télétravailleur doit prendre soin de l’équipement qui lui est confié et en assurer la bonne conservation, ainsi que des données qui y sont stockées. Il doit informer sans délai le service informatique en cas de panne, de mauvais fonctionnement, de détérioration, de perte ou de vol du matériel mis à disposition.
+
+
+
+Il est enfin rappelé que le télétravailleur bénéficie d’un support technique à distance dans les mêmes conditions que les salariés présents dans les locaux de l’entreprise. 
+
+
+
+En cas de panne ou de mauvais fonctionnement des équipements de travail persistants après intervention du service informatique, il pourra être demandé au télétravailleur de revenir au sein de l’entreprise afin de poursuivre son activité dans l’attente de la résolution du ou des problèmes techniques. 
+
+
+
+A sa demande, le télétravailleur pourra bénéficier d’une formation spécifique sur les outils de travail à distance (Outlook, Team, Skype…)
+
+
+
+
+
+	Article 10-3 : Frais liés à la situation de télétravail
+
+
+
+Dans la mesure où le télétravail est basé sur le volontariat et demeure à l’initiative du salarié pour convenance personnelle, le télétravail ne justifie aucune indemnisation particulière et exclue notamment toute indemnisation pour sujétion et/ou occupation à titre professionnel du domicile du télétravailleur. 
+
+
+
+
+
+Article 11 : Droits et devoirs du salarié et prévention des effets de l’isolement
+
+
+
+Article 11-1 : Droits collectifs
+
+
+
+Le salarié en situation de télétravail bénéficie des mêmes droits collectifs légaux et conventionnels que ceux applicables aux salariés en situation comparable travaillant dans les locaux de l’entreprise, notamment quant à l’accès à l’information syndicale et quant aux élections professionnelles.  
+
+
+
+Article 11-2 : Droits individuels
+
+
+
+Le salarié en situation de télétravail bénéficie des mêmes droits individuels que les autres salariés de l’entreprise, notamment en matière de formation professionnelle, de déroulement de carrière, d’entretiens professionnels et de politique d’évaluation. Ainsi, le télétravailleur doit être placé dans une situation identique à celle des salariés exerçant une activité comparable au sein des locaux de l’entreprise, notamment en ce qui concerne la charge de travail, les délais d’exécution, ainsi que l’évaluation des résultats du télétravailleur.   
+
+
+
+Il bénéfice des titres restaurant dans les mêmes conditions que les autres salariés de l’entreprise lors des jours télétravaillés.  
+
+
+
+Article 11-3 : Santé et sécurité
+
+
+
+Les dispositions légales et conventionnelles relatives à la santé et à la sécurité au travail sont applicables aux télétravailleurs. A cet effet, le télétravailleur atteste de ce que son domicile (lieu de télétravail) permet l’exécution du travail dans de bonnes conditions de santé et de sécurité. 
+
+
+
+Le télétravailleur en arrêt maladie, en congés payés ou en RTT/ jours de repos, veille à ne pas utiliser les moyens qui lui ont été octroyés et à ne pas travailler pendant l’arrêt prescrit ou pendant la prise des congés payés/RTT/jours de repos.
+
+
+
+Il est rappelé que la résidence d’exercice du télétravail est bien un lieu de travail selon le jour fixé et les horaires convenus par avenant au contrat de travail entre le salarié et l’employeur. Tout accident survenu au télétravailleur au sein de sa résidence d’exercice du télétravail pendant le temps de travail sera donc soumis au même régime que s’il était intervenu dans les locaux de l’entreprise. 
+
+
+
+L’accident survenu lors de l’exercice du télétravail bénéficie d’une présomption d’accident de travail.
+
+
+
+Aussi, si un accident survient au sein de la résidence principale habituelle du salarié pendant le jour de télétravail, le salarié doit informer sa hiérarchie ainsi que le service Ressources Humaines dans les mêmes délais que lorsqu’il effectue son activité dans les locaux de l’entreprise.
+
+
+
+
+
+Article 11-4 : Protection des données, confidentialité, respect des standards et règles d’éthique
+
+
+
+Le télétravailleur porte une attention particulière aux règles de sécurité et plus spécifiquement à ses moyens d’authentification (mot de passe, code pin …) qui sont personnels, confidentiels et incessibles. 
+
+
+
+Le télétravailleur reste tenu de respecter les règles de confidentialité fixées par l’entreprise. Il doit en particulier à ce titre préserver la confidentialité des données qui lui sont confiées en s’assurant à tout moment à ce que son matériel et ses documents de travail soient positionnés dans un lieu au sein de sa résidence le plus en sécurité possible. 
+
+
+
+Le télétravailleur s’engage à utiliser les outils informatiques de la Société uniquement pour des raisons professionnelles et en conformité avec les règles d’éthique et avec les standards, usages et pratiques de Praxair.
+
+Article 11-5 : Assurances 
+
+
+
+Le salarié souhaitant bénéficier du télétravail doit fournir à l’entreprise avant la signature de son premier avenant, une attestation provenant de son assureur, au titre de son assurance multirisque habitation incluant la garantie responsabilité civile, indiquant que l’activité en télétravail a bien été déclarée à la compagnie d’assurance. 
+
+
+
+Si l’assurance ne couvre pas certains dommages liés à ses équipements, le télétravailleur devra demander une extension de la garantie en ce sens. 
+
+
+
+Le télétravailleur s’engage :
+
+--			à tenir à la disposition de l’employeur les documents attestant de sa couverture d’assurance.
+
+--	à avertir l’entreprise de toute modification impactant ladite couverture et remettre chaque année à l’employeur une nouvelle attestation de sa compagnie d’assurance 
+
+
+
+Article 12 : Dispositions finales
+
+
+
+	Article 12-1 : Suivi de l’accord
+
+
+
+Une commission de suivi de l’accord composée des membres ayant participé à la négociation de cet accord se réunira une fois par an pour faire un suivi de l’accord. A ce titre, lui sera présenté, puis adressé aux institutions représentatives du personnel :  
+
+--	Nombre de télétravailleurs régulier par catégories professionnelles 
+
+--	Répartition femmes / hommes 
+
+--	Nombre de demandes acceptées / refusées / laissées sans réponses ou pour lesquelles une réponse a été apportée au-delà du délai de 2 mois
+
+--	Problèmes ou difficultés d’adaptation rencontrées par les télétravailleurs et/ou les managers 
+
+--	Réponses ou solutions apportées à ces problèmes ou difficultés 
+
+--	Eventuels accidents intervenus en télétravail
+
+--	Raisons des refus de mise en œuvre du télétravail
+
+--	Nombre de télétravailleurs occasionnels
+
+--	Nombre de jours, typologie et motif du télétravail occasionnel
+
+--	Nombre de télétravailleurs et de jours relevant de circonstances collectives particulières (pandémie, évènements climatiques …)
+
+--	
+
+La commission de suivi élaborera une enquête à 1 an qui sera diffusée à l’ensemble du personnel (télétravaillant ou non), afin d’apporter éventuellement des modifications à cet accord. 
+
+
+
+Article 12-2 :  Durée et entrée en vigueur de l’accord
+
+
+
+Le présent Accord est conclu pour une durée de 5 ans. 
+
+
+
+L’accord entre en vigueur, conformément aux dispositions légales, à compter du lendemain de son dépôt, sous réserve de sa validation par la DIRECCTE.
+
+
+
+
+
+
+
+
+
+
+
+Article 12-3- Révision de l’accord
+
+	
+
+Conformément aux dispositions légales en vigueur, le présent Accord pourra être révisé, à tout moment pendant sa période d’application et notamment si le contrôle de conformité effectué par la DIRECCTE conduit à un avis défavorable.
+
+
+
+Toute modification fera l’objet d’un avenant conclu dans les conditions prévues par les dispositions législatives et réglementaires.
+
+
+
+Toute demande de révision, totale ou partielle, devra être effectuée par lettre recommandée avec accusé de réception, ou remise en main propre contre décharge à l’employeur et à chaque organisation habilitée à négocier l’avenant de révision. A la demande de révision sont jointes les modifications que son auteur souhaite apporter au présent accord.
+
+L’invitation à négocier l’avenant de révision est adressée par l’employeur aux organisations syndicales représentatives dans le mois courant à compter de la notification la plus tardive des demandes d’engagement de la procédure de révision.
+
+
+
+Les conditions de validité de l’avenant de révision obéissent aux conditions posées par l’article L.2232-12 du code du Travail.
+
+
+
+Dans le cas où, au moment de la révision, l’entreprise ne dispose pas de délégués syndicaux, il sera fait application des dispositions des articles L.2232-21 et suivants du code du Travail.
+
+
+
+
+
+Article 12-4 : Publicité et dépôt de l’accord
+
+
+
+Conformément à l’article L.2231-5 du code du Travail, le présent accord sera notifié à chacune des organisations représentatives.
+
+
+
+Conformément aux articles D.2231-2 et D. 2231-4 du code du Travail, le texte du présent accord sera déposé sur la plateforme de téléprocédure du ministère du travail et auprès du greffe du Conseil de Prud’hommes de Toulouse.
+
+
+
+Le personnel recevra par mail copie de cet accord qui sera ensuite disponible sur le réseau dans l’espace « Partage\ Ressources Humaines »
+
+
+
+
+
+Un exemplaire original est remis ce jour aux organisations syndicales.
+
+
+
+
+
+Fait à Toulouse, le 05/10/2020
+
+
+
+
+
+Pour la Société PRAXAIR MRC						
+
+……………………………………..					
+
+Président 
+
+
+
+
+
+
+
+
+
+Pour le syndicat CFDT							
+
+……………………………..		
+
+Page 24 sur 36
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1378 @@
+{
+    "batch_size": 1,
+    "best_eval_metric_checkpoint_number": 0,
+    "best_eval_metric_epoch": 0,
+    "best_eval_metric_steps": 0,
+    "best_eval_metric_value": Infinity,
+    "best_eval_test_metrics": {},
+    "best_eval_train_metrics": {},
+    "best_eval_validation_metrics": {},
+    "best_increase_batch_size_eval_metric": Infinity,
+    "checkpoint_number": 6,
+    "checkpoint_to_epoch": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3
+    },
+    "checkpoint_to_step": {
+        "1": 95,
+        "2": 95,
+        "3": 190,
+        "4": 190,
+        "5": 285,
+        "6": 285
+    },
+    "cumulative_checkpoint_token_usage": {
+        "1": 194560,
+        "2": 194560,
+        "3": 389120,
+        "4": 389120,
+        "5": 583680,
+        "6": 583680
+    },
+    "cumulative_step_token_usage": {
+        "0": 2048,
+        "1": 4096,
+        "10": 22528,
+        "100": 206848,
+        "101": 208896,
+        "102": 210944,
+        "103": 212992,
+        "104": 215040,
+        "105": 217088,
+        "106": 219136,
+        "107": 221184,
+        "108": 223232,
+        "109": 225280,
+        "11": 24576,
+        "110": 227328,
+        "111": 229376,
+        "112": 231424,
+        "113": 233472,
+        "114": 235520,
+        "115": 237568,
+        "116": 239616,
+        "117": 241664,
+        "118": 243712,
+        "119": 245760,
+        "12": 26624,
+        "120": 247808,
+        "121": 249856,
+        "122": 251904,
+        "123": 253952,
+        "124": 256000,
+        "125": 258048,
+        "126": 260096,
+        "127": 262144,
+        "128": 264192,
+        "129": 266240,
+        "13": 28672,
+        "130": 268288,
+        "131": 270336,
+        "132": 272384,
+        "133": 274432,
+        "134": 276480,
+        "135": 278528,
+        "136": 280576,
+        "137": 282624,
+        "138": 284672,
+        "139": 286720,
+        "14": 30720,
+        "140": 288768,
+        "141": 290816,
+        "142": 292864,
+        "143": 294912,
+        "144": 296960,
+        "145": 299008,
+        "146": 301056,
+        "147": 303104,
+        "148": 305152,
+        "149": 307200,
+        "15": 32768,
+        "150": 309248,
+        "151": 311296,
+        "152": 313344,
+        "153": 315392,
+        "154": 317440,
+        "155": 319488,
+        "156": 321536,
+        "157": 323584,
+        "158": 325632,
+        "159": 327680,
+        "16": 34816,
+        "160": 329728,
+        "161": 331776,
+        "162": 333824,
+        "163": 335872,
+        "164": 337920,
+        "165": 339968,
+        "166": 342016,
+        "167": 344064,
+        "168": 346112,
+        "169": 348160,
+        "17": 36864,
+        "170": 350208,
+        "171": 352256,
+        "172": 354304,
+        "173": 356352,
+        "174": 358400,
+        "175": 360448,
+        "176": 362496,
+        "177": 364544,
+        "178": 366592,
+        "179": 368640,
+        "18": 38912,
+        "180": 370688,
+        "181": 372736,
+        "182": 374784,
+        "183": 376832,
+        "184": 378880,
+        "185": 380928,
+        "186": 382976,
+        "187": 385024,
+        "188": 387072,
+        "189": 389120,
+        "19": 40960,
+        "190": 391168,
+        "191": 393216,
+        "192": 395264,
+        "193": 397312,
+        "194": 399360,
+        "195": 401408,
+        "196": 403456,
+        "197": 405504,
+        "198": 407552,
+        "199": 409600,
+        "2": 6144,
+        "20": 43008,
+        "200": 411648,
+        "201": 413696,
+        "202": 415744,
+        "203": 417792,
+        "204": 419840,
+        "205": 421888,
+        "206": 423936,
+        "207": 425984,
+        "208": 428032,
+        "209": 430080,
+        "21": 45056,
+        "210": 432128,
+        "211": 434176,
+        "212": 436224,
+        "213": 438272,
+        "214": 440320,
+        "215": 442368,
+        "216": 444416,
+        "217": 446464,
+        "218": 448512,
+        "219": 450560,
+        "22": 47104,
+        "220": 452608,
+        "221": 454656,
+        "222": 456704,
+        "223": 458752,
+        "224": 460800,
+        "225": 462848,
+        "226": 464896,
+        "227": 466944,
+        "228": 468992,
+        "229": 471040,
+        "23": 49152,
+        "230": 473088,
+        "231": 475136,
+        "232": 477184,
+        "233": 479232,
+        "234": 481280,
+        "235": 483328,
+        "236": 485376,
+        "237": 487424,
+        "238": 489472,
+        "239": 491520,
+        "24": 51200,
+        "240": 493568,
+        "241": 495616,
+        "242": 497664,
+        "243": 499712,
+        "244": 501760,
+        "245": 503808,
+        "246": 505856,
+        "247": 507904,
+        "248": 509952,
+        "249": 512000,
+        "25": 53248,
+        "250": 514048,
+        "251": 516096,
+        "252": 518144,
+        "253": 520192,
+        "254": 522240,
+        "255": 524288,
+        "256": 526336,
+        "257": 528384,
+        "258": 530432,
+        "259": 532480,
+        "26": 55296,
+        "260": 534528,
+        "261": 536576,
+        "262": 538624,
+        "263": 540672,
+        "264": 542720,
+        "265": 544768,
+        "266": 546816,
+        "267": 548864,
+        "268": 550912,
+        "269": 552960,
+        "27": 57344,
+        "270": 555008,
+        "271": 557056,
+        "272": 559104,
+        "273": 561152,
+        "274": 563200,
+        "275": 565248,
+        "276": 567296,
+        "277": 569344,
+        "278": 571392,
+        "279": 573440,
+        "28": 59392,
+        "280": 575488,
+        "281": 577536,
+        "282": 579584,
+        "283": 581632,
+        "284": 583680,
+        "29": 61440,
+        "3": 8192,
+        "30": 63488,
+        "31": 65536,
+        "32": 67584,
+        "33": 69632,
+        "34": 71680,
+        "35": 73728,
+        "36": 75776,
+        "37": 77824,
+        "38": 79872,
+        "39": 81920,
+        "4": 10240,
+        "40": 83968,
+        "41": 86016,
+        "42": 88064,
+        "43": 90112,
+        "44": 92160,
+        "45": 94208,
+        "46": 96256,
+        "47": 98304,
+        "48": 100352,
+        "49": 102400,
+        "5": 12288,
+        "50": 104448,
+        "51": 106496,
+        "52": 108544,
+        "53": 110592,
+        "54": 112640,
+        "55": 114688,
+        "56": 116736,
+        "57": 118784,
+        "58": 120832,
+        "59": 122880,
+        "6": 14336,
+        "60": 124928,
+        "61": 126976,
+        "62": 129024,
+        "63": 131072,
+        "64": 133120,
+        "65": 135168,
+        "66": 137216,
+        "67": 139264,
+        "68": 141312,
+        "69": 143360,
+        "7": 16384,
+        "70": 145408,
+        "71": 147456,
+        "72": 149504,
+        "73": 151552,
+        "74": 153600,
+        "75": 155648,
+        "76": 157696,
+        "77": 159744,
+        "78": 161792,
+        "79": 163840,
+        "8": 18432,
+        "80": 165888,
+        "81": 167936,
+        "82": 169984,
+        "83": 172032,
+        "84": 174080,
+        "85": 176128,
+        "86": 178176,
+        "87": 180224,
+        "88": 182272,
+        "89": 184320,
+        "9": 20480,
+        "90": 186368,
+        "91": 188416,
+        "92": 190464,
+        "93": 192512,
+        "94": 194560,
+        "95": 196608,
+        "96": 198656,
+        "97": 200704,
+        "98": 202752,
+        "99": 204800
+    },
+    "epoch": 3,
+    "incremental_checkpoint_token_usage": {
+        "1": 194560,
+        "2": 0,
+        "3": 194560,
+        "4": 0,
+        "5": 194560,
+        "6": 0
+    },
+    "incremental_step_token_usage": {
+        "0": 2048,
+        "1": 2048,
+        "10": 2048,
+        "100": 2048,
+        "101": 2048,
+        "102": 2048,
+        "103": 2048,
+        "104": 2048,
+        "105": 2048,
+        "106": 2048,
+        "107": 2048,
+        "108": 2048,
+        "109": 2048,
+        "11": 2048,
+        "110": 2048,
+        "111": 2048,
+        "112": 2048,
+        "113": 2048,
+        "114": 2048,
+        "115": 2048,
+        "116": 2048,
+        "117": 2048,
+        "118": 2048,
+        "119": 2048,
+        "12": 2048,
+        "120": 2048,
+        "121": 2048,
+        "122": 2048,
+        "123": 2048,
+        "124": 2048,
+        "125": 2048,
+        "126": 2048,
+        "127": 2048,
+        "128": 2048,
+        "129": 2048,
+        "13": 2048,
+        "130": 2048,
+        "131": 2048,
+        "132": 2048,
+        "133": 2048,
+        "134": 2048,
+        "135": 2048,
+        "136": 2048,
+        "137": 2048,
+        "138": 2048,
+        "139": 2048,
+        "14": 2048,
+        "140": 2048,
+        "141": 2048,
+        "142": 2048,
+        "143": 2048,
+        "144": 2048,
+        "145": 2048,
+        "146": 2048,
+        "147": 2048,
+        "148": 2048,
+        "149": 2048,
+        "15": 2048,
+        "150": 2048,
+        "151": 2048,
+        "152": 2048,
+        "153": 2048,
+        "154": 2048,
+        "155": 2048,
+        "156": 2048,
+        "157": 2048,
+        "158": 2048,
+        "159": 2048,
+        "16": 2048,
+        "160": 2048,
+        "161": 2048,
+        "162": 2048,
+        "163": 2048,
+        "164": 2048,
+        "165": 2048,
+        "166": 2048,
+        "167": 2048,
+        "168": 2048,
+        "169": 2048,
+        "17": 2048,
+        "170": 2048,
+        "171": 2048,
+        "172": 2048,
+        "173": 2048,
+        "174": 2048,
+        "175": 2048,
+        "176": 2048,
+        "177": 2048,
+        "178": 2048,
+        "179": 2048,
+        "18": 2048,
+        "180": 2048,
+        "181": 2048,
+        "182": 2048,
+        "183": 2048,
+        "184": 2048,
+        "185": 2048,
+        "186": 2048,
+        "187": 2048,
+        "188": 2048,
+        "189": 2048,
+        "19": 2048,
+        "190": 2048,
+        "191": 2048,
+        "192": 2048,
+        "193": 2048,
+        "194": 2048,
+        "195": 2048,
+        "196": 2048,
+        "197": 2048,
+        "198": 2048,
+        "199": 2048,
+        "2": 2048,
+        "20": 2048,
+        "200": 2048,
+        "201": 2048,
+        "202": 2048,
+        "203": 2048,
+        "204": 2048,
+        "205": 2048,
+        "206": 2048,
+        "207": 2048,
+        "208": 2048,
+        "209": 2048,
+        "21": 2048,
+        "210": 2048,
+        "211": 2048,
+        "212": 2048,
+        "213": 2048,
+        "214": 2048,
+        "215": 2048,
+        "216": 2048,
+        "217": 2048,
+        "218": 2048,
+        "219": 2048,
+        "22": 2048,
+        "220": 2048,
+        "221": 2048,
+        "222": 2048,
+        "223": 2048,
+        "224": 2048,
+        "225": 2048,
+        "226": 2048,
+        "227": 2048,
+        "228": 2048,
+        "229": 2048,
+        "23": 2048,
+        "230": 2048,
+        "231": 2048,
+        "232": 2048,
+        "233": 2048,
+        "234": 2048,
+        "235": 2048,
+        "236": 2048,
+        "237": 2048,
+        "238": 2048,
+        "239": 2048,
+        "24": 2048,
+        "240": 2048,
+        "241": 2048,
+        "242": 2048,
+        "243": 2048,
+        "244": 2048,
+        "245": 2048,
+        "246": 2048,
+        "247": 2048,
+        "248": 2048,
+        "249": 2048,
+        "25": 2048,
+        "250": 2048,
+        "251": 2048,
+        "252": 2048,
+        "253": 2048,
+        "254": 2048,
+        "255": 2048,
+        "256": 2048,
+        "257": 2048,
+        "258": 2048,
+        "259": 2048,
+        "26": 2048,
+        "260": 2048,
+        "261": 2048,
+        "262": 2048,
+        "263": 2048,
+        "264": 2048,
+        "265": 2048,
+        "266": 2048,
+        "267": 2048,
+        "268": 2048,
+        "269": 2048,
+        "27": 2048,
+        "270": 2048,
+        "271": 2048,
+        "272": 2048,
+        "273": 2048,
+        "274": 2048,
+        "275": 2048,
+        "276": 2048,
+        "277": 2048,
+        "278": 2048,
+        "279": 2048,
+        "28": 2048,
+        "280": 2048,
+        "281": 2048,
+        "282": 2048,
+        "283": 2048,
+        "284": 2048,
+        "29": 2048,
+        "3": 2048,
+        "30": 2048,
+        "31": 2048,
+        "32": 2048,
+        "33": 2048,
+        "34": 2048,
+        "35": 2048,
+        "36": 2048,
+        "37": 2048,
+        "38": 2048,
+        "39": 2048,
+        "4": 2048,
+        "40": 2048,
+        "41": 2048,
+        "42": 2048,
+        "43": 2048,
+        "44": 2048,
+        "45": 2048,
+        "46": 2048,
+        "47": 2048,
+        "48": 2048,
+        "49": 2048,
+        "5": 2048,
+        "50": 2048,
+        "51": 2048,
+        "52": 2048,
+        "53": 2048,
+        "54": 2048,
+        "55": 2048,
+        "56": 2048,
+        "57": 2048,
+        "58": 2048,
+        "59": 2048,
+        "6": 2048,
+        "60": 2048,
+        "61": 2048,
+        "62": 2048,
+        "63": 2048,
+        "64": 2048,
+        "65": 2048,
+        "66": 2048,
+        "67": 2048,
+        "68": 2048,
+        "69": 2048,
+        "7": 2048,
+        "70": 2048,
+        "71": 2048,
+        "72": 2048,
+        "73": 2048,
+        "74": 2048,
+        "75": 2048,
+        "76": 2048,
+        "77": 2048,
+        "78": 2048,
+        "79": 2048,
+        "8": 2048,
+        "80": 2048,
+        "81": 2048,
+        "82": 2048,
+        "83": 2048,
+        "84": 2048,
+        "85": 2048,
+        "86": 2048,
+        "87": 2048,
+        "88": 2048,
+        "89": 2048,
+        "9": 2048,
+        "90": 2048,
+        "91": 2048,
+        "92": 2048,
+        "93": 2048,
+        "94": 2048,
+        "95": 2048,
+        "96": 2048,
+        "97": 2048,
+        "98": 2048,
+        "99": 2048
+    },
+    "last_improvement_steps": 0,
+    "last_increase_batch_size": 0,
+    "last_increase_batch_size_eval_metric_improvement": 0,
+    "last_increase_batch_size_steps": 0,
+    "last_learning_rate_reduction": 0,
+    "last_learning_rate_reduction_steps": 0,
+    "learning_rate": 5.418275829936537e-06,
+    "llm_eval_examples": {
+        "inputs": [
+            "Below is an instruction that describes a task, paired with an input\n    that may provide further context. Write a response that appropriately\n    completes the request.\n\n    ### Instruction: \nYour task is to summarize this company\u2019s telework policy in a way that is understandable to employees. For each of the following categories, please provide a brief summary of the company\u2019s telework policy, outlined below. Please include:\n1. Title: \"Eligibility\". Which workers are eligible for telework (include specific criteria, such as tenure, employment type, job characteristics, or anything else) \n\n2. Title: \"Frequency\". Frequency of telework allowed (such as numbers of days per week permitted and/or minimum requirements for the employee\u2019s presence in the office) \n\n3. Title: \"Arrangements\". Process by which telework arrangements are established (such as whether permission must be obtained and whether the manager has discretion over the allowability of telework) \n\n4. Title: \"Costs\". Coverage of costs associated with telework (such as IT setup and meal allowance) \n\n5. Title: \"Privacy\". Provisions for the right to disconnect and the privacy of the worker \n\nIn each category, cite the article number in the document where the relevant information is provided. Label each section with the requested title. Please summarize the key points in bullet points, within a 300-token limit. Adhering to the 300-token limit is crucial for this summary. Please ensure it does not exceed this length. If the document does not mention a specific topic listed here, state \"the document does not mention [topic]\", where [topic] is the relevant topic. \n \n\n\n\n    ### Input: MFHG\n\nAccord collectif sur le t\u00e9l\u00e9travail\n\n\n\n\n\nENTRE\n\nLa Mutualit\u00e9 Fran\u00e7aise Haute-Garonne, entreprise r\u00e9gie par le Code de la Mutualit\u00e9, immatricul\u00e9e au registre national des mutuelles sous le n\u00b0 776\u00a0950 529, code APE 6512Z, dont le si\u00e8ge social est situ\u00e9 au 3 rue de Metz - 31000 TOULOUSE, repr\u00e9sent\u00e9e par Monsieur XXXX, en sa qualit\u00e9 de Directeur G\u00e9n\u00e9ral,\n\nCi-apr\u00e8s d\u00e9sign\u00e9e \u00ab\u00a0la MFHG\u00a0\u00bb,\n\nd'une part,\n\n\n\nET\n\nLes organisations syndicales repr\u00e9sentatives dans l'entreprise, repr\u00e9sent\u00e9es respectivement par leur d\u00e9l\u00e9gu\u00e9 syndical,\n\nFO, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nLa CGT, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nL\u2019UNSA, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td\u2019autre part,\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\nIl a \u00e9t\u00e9 conclu le pr\u00e9sent accord sur le t\u00e9l\u00e9travail\n\n\n\nPr\u00e9ambule :\n\n\n\nDans un contexte d\u2019\u00e9pid\u00e9mie de coronavirus COVID-19 ayant rendu obligatoire le recours au t\u00e9l\u00e9travail pour permettre de prot\u00e9ger la sant\u00e9 et la s\u00e9curit\u00e9 des salari\u00e9s tout en permettant la poursuite des activit\u00e9s de la Mutualit\u00e9 Fran\u00e7aise Haute-Garonne. \n\n\n\nIl a \u00e9t\u00e9 d\u00e9cid\u00e9, dans le cadre des n\u00e9gociations annuelles obligatoires de 2021, de mettre en place l\u2019exp\u00e9rimentation du t\u00e9l\u00e9travail pour l\u2019ann\u00e9e civile 2021. Cette exp\u00e9rimentation touche \u00e0 sa fin, et les parties se sont r\u00e9unies pour convenir de p\u00e9renniser la mise en place du t\u00e9l\u00e9travail. \n\nToutefois, au sein de la Mutualit\u00e9, la majorit\u00e9 des postes de travail impose une pr\u00e9sence effective sur site et ne peuvent \u00eatre exerc\u00e9s, m\u00eame particuli\u00e8rement sous forme de t\u00e9l\u00e9travail.\n\n\n\nLes parties ont donc souhait\u00e9 donner un cadre organisationnel au t\u00e9l\u00e9travail pour que celui-ci puisse continuer \u00e0 se d\u00e9velopper dans des conditions adapt\u00e9es aux besoins des parties, en pr\u00e9servant l\u2019\u00e9quilibre entre les besoins op\u00e9rationnels et organisationnels de la Mutualit\u00e9 Fran\u00e7aise Haute-Garonne. \n\n\n\nLes parties sont parvenues \u00e0 un accord, dont elles conviennent de formuler les termes comme suit\u00a0: \n\n\n\nArticle 1\u00a0: Objet de l\u2019accord\n\n\n\nLe pr\u00e9sent accord a pour objet de fixer les conditions de mise en \u0153uvre du t\u00e9l\u00e9travail au sein de la Mutualit\u00e9-Fran\u00e7aise Haute-Garonne.\n\nPar t\u00e9l\u00e9travail il faut entendre toute forme d\u2019organisation du travail dans laquelle un travail qui aurait \u00e9galement pu \u00eatre ex\u00e9cut\u00e9 dans les locaux de l\u2019entreprise est effectu\u00e9 par un salari\u00e9 hors de ces locaux, de fa\u00e7on volontaire, en utilisant les technologies de l\u2019information et de la communication. \n\n\n\nArticle 2\u00a0: Conditions d\u2019\u00e9ligibilit\u00e9 au t\u00e9l\u00e9travail\n\n\n\nLe pr\u00e9sent accord concerne les salari\u00e9s sous contrat de travail \u00e0 dur\u00e9e ind\u00e9termin\u00e9e ayant acquis une bonne connaissance des sp\u00e9cificit\u00e9s de l\u2019activit\u00e9 et du mode de fonctionnement des services administratifs de la MFHG. De plus, afin d\u2019assurer la bonne marche de l\u2019entreprise, la pr\u00e9sence du salari\u00e9 sur site est indispensable, sauf d\u00e9rogation vis\u00e9es \u00e0 l\u2019article 3 du pr\u00e9sent accord, \u00e0 minima 4 jours par semaine.\n\n\n\nPar ailleurs, s\u2019ajoutent aux conditions d\u2019\u00e9ligibilit\u00e9s susmentionn\u00e9es, les conditions suivantes\u00a0:\n\n\n\n--\tLa nature du travail qui peut \u00eatre ou non r\u00e9alis\u00e9e en t\u00e9l\u00e9travail,\n\n--\tLa capacit\u00e9 du salari\u00e9 \u00e0 travailler de fa\u00e7on r\u00e9guli\u00e8re \u00e0 distance, en harmonie avec son \u00e9quipe,\n\n--\tLes modalit\u00e9s d\u2019organisation de l\u2019\u00e9quipe rendant indispensable une pr\u00e9sence sur site,\n\n--\tLa pr\u00e9sence au domicile d\u2019un espace de travail d\u00e9di\u00e9 et adapt\u00e9 au t\u00e9l\u00e9travail, d\u2019une connexion \u00e0 haut d\u00e9bit et d\u2019une installation \u00e9lectrique conforme.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLe t\u00e9l\u00e9travail ne peut \u00eatre ouvert qu\u2019\u00e0 des fonctions compatibles avec un exercice \u00e0 distance. Ainsi, ne peuvent \u00eatre \u00e9ligibles au t\u00e9l\u00e9travail les salari\u00e9s ayant une activit\u00e9 qui, par nature, requiert d\u2019\u00eatre exerc\u00e9e physiquement dans les locaux de l\u2019entreprise, notamment en raison d\u2019une pr\u00e9sence physique n\u00e9cessaire. Ne sont donc pas \u00e9ligibles au t\u00e9l\u00e9travail les salari\u00e9s au contact du public affect\u00e9s aux services suivants\u00a0:\n\n--\tDirection Optique et Audition,\n\n--\tDirection des Services \u00e0 la Personne, hors service de la MAIA, \n\n--\tDirection des Services de Sant\u00e9,\n\n--\tServices supports n\u00e9cessitant une pr\u00e9sence physique.\n\n\n\nLe responsable hi\u00e9rarchique doit n\u00e9cessairement veiller \u00e0 ce que le nombre de collaborateurs b\u00e9n\u00e9ficiant du t\u00e9l\u00e9travail soit pleinement adapt\u00e9 au bon fonctionnement du service, ainsi qu\u2019\u00e0 l\u2019organisation de l\u2019\u00e9quipe.\n\n\n\nArticle 3\u00a0: Modalit\u00e9s d\u2019organisation du t\u00e9l\u00e9travail\n\n\n\n3-1 Nombre de jours de t\u00e9l\u00e9travail\n\n\n\nDe mani\u00e8re \u00e0 \u00e9viter l\u2019isolement du t\u00e9l\u00e9travailleur de sa communaut\u00e9 de travail, il est convenu entre les parties de limiter le t\u00e9l\u00e9travail \u00e0 1 jour par semaine au maximum, de sorte \u00e0 ce que la pr\u00e9sence des salari\u00e9s sur site soit de 4 jours minimums, (non compris les jours de d\u00e9l\u00e9gations, les jours f\u00e9ri\u00e9s, de formation, de cong\u00e9s pay\u00e9s, de r\u00e9cup\u00e9ration d\u2019HVR ou RCR.)  \n\nLe ou les jours t\u00e9l\u00e9 travaill\u00e9s seront d\u00e9finis en accord avec le Manager afin de respecter l\u2019organisation de travail du service en ayant le souci de respecter le principe d\u2019\u00e9quit\u00e9\u00a0; Le t\u00e9l\u00e9travail ne peut \u00eatre accompli que par journ\u00e9e enti\u00e8re. \n\n\n\n3-2 D\u00e9rogation au nombre de jours de t\u00e9l\u00e9travail pr\u00e9vu \u00e0 l\u2019article 3-1\n\n\n\nPar d\u00e9rogation et pour le bon fonctionnement du service, il est convenu qu\u2019avec l\u2019accord de la Direction, il pourra \u00eatre accord\u00e9, des d\u00e9rogations \u00e0 l\u2019article 3-1. De sorte, qu\u2019un salari\u00e9 ai la possibilit\u00e9 de b\u00e9n\u00e9ficier de davantage de jours de t\u00e9l\u00e9travail, dans la limite de 3 jours de t\u00e9l\u00e9travail maximum par semaine, ce, \u00e0 condition que ce soit compatible avec l\u2019organisation du travail.\n\n\n\n3-3 Lieu et conditions d\u2019exercice du t\u00e9l\u00e9travail\n\n\n\nLe lieu de t\u00e9l\u00e9travail est strictement limit\u00e9 au domicile principal du salari\u00e9, tel que d\u00e9clar\u00e9 au service des Ressources Humaines. \n\nLe salari\u00e9 s\u2019engage par ailleurs \u00e0 informer le service des Ressources Humaines de tout changement d\u2019adresse impliquant un changement de domicile. \n\n\n\nLe salari\u00e9 en situation de t\u00e9l\u00e9travail doit supporter une charge de travail analogue \u00e0 celle qu\u2019il supporte sur site. \n\nIl doit \u00eatre pr\u00e9sent \u00e0 son poste de t\u00e9l\u00e9travail et demeurer en permanence joignable par l\u2019employeur, par t\u00e9l\u00e9phone et par messagerie \u00e9lectronique, durant ses horaires contractuels de travail de la m\u00eame mani\u00e8re que lorsqu\u2019il travaille sur site. \n\nLe t\u00e9l\u00e9travailleur a l\u2019obligation de se d\u00e9connecter des outils de communication et des serveurs informatique de l\u2019entreprise en dehors de ses horaires contractuels de travail.\n\n\n\n\n\nLe salari\u00e9 s\u2019engage \u00e0 fournir une attestation sur l\u2019honneur sur le fait qu\u2019il dispose\u00a0:\n\n--\td\u2019une installation technique et \u00e9lectrique conforme aux normes en vigueur,\n\n--\td\u2019une connexion internet haut d\u00e9bit, \n\n--\td\u2019un espace de travail d\u00e9di\u00e9 et adapt\u00e9 au t\u00e9l\u00e9travail,\n\n--\td\u2019une couverture assurance habitation pour le t\u00e9l\u00e9travail.\n\n\n\nLe salari\u00e9 en situation de t\u00e9l\u00e9travail devra signaler \u00e0 sa direction toutes difficult\u00e9s, d\u2019un point de vu ergonomique ou propre au confort de son poste de travail, engendr\u00e9es  par cette situation. La Direction se r\u00e9serve alors le droit de mettre fin au t\u00e9l\u00e9travail du salari\u00e9 concern\u00e9, si ses conditions de travail \u00e0 domicile ne permettent pas d\u2019assurer la sant\u00e9 et la s\u00e9curit\u00e9 du salari\u00e9 sur son poste de travail. \n\n\n\n3-4 D\u00e9claration des jours t\u00e9l\u00e9 travaill\u00e9s par le salari\u00e9\n\n\n\nAfin de garantir une bonne organisation ainsi qu\u2019un suivi des jours t\u00e9l\u00e9 travaill\u00e9s, une d\u00e9claration des journ\u00e9es t\u00e9l\u00e9 travaill\u00e9es devra \u00eatre faite par chaque salari\u00e9 sur le logiciel de gestion des temps et valid\u00e9e par chaque Manager. \n\n\n\nArticle 4\u00a0: Assurance\n\n\n\nLa mise en place du t\u00e9l\u00e9travail est conditionn\u00e9e \u00e0 la fourniture par le salari\u00e9 d\u2019une attestation d\u2019assurance garantissant les risques li\u00e9s au t\u00e9l\u00e9travail au sein de son domicile principal.\n\nEn parall\u00e8le, la MFHG \u00e9tend sa police d\u2019assurance responsabilit\u00e9 civile d\u2019exploitation pour les salari\u00e9s exer\u00e7ant leurs fonctions \u00e0 domicile.\n\n\n\nArticle 5\u00a0: Mise en place du t\u00e9l\u00e9travail\n\n\n\nLe t\u00e9l\u00e9travail poss\u00e8de un caract\u00e8re volontaire. Il ne peut \u00eatre mis en place que par accord commun entre l\u2019entreprise et le salari\u00e9, \u00e0 l\u2019initiative de l\u2019un ou de l\u2019autre.\n\nIl est ainsi rappel\u00e9 que le fait d\u2019\u00eatre \u00e9ligible au t\u00e9l\u00e9travail dans les conditions pr\u00e9c\u00e9demment \u00e9nonc\u00e9es ne permet pas au salari\u00e9 de pr\u00e9tendre de ce seul fait au b\u00e9n\u00e9fice du t\u00e9l\u00e9travail. \n\nL\u2019accord de la Direction est n\u00e9cessaire.\n\n\n\nArticle 6\u00a0: Formalisation d\u2019un avenant au contrat de travail\n\n\n\nEn cas d\u2019accord de la Direction, l\u2019organisation de l\u2019activit\u00e9 en t\u00e9l\u00e9travail doit \u00eatre pr\u00e9vue par avenant au contrat de travail. \n\nL\u2019avenant au contrat est valable et applicable uniquement pour le poste que le salari\u00e9 occupe \u00e0 la date de signature de celui-ci. En cas de changement de poste, l\u2019avenant devient automatiquement caduc. \n\n\n\nArticle 7\u00a0: Temps de travail\n\n\n\nIl est convenu que par d\u00e9rogation \u00e0 l\u2019accord d\u2019entreprise sur le temps de travail, les salari\u00e9s en situation de t\u00e9l\u00e9travail ne disposeront pas de plage variable ni de possibilit\u00e9 de r\u00e9aliser des heures suppl\u00e9mentaires. Il est convenu un horaire fixe de 7 heures par jour de t\u00e9l\u00e9travail.\n\n\n\n\n\nArticle 8 : Caract\u00e8re r\u00e9versible du t\u00e9l\u00e9travail\n\n\n\nLes parties signataires conviennent que chacune des parties peut \u00e0 tout moment, sans avoir \u00e0 en justifier les motifs, mettre fin \u00e0 l\u2019organisation de l\u2019activit\u00e9 en t\u00e9l\u00e9travail, par simple courrier \u00e9lectronique, sous r\u00e9serve d\u2019un d\u00e9lai de pr\u00e9venance d\u2019une semaine.\n\n\n\nLorsqu\u2019il est mis fin au t\u00e9l\u00e9travail, le salari\u00e9 effectue \u00e0 nouveau enti\u00e8rement son activit\u00e9 dans les locaux de l\u2019entreprise au sein de son service de rattachement et le mat\u00e9riel confi\u00e9 au salari\u00e9 pour les besoins du t\u00e9l\u00e9travail est restitu\u00e9 de plein droit et sans d\u00e9lai \u00e0 l\u2019entreprise. \n\n\n\nArticle 9\u00a0: Hygi\u00e8ne, s\u00e9curit\u00e9 et sant\u00e9 au travail\n\n\n\nLe salari\u00e9 en situation de t\u00e9l\u00e9travail demeure soumis au r\u00e8glement int\u00e9rieur de l\u2019entreprise ainsi qu\u2019aux dispositions l\u00e9gales et conventionnelles relatives \u00e0 la s\u00e9curit\u00e9 et \u00e0 la sant\u00e9 au travail.\n\nLe salari\u00e9 en situation de t\u00e9l\u00e9travail b\u00e9n\u00e9ficie de la m\u00eame couverture accident, maladie, d\u00e9c\u00e8s et pr\u00e9voyance que les autres salari\u00e9s de l\u2019entreprise, ainsi que de la l\u00e9gislation en mati\u00e8re d\u2019accident du travail.\n\n\n\nArticle 10\u00a0: Equipement du t\u00e9l\u00e9travailleur\n\n\n\nL\u2019entreprise met \u00e0 la disposition du t\u00e9l\u00e9travailleur un ordinateur portable muni d\u2019un acc\u00e8s VPN et ses accessoires, un renvoi t\u00e9l\u00e9phonique sur son t\u00e9l\u00e9phone portable personnel limit\u00e9 aux jours de t\u00e9l\u00e9travail.\n\n\n\nArticle 11\u00a0: Prise en charge des frais li\u00e9s au t\u00e9l\u00e9travail\n\n\n\nL\u2019abonnement \u00e0 un op\u00e9rateur offrant une connexion internet \u00e0 haut d\u00e9bit et une connexion t\u00e9l\u00e9phonique, ainsi que tous autres frais domestiques li\u00e9s au t\u00e9l\u00e9travail incombe au t\u00e9l\u00e9travailleur.\n\nLes titres restaurants sont maintenus pour le salari\u00e9 en t\u00e9l\u00e9travail, aucune compensation pour les frais li\u00e9s au t\u00e9l\u00e9travail ne sera vers\u00e9e par l\u2019employeur.\n\n\n\nArticle 12\u00a0: Circonstances exceptionnelles\n\n\n\nLe pr\u00e9sent accord ne fait pas obstacle \u00e0 la mise en place de plein droit du t\u00e9l\u00e9travail adapt\u00e9 aux circonstances en cas de crise, notamment sanitaire ou civile, afin de permettre la continuit\u00e9 de l\u2019activit\u00e9 de l\u2019entreprise et garantir la protection des salari\u00e9s.\n\nL\u2019entreprise pourra \u00e9galement recourir au t\u00e9l\u00e9travail de mani\u00e8re temporaires pour des salari\u00e9s connaissant notamment des difficult\u00e9s li\u00e9es \u00e0 des probl\u00e8mes de sant\u00e9, de handicap ou de circonstance familiales graves. \n\n\n\nArticle 13\u00a0: Date d\u2019effet et dur\u00e9e de l\u2019accord\n\n\n\nLe pr\u00e9sent accord entrera en vigueur le 1er janvier 2022, apr\u00e8s son d\u00e9p\u00f4t aupr\u00e8s de l\u2019autorit\u00e9 administrative conform\u00e9ment aux dispositions de l\u2019article L.2232-29-2 du Code du travail.\n\n\n\nLe pr\u00e9sent accord est conclu pour une dur\u00e9e ind\u00e9termin\u00e9e.\n\n\n\n\n\n\n\n\n\nArticle 14\u00a0: Suivi de l\u2019accord et clause de rendez-vous\n\n\n\nEn vue de l\u2019application du pr\u00e9sent accord, les parties conviennent de se revoir dans un d\u00e9lai de 18 mois \u00e0 compter de sa date d\u2019entr\u00e9e en vigueur, \u00e0 l\u2019occasion des N\u00e9gociations Annuelles Obligatoires, afin d\u2019analyser les \u00e9ventuelles difficult\u00e9s d\u2019application et d\u2019\u00e9tudier les solutions qui pourraient y \u00eatre apport\u00e9es.\n\n\n\n\t\tEn cas de modification substantielle des textes r\u00e9gissant les mati\u00e8res trait\u00e9es par le pr\u00e9sent accord, les parties signataires s\u2019engagent \u00e0 se rencontrer dans un d\u00e9lai de deux mois suivant la demande de l\u2019une des parties signataires en vue d\u2019entamer des n\u00e9gociations relatives \u00e0 l\u2019adaptation du pr\u00e9sent accord.\n\n\n\nArticle 15\u00a0: R\u00e9vision et d\u00e9nonciation\n\n\n\nLe pr\u00e9sent accord pourra \u00eatre r\u00e9vis\u00e9, \u00e0 tout moment, par accord entre les parties, et notamment en cas de modification ou de disparition de la Convention Collective Mutualit\u00e9 et de cr\u00e9ation ou d\u2019int\u00e9gration de nouvelles activit\u00e9s. Toute modification fera l\u2019objet d\u2019un avenant dans les conditions et d\u00e9lais pr\u00e9vus par la loi.\n\n\n\nLa proc\u00e9dure de r\u00e9vision du pr\u00e9sent accord ne peut \u00eatre engag\u00e9e que par la Direction ou l\u2019une des parties habilit\u00e9es en application des dispositions du code du travail.\n\n\n\nLe pr\u00e9sent accord pourra \u00eatre d\u00e9nonc\u00e9 par l'une ou l'autre des parties signataires moyennant le respect d\u2019un pr\u00e9avis de 3 mois. \n\n\n\nLa partie qui d\u00e9nonce l'accord doit notifier cette d\u00e9cision par lettre recommand\u00e9e avec accus\u00e9 de r\u00e9ception \u00e0 l'autre partie.\n\n\n\nLa Direction et les parties signataires se r\u00e9uniront pendant la dur\u00e9e du pr\u00e9avis pour discuter les possibilit\u00e9s d'un nouvel accord.\n\n\n\nArticle 16\u00a0: Formalit\u00e9s de d\u00e9p\u00f4t et publicit\u00e9 de l\u2019accord\n\n\n\nLe pr\u00e9sent accord fera l'objet des formalit\u00e9s de d\u00e9p\u00f4t et de publicit\u00e9 suivantes, \u00e0 la diligence de la Direction :\n\n\n\n--\tun exemplaire d\u00fbment sign\u00e9 de toutes les parties en sera remis, \u00e0 l\u2019issue de la s\u00e9ance de signature, en main propre contre d\u00e9charge \u00e0 chaque signataire,\n\n\n\n--\tdeux exemplaires seront d\u00e9pos\u00e9s de fa\u00e7on d\u00e9mat\u00e9rialis\u00e9e sur la plateforme du minist\u00e8re du travail \u00a0dont une version int\u00e9grale en format pdf sign\u00e9e des parties et une version en format word sans nom, pr\u00e9nom, paraphe ou signature, accompagn\u00e9e des pi\u00e8ces requises,\n\n\n\n--\tun exemplaire sera d\u00e9pos\u00e9 au Greffe du Conseil de Prud'hommes de Toulouse,\n\n\n\n--\tun exemplaire sera \u00e9galement laiss\u00e9 \u00e0 la disposition de chaque salari\u00e9 aupr\u00e8s de la Direction des Ressources Humaines.\n\n\n\n\n\nEnfin, cet accord sera accessible sur le site intranet de l\u2019entreprise.\n\n\n\n\n\n\n\nFait \u00e0 TOULOUSE, le 30 mars 2022\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nPour la MFHG, Monsieur XXXX, Directeur G\u00e9n\u00e9ral\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPour l\u2019organisation syndicale FO, Monsieur XXXX\n\n\n\nPour l\u2019organisation syndicale CGT, Monsieur XXXX\n\n\n\nPour l\u2019organisation syndicale UNSA, Monsieur XXXX\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nPage | 2 \n\n\n\n\n\n\n\n\n\n\n\n    ### Response:",
+            "Below is an instruction that describes a task, paired with an input\n    that may provide further context. Write a response that appropriately\n    completes the request.\n\n    ### Instruction: \nYour task is to summarize this company\u2019s telework policy in a way that is understandable to employees. For each of the following categories, please provide a brief summary of the company\u2019s telework policy, outlined below. Please include:\n1. Title: \"Eligibility\". Which workers are eligible for telework (include specific criteria, such as tenure, employment type, job characteristics, or anything else) \n\n2. Title: \"Frequency\". Frequency of telework allowed (such as numbers of days per week permitted and/or minimum requirements for the employee\u2019s presence in the office) \n\n3. Title: \"Arrangements\". Process by which telework arrangements are established (such as whether permission must be obtained and whether the manager has discretion over the allowability of telework) \n\n4. Title: \"Costs\". Coverage of costs associated with telework (such as IT setup and meal allowance) \n\n5. Title: \"Privacy\". Provisions for the right to disconnect and the privacy of the worker \n\nIn each category, cite the article number in the document where the relevant information is provided. Label each section with the requested title. Please summarize the key points in bullet points, within a 300-token limit. Adhering to the 300-token limit is crucial for this summary. Please ensure it does not exceed this length. If the document does not mention a specific topic listed here, state \"the document does not mention [topic]\", where [topic] is the relevant topic. \n \n\n\n\n    ### Input: Document de travail\n\nDocument de travail\n\n\n\nDocument de travail\n\nDocument de travail\n\n----media/image1.png----\n\nAccord collectif sur le t\u00e9l\u00e9travail\n\n\n\nENTRE \n\n\n\nL\u2019Association TRAJET, dont le si\u00e8ge social est situ\u00e9 3 rue Robert Schuman 44400 Rez\u00e9, \n\nrepr\u00e9sent\u00e9e par \tagissant en qualit\u00e9 de Directeur, dument habilit\u00e9,  \n\n\n\nET \n\n\n\nLes organisations syndicales repr\u00e9sentatives suivantes\u00a0: \n\n\n\nLa Conf\u00e9d\u00e9ration fran\u00e7aise d\u00e9mocratique du travail (CFDT) repr\u00e9sent\u00e9e par \t, agissant en qualit\u00e9 de d\u00e9l\u00e9gu\u00e9 syndical\u00a0;\n\n\n\n\n\n\n\nPr\u00e9ambule\n\n\n\nLes d\u00e9veloppements des technologies de l\u2019information et de la communication ont permis l\u2019essor de nouvelles formes de travail tant au sein de l\u2019Association qu\u2019\u00e0 l\u2019\u00e9chelle de la soci\u00e9t\u00e9. Le t\u00e9l\u00e9travail constitue une de ces nouvelles modalit\u00e9s d\u2019ex\u00e9cution du contrat de travail.\n\n\n\nOutre les changements intervenant dans le cadre de l\u2019ex\u00e9cution de la prestation de travail, le t\u00e9l\u00e9travail emporte des cons\u00e9quences dans divers domaines. \n\n\n\nAinsi, la mise en place du t\u00e9l\u00e9travail permet notamment aux salari\u00e9s concern\u00e9s de r\u00e9duire le temps de d\u00e9placement entre le domicile et le lieu de travail, temps souvent consid\u00e9r\u00e9 par ces derniers comme un facteur de stress, d\u2019anxi\u00e9t\u00e9 ou de fatigue. La r\u00e9duction de ce temps de d\u00e9placement contribue \u00e0 la r\u00e9duction du risque routier ainsi que de l\u2019empreinte environnementale de l\u2019Association et permet \u00e9galement une r\u00e9duction des frais engag\u00e9s pour le salari\u00e9 notamment en mati\u00e8re de d\u00e9placement.\n\n\n\nEn outre, la mise en place de cette forme de travail vise \u00e0 am\u00e9liorer la qualit\u00e9 de vie au travail par une meilleure articulation entre l\u2019exercice d\u2019une activit\u00e9 professionnelle et la vie personnelle des salari\u00e9s et offre au t\u00e9l\u00e9travailleur une plus grande autonomie dans l\u2019accomplissement de ses t\u00e2ches. \n\n\n\nLes parties signataires consid\u00e8rent que le t\u00e9l\u00e9travail est une modalit\u00e9 de travail ayant pour but de donner aux b\u00e9n\u00e9ficiaires plus de souplesse et de flexibilit\u00e9 dans leurs conditions de travail par la responsabilisation et l\u2019autonomie conf\u00e9r\u00e9es dans l\u2019exercice des missions professionnelles. L\u2019organisation du t\u00e9l\u00e9travail repose ainsi sur une relation de confiance entre le salari\u00e9 et la Direction. \n\n\n\nEnfin, le t\u00e9l\u00e9travail dans le but de permettre la continuit\u00e9 de service de l\u2019Association ou de garantir la protection des salari\u00e9s, pr\u00e9sente une r\u00e9ponse ad\u00e9quate aux situations exceptionnelles telles que les menaces d\u2019\u00e9pid\u00e9mie et les cas de force majeure.\n\n\n\nD\u00e8s lors, la Direction de l\u2019Association Trajet et les organisations syndicales se sont rencontr\u00e9es et ont conclu le pr\u00e9sent accord collectif.\n\n\n\nCet accord a pour objectifs\u00a0de :\n\n\n\n--\tmettre en place le t\u00e9l\u00e9travail en adaptant celui-ci aux contraintes de l\u2019organisation de l\u2019Association et en assurant aux salari\u00e9s concern\u00e9s l\u2019ex\u00e9cution de leurs fonctions dans les meilleures conditions de travail possible\u00a0;\n\n--\tr\u00e9pondre \u00e0 une demande de salari\u00e9s de b\u00e9n\u00e9ficier d\u2019une telle organisation du travail.\n\n\n\nA cet effet, il est ins\u00e9r\u00e9 dans le pr\u00e9sent accord des dispositions portant notamment sur :\n\n\n\n--\tles cat\u00e9gories de salari\u00e9s concern\u00e9s\u00a0;\n\n--\tles conditions de d\u00e9roulement de l\u2019activit\u00e9 sous forme de t\u00e9l\u00e9travail\u00a0;\n\n--\tles cas de mise en \u0153uvre du t\u00e9l\u00e9travail en cas de survenance de situations exceptionnelles\u00a0;\n\n--\tl\u2019existence d\u2019une p\u00e9riode d\u2019adaptation\u00a0;\n\n--\tles conditions d\u2019un retour \u00e0 une ex\u00e9cution du contrat de travail sans t\u00e9l\u00e9travail\u00a0;\n\n--\tles modalit\u00e9s de contr\u00f4le du temps de travail\u00a0;\n\n--\tla d\u00e9termination des plages horaires durant lesquelles l'employeur peut habituellement contacter le salari\u00e9 en t\u00e9l\u00e9travail\u00a0;\n\n--\tles conditions de pr\u00e9servation de l\u2019\u00e9quilibre vie personnelle et vie professionnelle.\n\n\n\n\n\tPr\u00e9ambule\t1\n\n\tTitre I\u00a0: Champ d\u2019application et d\u00e9finitions\t5\n\n\tArticle 1\u00a0: Champ d\u2019application\t5\n\n\tArticle 2\u00a0: D\u00e9finitions\t5\n\n\tTitre II\u00a0: Salari\u00e9s \u00e9ligibles au t\u00e9l\u00e9travail\t5\n\n\tArticle 3\u00a0: Crit\u00e8res d\u2019\u00e9ligibilit\u00e9 au t\u00e9l\u00e9travail\t5\n\n\tArticle 4\u00a0: Limites au nombre de t\u00e9l\u00e9travailleurs simultan\u00e9ment absents\t6\n\n\tTitre III\u00a0: Lieu d\u2019exercice du t\u00e9l\u00e9travail\t6\n\n\tArticle 5\u00a0: Lieu d\u2019exercice principal du t\u00e9l\u00e9travail\t7\n\n\tArticle 6\u00a0: Organisation et conformit\u00e9 des lieux de travail\t7\n\n\tArticle 7\u00a0: Assurance\t7\n\n\tArticle 8\u00a0: Conformit\u00e9 des installations \u00e9lectriques\t7\n\n\tTitre IV\u00a0: Mise en place du t\u00e9l\u00e9travail\t8\n\n\tArticle 9\u00a0: Mise en place d\u2019un commun accord\t8\n\n\tArticle 10\u00a0: Mise en place sur demande du salari\u00e9\t8\n\n\tArticle 11\u00a0: Mise en place sur proposition de l\u2019Association\t9\n\n\tArticle 12\u00a0: Formalisation de l\u2019accord et information du salari\u00e9\t9\n\n\tArticle 13\u00a0: Changements de fonctions\t9\n\n\tArticle 14\u00a0: T\u00e9l\u00e9travail \u00e0 titre temporaire\t9\n\n\tArticle 15 : Circonstances exceptionnelles\t10\n\n\tTitre V\u00a0: Conditions d\u2019ex\u00e9cution du t\u00e9l\u00e9travail\t11\n\n\tArticle 16\u00a0: T\u00e9l\u00e9travail r\u00e9gulier \u00e0 jour flexible\t11\n\n\tArticle 17\u00a0: Droits et obligations du t\u00e9l\u00e9travailleur\t11\n\n\tArticle 18\u00a0: Pr\u00e9sence obligatoire\t11\n\n\tArticle 19\u00a0: Lutte contre l\u2019isolement\t12\n\n\tArticle 20\u00a0: Temps de travail\t12\n\n\tArticle 21 : R\u00e9gulation de la charge de travail\t12\n\n\tArticle 21.1 : Organisation de la charge de travail\t12\n\n\tArticle 21.2 : Entretien p\u00e9riodique\t13\n\n\tArticle 22 : Droit \u00e0 la d\u00e9connexion\t13\n\n\tArticle 23\u00a0: Respect de la vie priv\u00e9e\t13\n\n\tArticle 24\u00a0: Suspension temporaire du t\u00e9l\u00e9travail\t14\n\n\tArticle 25\u00a0: Suspension du contrat de travail\t14\n\n\tTitre VI\u00a0: Fin du t\u00e9l\u00e9travail\t14\n\n\tArticle 26\u00a0: Caract\u00e8re r\u00e9versible du t\u00e9l\u00e9travail\t14\n\n\tTitre VII\u00a0: Hygi\u00e8ne et s\u00e9curit\u00e9\t15\n\n\tArticle 27\u00a0: Sant\u00e9 et s\u00e9curit\u00e9 du t\u00e9l\u00e9travailleur\t15\n\n\tTitre VIII\u00a0: Equipement du t\u00e9l\u00e9travailleur\t15\n\n\tArticle 28 : Equipement mis \u00e0 disposition du t\u00e9l\u00e9travailleur\t15\n\n\tArticle 29\u00a0: Utilisation professionnelle de l\u2019\u00e9quipement mis \u00e0 disposition\t16\n\n\tArticle 30\u00a0: Protection des donn\u00e9es informatiques\t16\n\n\tTitre IX\u00a0: Dispositions finales\t17\n\n\tArticle 31 : Consultation du comit\u00e9 \u00e9conomique et social\t17\n\n\tArticle 32 : Dur\u00e9e de l'accord\t17\n\n\tArticle 33 : Adh\u00e9sion\t17\n\n\tArticle 34 : Interpr\u00e9tation de l'accord\t17\n\n\tArticle 35 : R\u00e9vision de l\u2019accord\t17\n\n\tArticle 36 : D\u00e9nonciation de l\u2019accord\t18\n\n\tArticle 37 : Communication de l'accord\t18\n\n\tArticle 38\u00a0: D\u00e9p\u00f4t de l\u2019accord\t18\n\n\tArticle 39\u00a0: Information des salari\u00e9s\t18\n\n\tArticle 40 : Publication de l\u2019accord\t19\n\n\tCharte unilat\u00e9rale sur le droit \u00e0 la d\u00e9connexion\t21\n\n\n\n\n\n\n\n\n\n\n\n\nTitre I\u00a0: Champ d\u2019application et d\u00e9finitions\n\n\n\nArticle 1\u00a0: Champ d\u2019application\n\n\n\nLe pr\u00e9sent accord s\u2019applique au sein de l\u2019Association Trajet.\n\n\n\nArticle 2\u00a0: D\u00e9finitions\n\n\n\nConform\u00e9ment aux dispositions l\u00e9gales, le t\u00e9l\u00e9travail se d\u00e9finit comme toute forme d'organisation du travail dans laquelle un travail qui aurait \u00e9galement pu \u00eatre ex\u00e9cut\u00e9 dans les locaux de l'employeur est effectu\u00e9 par un salari\u00e9 hors de ces locaux de fa\u00e7on volontaire en utilisant les technologies de l'information et de la communication. \n\n\n\nLe t\u00e9l\u00e9travailleur d\u00e9signe tout salari\u00e9 de l\u2019Association qui effectue du t\u00e9l\u00e9travail.\n\n\n\nLe t\u00e9l\u00e9travail est une facult\u00e9. Il ne constitue ni un droit, ni une obligation.\n\n\n\n\n\nTitre II\u00a0: Salari\u00e9s \u00e9ligibles au t\u00e9l\u00e9travail\n\n\n\nArticle 3\u00a0: Crit\u00e8res d\u2019\u00e9ligibilit\u00e9 au t\u00e9l\u00e9travail\n\n\n\nSeuls sont \u00e9ligibles au t\u00e9l\u00e9travail les salari\u00e9s\u00a0: \n\n\n\n--\tembauch\u00e9s \u00e0 temps complet ou bien \u00e0 temps partiel au moins \u00e9quivalent \u00e0 80% d\u2019un temps complet\u00a0;\n\n--\tdisposant d\u2019une anciennet\u00e9 minimum d\u2019un an\u00a0;\n\n--\tn\u2019\u00e9tant plus en p\u00e9riode d\u2019essai\u00a0;\n\n--\tpouvant ex\u00e9cuter leurs prestations de travail en toute autonomie et hors des locaux de l\u2019Association.\n\n--\tappartenant \u00e0 un service dont le fonctionnement est conciliable avec le t\u00e9l\u00e9travail\u00a0;\n\n--\texer\u00e7ant des fonctions compatibles avec le t\u00e9l\u00e9travail\u00a0;\n\n--\tdisposant de la capacit\u00e9 \u00e0 rendre compte de son activit\u00e9 en t\u00e9l\u00e9travail\n\n--\tpouvant exercer une activit\u00e9 par t\u00e9l\u00e9travail dans des espaces adapt\u00e9s \u00e0 cette forme de travail\u00a0;\n\n--\tma\u00eetrisant l\u2019outil informatique.\n\n\n\n\n\nEn outre, compte tenu de la sp\u00e9cificit\u00e9 de cette organisation de travail, il est convenu entre les signataires de l\u2019accord, que le salari\u00e9 doit disposer d\u2019aptitudes professionnelles lui permettant d\u2019organiser et g\u00e9rer son temps de travail de mani\u00e8re efficace.\n\n\n\nCes conditions sont cumulatives.\n\n\n\nOutre les salari\u00e9s ne r\u00e9pondant pas aux conditions pr\u00e9c\u00e9dentes, sont \u00e9galement exclus du t\u00e9l\u00e9travail les salari\u00e9s\u00a0:\n\n\n\n--\tdont la pr\u00e9sence continue au sein de l\u2019Association du salari\u00e9\u00a0est imp\u00e9rative ou n\u00e9cessaire ;\n\n--\tdont les fonctions n\u00e9cessitent une absence importante et r\u00e9guli\u00e8re de leur lieu habituel de travail\u00a0;\n\n--\toccupant des fonctions soumises \u00e0 des contraintes techniques et mat\u00e9rielles sp\u00e9cifiques.\n\n\n\nCes conditions sont alternatives.\n\n\n\nA titre indicatif, sont exclus les salari\u00e9s exer\u00e7ant les fonctions suivantes\u00a0: \n\n--\tAgent d\u2019accueil\u00a0;\n\n--\tAgent de maintenance\u00a0; \n\n--\tAgent d\u2019entretien\u00a0;\n\n--\tAnimateur technique\u00a0;\n\n--\tEncadrant technique\u00a0;\n\n--\tMoniteur d\u2019atelier\u00a0;\n\n--\tVeilleur de nuit.\n\n\n\nNe sont pas \u00e9ligibles au t\u00e9l\u00e9travail eu \u00e9gard \u00e0 l\u2019objet de leur contrat ou convention qui impose une pr\u00e9sence et un accompagnement individuel au sein de l\u2019Association les salari\u00e9s en\u00a0: \n\n\n\n--\tcontrat de travail \u00e0 dur\u00e9e d\u00e9termin\u00e9e d\u2019insertion,  \n\n--\tou en  contrat de formation par alternance (apprentissage, contrat de professionnalisation).\n\n\n\nArticle 4\u00a0: Limites au nombre de t\u00e9l\u00e9travailleurs simultan\u00e9ment absents\n\n\n\nSauf survenance de circonstances exceptionnelles, le t\u00e9l\u00e9travail ne doit pas avoir pour cons\u00e9quence de nuire au bon fonctionnement de l\u2019Association et des services qui la composent.\n\n\n\nLe sup\u00e9rieur hi\u00e9rarchique sera donc attentif \u00e0 ce que le nombre de t\u00e9l\u00e9travailleurs au sein de son \u00e9quipe soit compatible avec le bon fonctionnement du service et de l\u2019organisation. En cas de pluralit\u00e9 des demandes au sein d\u2019un m\u00eame service et d\u00e8s lors que la proportion limite serait atteinte, le sup\u00e9rieur hi\u00e9rarchique \u00e9tablira un ordre de priorit\u00e9 d\u2019acc\u00e8s au dispositif en fonction de crit\u00e8res tels que la fr\u00e9quence du recours au t\u00e9l\u00e9travail, l\u2019\u00e9loignement g\u00e9ographique domicile-travail, une situation de handicap ou des contraintes personnelles sp\u00e9cifiques.\n\n\n\n\n\nTitre III\u00a0: Lieu d\u2019exercice du t\u00e9l\u00e9travail\n\n\n\nArticle 5\u00a0: Lieu d\u2019exercice principal du t\u00e9l\u00e9travail\n\n\n\nLe t\u00e9l\u00e9travail s\u2019exerce en France m\u00e9tropolitaine, au domicile du salari\u00e9.\n\n\n\nLe salari\u00e9 s\u2019engage \u00e0 informer l\u2019employeur sans d\u00e9lai de tout changement de domicile ou de lieu o\u00f9 se r\u00e9alise le t\u00e9l\u00e9travail. Le nouveau domicile devra r\u00e9pondre aux conditions pr\u00e9vues par le pr\u00e9sent accord pour l\u2019exercice du t\u00e9l\u00e9travail. Les justificatifs aff\u00e9rents devront \u00eatre fournis.\n\n\n\nUn changement de lieu de travail peut se produire \u00e0 titre exceptionnel et temporaire (1 mois maximum) \u00e0 condition que la Direction en ait \u00e9t\u00e9 inform\u00e9e par \u00e9crit (courrier ou mail) et qu\u2019elle ait donn\u00e9 son accord \u00e9crit.\n\n\n\nArticle 6\u00a0: Organisation et conformit\u00e9 des lieux de travail\t\n\n\n\nLe salari\u00e9 candidat au t\u00e9l\u00e9travail doit disposer d\u2019une pi\u00e8ce lui permettant\u00a0:\n\n\n\n--\td\u2019exercer ses missions professionnelles dans des conditions optimales, exclusives de toute forme de nuisance extraprofessionnelle\u00a0;\n\n--\td\u2019exercer son travail dans des conditions conformes aux r\u00e8gles d\u2019hygi\u00e8ne et de s\u00e9curit\u00e9 applicables \u00e0 tout travailleur\u00a0;\n\n--\tde se consacrer \u00e0 son activit\u00e9 lors de son temps de travail\u00a0;\n\n--\td\u2019installer les outils informatiques et de communication n\u00e9cessaires \u00e0 son activit\u00e9.\n\n\n\nIl est demand\u00e9 au salari\u00e9 concern\u00e9 d\u2019\u00e9tablir une d\u00e9claration sur l\u2019honneur par laquelle il atteste disposer d\u2019une pi\u00e8ce r\u00e9pondant \u00e0 ces exigences.\n\n\n\nArticle 7\u00a0: Assurance\n\n\n\nLe salari\u00e9 fournit une attestation d\u2019assurance garantissant les risques li\u00e9s au t\u00e9l\u00e9travail applicable au lieu o\u00f9 celui-ci sera ex\u00e9cut\u00e9. Il adresse annuellement cette attestation au moment du renouvellement de son assurance.\n\nLa mise en place et le maintien du t\u00e9l\u00e9travail est conditionn\u00e9e par cette formalit\u00e9.\n\n\n\nArticle 8\u00a0: Conformit\u00e9 des installations \u00e9lectriques\n\n\n\nLe salari\u00e9 atteste la conformit\u00e9 des installations \u00e9lectriques, conditionnant l\u2019accord de l\u2019Association pour la mise en place du t\u00e9l\u00e9travail \u00e0 l\u2019aide du document annex\u00e9 au pr\u00e9sent accord.\n\n\n\n\n\nTitre IV\u00a0: Mise en place du t\u00e9l\u00e9travail\n\n\n\nArticle 9\u00a0: Mise en place d\u2019un commun accord \n\n\n\nSauf survenance de circonstances exceptionnelles, comme par exemple, la gestion d\u2019une pand\u00e9mie, le t\u00e9l\u00e9travail ne peut \u00eatre mis en place que d\u2019un commun accord entre l\u2019Association et le salari\u00e9 sur demande de l\u2019un ou de l\u2019autre. Le r\u00e9gime de ces demandes est pr\u00e9vu aux articles 10 et 11 ci-dessous.\n\n\n\nIl est ainsi rappel\u00e9 que le fait d\u2019\u00eatre \u00e9ligible au t\u00e9l\u00e9travail dans les conditions pr\u00e9c\u00e9demment \u00e9nonc\u00e9es ne permet pas au salari\u00e9 de pr\u00e9tendre de ce seul fait au b\u00e9n\u00e9fice du t\u00e9l\u00e9travail. L\u2019accord de la Direction est n\u00e9cessaire.\n\n\n\n\n\n\n\n\n\nArticle 10\u00a0: Mise en place sur demande du salari\u00e9 \n\n\n\nLorsque le salari\u00e9 souhaite b\u00e9n\u00e9ficier du t\u00e9l\u00e9travail, il adresse sa demande aupr\u00e8s de son sup\u00e9rieur hi\u00e9rarchique ou, \u00e0 d\u00e9faut, aupr\u00e8s de de la Direction par\u00a0:\n\n\n\n--\tcourrier recommand\u00e9\u00a0;\n\n--\tcourrier remis en main propre contre d\u00e9charge\u00a0;\n\n--\tcourrier \u00e9lectronique.\n\n\n\nLa Direction de l\u2019Association dispose d\u2019un d\u00e9lai d\u2019un mois apr\u00e8s r\u00e9ception de la demande pour faire part de sa r\u00e9ponse au salari\u00e9 concern\u00e9.\n\n\n\nEn l\u2019absence de r\u00e9ponse au terme de ce d\u00e9lai, la demande est r\u00e9put\u00e9e refus\u00e9e. \n\n\n\nTout refus oppos\u00e9 \u00e0 un salari\u00e9 \u00e9ligible au t\u00e9l\u00e9travail dans les conditions pr\u00e9vues par le pr\u00e9sent accord fait l\u2019objet d\u2019une r\u00e9ponse motiv\u00e9e.\n\n\n\nDans des circonstances particuli\u00e8res, le t\u00e9l\u00e9travail peut faciliter la continuit\u00e9 de service. \n\nCes circonstances renvoient notamment aux situations suivantes\u00a0:\n\n--\tIntemp\u00e9ries\n\n--\tDifficult\u00e9s de transport\n\n--\tAlerte canicule de niveaux 3 ou 4\n\n--\tPic de pollution\n\n\n\nDans ces circonstances, le salari\u00e9 peut  adresser une demande \u00e0 son sup\u00e9rieur hi\u00e9rarchique ou, \u00e0 d\u00e9faut, \u00e0 la Direction dans la forme pr\u00e9vue au pr\u00e9sent article. \n\nLa Direction de l\u2019Association dispose d\u2019un d\u00e9lai de trois jours ouvrables apr\u00e8s r\u00e9ception de la demande pour faire part de sa r\u00e9ponse au salari\u00e9 concern\u00e9. En l\u2019absence de r\u00e9ponse au terme de ce d\u00e9lai, la demande est r\u00e9put\u00e9e refus\u00e9e.\n\n\n\n\n\nArticle 11\u00a0: Mise en place sur proposition de l\u2019Association \n\n\n\nLa direction de l\u2019Association a la facult\u00e9 de proposer \u00e0 un salari\u00e9 d\u2019exercer ses missions sous forme de t\u00e9l\u00e9travail dans les conditions pr\u00e9vues par le pr\u00e9sent accord.\n\n\n\nLa proposition est formul\u00e9e par\u00a0:\n\n--\tcourrier recommand\u00e9\u00a0;\n\n--\tcourrier remis en main propre contre d\u00e9charge\u00a0;\n\n--\tcourrier \u00e9lectronique.\n\n\n\nLe salari\u00e9 dispose d\u2019un d\u00e9lai d\u2019un mois apr\u00e8s r\u00e9ception de la proposition pour faire part de son refus ou de son acceptation du recours du t\u00e9l\u00e9travail.\n\n\n\nA l\u2019expiration du d\u00e9lai\u00a0:\n\n--\tla proposition de l\u2019Association devient caduque\u00a0;\n\n--\tle salari\u00e9 est r\u00e9put\u00e9 avoir refus\u00e9 la proposition.\n\n\n\nLe refus du salari\u00e9 n\u2019est pas un motif de rupture du contrat de travail. \n\n\n\nArticle 12\u00a0: Formalisation de l\u2019accord et information du salari\u00e9\n\n\n\nLorsque le t\u00e9l\u00e9travail est organis\u00e9 dans le cadre du pr\u00e9sent accord, \u00e0 la demande du salari\u00e9 ou de celle de l\u2019Association, le salari\u00e9 re\u00e7oit une information \u00e9crite des conditions de mobilisation et de mise en \u0153uvre du t\u00e9l\u00e9travail \u00e0 travers la transmission du pr\u00e9sent accord.\n\n\n\nLe salari\u00e9 en t\u00e9l\u00e9travail est inform\u00e9 des dispositions l\u00e9gales et des r\u00e8gles propres \u00e0 l\u2019Association relatives \u00e0 la protection de ces donn\u00e9es et \u00e0 leur confidentialit\u00e9. Il est \u00e9galement inform\u00e9 de toute restriction de l\u2019usage des \u00e9quipements ou outils informatiques en application du r\u00e8glement int\u00e9rieur de l\u2019Association. Il incombe au salari\u00e9 en t\u00e9l\u00e9travail de se conformer \u00e0 ces r\u00e8gles. N\u00e9anmoins, d\u00e8s lors que le salari\u00e9 utilise un outil personnel, ces restrictions ne concernent que leur usage \u00e0 des fins professionnelles. \n\n\n\nArticle 13\u00a0: Changements de fonctions\n\n\n\nLors d\u2019un changement de fonction, l\u2019accord de l\u2019Association \u00e0 la situation de t\u00e9l\u00e9travail cesse de plein droit. \n\n\n\nSous r\u00e9serve de son \u00e9ligibilit\u00e9 dans le cadre de ses nouvelles fonctions, le salari\u00e9 peut formuler une demande de t\u00e9l\u00e9travail dans les conditions pr\u00e9vues au pr\u00e9sent accord. \n\n\n\nArticle 14\u00a0: T\u00e9l\u00e9travail \u00e0 titre temporaire\n\n\n\nLes salari\u00e9s n\u2019ayant pas le statut de t\u00e9l\u00e9travailleur, en raison d\u2019un choix personnel ou du fait qu\u2019ils ne r\u00e9pondent pas aux crit\u00e8res fix\u00e9s par le pr\u00e9sent accord, peuvent b\u00e9n\u00e9ficier, sur leur demande, \u00e0 titre exceptionnel et temporaire, du statut de t\u00e9l\u00e9travailleur apr\u00e8s avis ou prescription de la m\u00e9decine du travail. \n\n\n\nLe t\u00e9l\u00e9travail \u00e0 titre temporaire, dans les conditions du pr\u00e9sent article, ne peut \u00eatre sollicit\u00e9 que par le salari\u00e9.\n\n\n\n Celui-ci adresse sa demande\u00a0par l\u2019un des moyens suivants :\n\n--\tcourrier recommand\u00e9\u00a0;\n\n--\tcourrier remis en main propre\u00a0;\n\n--\tcourrier \u00e9lectronique.\n\n\n\nL\u2019Association dispose d\u2019un d\u00e9lai d\u2019un mois pour faire part de sa r\u00e9ponse. A d\u00e9faut de r\u00e9ponse au terme de ce d\u00e9lai, la demande est r\u00e9put\u00e9e refus\u00e9e. Tout refus fait l\u2019objet d\u2019une r\u00e9ponse motiv\u00e9e.\n\n\n\nLe choix des jours de t\u00e9l\u00e9travail fera l\u2019objet d\u2019une concertation entre le salari\u00e9 et son responsable hi\u00e9rarchique. A d\u00e9faut d\u2019accord, les jours de t\u00e9l\u00e9travail seront fix\u00e9s par le responsable hi\u00e9rarchique.\n\n\n\nArticle 15 : Circonstances exceptionnelles \n\n\n\nDes circonstances exceptionnelles peuvent temporairement rendre le t\u00e9l\u00e9travail n\u00e9cessaire afin de permettre la continuit\u00e9 de l\u2019activit\u00e9 de l\u2019Association et garantir la protection des salari\u00e9s.\n\n\n\nCes circonstances renvoient notamment aux situations suivantes\u00a0: \n\n--\tmenace d'\u00e9pid\u00e9mie\u00a0; \n\n--\tcas de force majeure\u00a0;\n\n\n\nDans ces hypoth\u00e8ses, le t\u00e9l\u00e9travail peut \u00eatre mis en place unilat\u00e9ralement et temporairement par la Direction de l\u2019Association pour la dur\u00e9e n\u00e9cessit\u00e9e par la gestion de ces \u00e9v\u00e9nements exceptionnels. \n\n\n\nDans ces circonstances, l\u2019employeur peut d\u00e9cider de l\u2019ex\u00e9cution de la totalit\u00e9 du temps de travail sous forme de t\u00e9l\u00e9travail.\n\n\n\nCet am\u00e9nagement du poste de travail ne constitue pas une modification du contrat de travail n\u00e9cessitant l\u2019accord du salari\u00e9.\n\n\n\nLes modalit\u00e9s de recours au t\u00e9l\u00e9travail (dur\u00e9e, salari\u00e9s concern\u00e9s, mat\u00e9riel mis \u00e0 disposition, etc.) sont fix\u00e9es par la Direction de l\u2019Association au regard de la situation rencontr\u00e9e. \n\n\n\nLes salari\u00e9s sont inform\u00e9s par tout moyen de la mise en \u0153uvre du t\u00e9l\u00e9travail au moins 7 jours calendaires \u00e0 l\u2019avance. N\u00e9anmoins, si la s\u00e9curit\u00e9 des salari\u00e9s est menac\u00e9e, l\u2019Association ne sera pas dans l\u2019obligation de respecter ce d\u00e9lai de pr\u00e9venance avant la mise en place unilat\u00e9rale du t\u00e9l\u00e9travail.\n\n\n\n\n\nTitre V\u00a0: Conditions d\u2019ex\u00e9cution du t\u00e9l\u00e9travail\n\n\n\nArticle 16\u00a0: T\u00e9l\u00e9travail r\u00e9gulier \u00e0 jour flexible\n\n\n\nLa mise en \u0153uvre du t\u00e9l\u00e9travail se fait avec un maximum de quatre journ\u00e9es compl\u00e8tes de t\u00e9l\u00e9travail par mois.\n\n\n\nLes jours de t\u00e9l\u00e9travail sont fix\u00e9s par un accord entre le salari\u00e9 et son responsable hi\u00e9rarchique. \n\n\n\nLe salari\u00e9 formule la demande par courrier \u00e9lectronique \u00e0 son responsable hi\u00e9rarchique dans le respect d\u2019un d\u00e9lai de pr\u00e9venance de 48H ouvr\u00e9es. En l\u2019absence du responsable hi\u00e9rarchique, un autre membre de la Direction peut \u00eatre sollicit\u00e9. La demande devra mentionner la nature des t\u00e2ches \u00e0 r\u00e9aliser en t\u00e9l\u00e9travail.\n\n\n\nEn l\u2019absence du responsable hi\u00e9rarchique, un autre membre de la Direction peut \u00eatre sollicit\u00e9.\n\n\n\nL\u2019absence de r\u00e9ponse vaut refus de la demande.\n\n\n\nArticle 17\u00a0: Droits et obligations du t\u00e9l\u00e9travailleur\n\n\n\nLe t\u00e9l\u00e9travail constitue simplement une modalit\u00e9 particuli\u00e8re d\u2019ex\u00e9cution de la prestation de travail. Le t\u00e9l\u00e9travailleur\u00a0demeure un salari\u00e9 de l\u2019Association.\n\n\n\nSous r\u00e9serve des particularit\u00e9s li\u00e9es \u00e0 son statut, le t\u00e9l\u00e9travailleur\u00a0b\u00e9n\u00e9ficie de l\u2019\u00e9galit\u00e9 de traitement avec les autres salari\u00e9s de l\u2019Association\u00a0et dispose des m\u00eames droits individuels et collectifs. Il est \u00e9galement tenu aux m\u00eames obligations que ceux applicables aux salari\u00e9s plac\u00e9s dans une situation comparable. \n\n\n\nArticle 18\u00a0: Pr\u00e9sence obligatoire\n\n\n\nLe t\u00e9l\u00e9travailleur doit, sans pouvoir opposer \u00e0 la Direction de l\u2019Association son statut, se rendre obligatoirement dans l\u2019Association ou tout autre lieu port\u00e9 \u00e0 sa connaissance lorsque sa pr\u00e9sence est obligatoire. Il s\u2019agit notamment des hypoth\u00e8ses suivantes\u00a0: \n\n\n\n--\tr\u00e9union d\u2019\u00e9quipe\u00a0;\n\n--\tformation\u00a0;\n\n--\trencontre avec des personnes accompagn\u00e9es par l\u2019Association\u00a0;\n\n--\trencontre avec des partenaires de l\u2019Association\u00a0;\n\n--\tentretien avec la hi\u00e9rarchie\u00a0;\n\n--\tabsence ou cong\u00e9 exceptionnel d\u2019un salari\u00e9 appartenant au m\u00eame service\u00a0;\n\n\n\nAucun report des jours non-t\u00e9l\u00e9travaill\u00e9s n\u2019est d\u00fb \u00e0 ce titre.\n\n\n\n\n\nArticle 19\u00a0: Lutte contre l\u2019isolement\n\n\n\nLe t\u00e9l\u00e9travail peut avoir pour cons\u00e9quence d\u2019entra\u00eener l\u2019isolement du salari\u00e9 en raison de l\u2019\u00e9loignement de son lieu de travail. \n\n\n\nLes signataires de l\u2019accord conviennent que la lutte contre l\u2019isolement se traduit aussi par l\u2019exigence d\u2019une pr\u00e9sence physique du t\u00e9l\u00e9travailleur dans les locaux de l\u2019Association \u00e0 hauteur d\u2019au moins deux jours par semaine.\n\n\n\n\n\nArticle 20\u00a0: Temps de travail\n\n\n\nLe temps de travail du t\u00e9l\u00e9travailleur s\u2019articule dans les m\u00eames conditions que le temps de travail des autres salari\u00e9s de l\u2019Association. Ainsi, le t\u00e9l\u00e9travailleur effectue sa prestation de travail selon le r\u00e9gime du temps de travail qui lui est applicable (temps complet, temps partiel, forfait en heures ou en jours\u2026). \n\n\n\nDans ces conditions, le t\u00e9l\u00e9travail ne saurait avoir pour cons\u00e9quence de modifier ni l\u2019horaire habituel, ni l\u2019amplitude de travail effectif applicable lorsque le salari\u00e9 effectue son activit\u00e9 au sein des locaux de l\u2019Association.\n\n\n\nLe temps de travail d\u2019un t\u00e9l\u00e9travailleur est \u00e9valu\u00e9 au regard du temps de pr\u00e9sence dans l\u2019Association et de celui r\u00e9alis\u00e9 en situation de t\u00e9l\u00e9travail. \n\n\n\nLes signataires rappellent que le t\u00e9l\u00e9travail ne doit pas avoir pour effet d\u2019entra\u00eener un d\u00e9passement des dur\u00e9es maximales de temps de travail ou le non-respect des dur\u00e9es minimales de temps de repos.\n\n\n\nIl appartient conjointement \u00e0 la Direction de l\u2019Association et au t\u00e9l\u00e9travailleur, en raison de la sp\u00e9cificit\u00e9 de sa situation de travail, de veiller au respect des dispositions l\u00e9gales ou conventionnelles relatives au temps de travail et de repos.\n\nCes r\u00e8gles s\u2019appliquent indiff\u00e9remment selon que le salari\u00e9 est pr\u00e9sent dans l\u2019Association ou exerce sous forme de t\u00e9l\u00e9travail. \n\n\n\nIl est aussi rappel\u00e9 qu\u2019ont le caract\u00e8re d\u2019heures de travail suppl\u00e9mentaires (ou compl\u00e9mentaires pour les salari\u00e9s \u00e0 temps partiel) et sont r\u00e9mun\u00e9r\u00e9es en tant que telles, les seules heures effectu\u00e9es \u00e0 la demande de la Direction.\n\n\n\nArticle 21 : R\u00e9gulation de la charge de travail\n\n\n\nArticle 21.1 : Organisation de la charge de travail\n\n\n\nL\u2019activit\u00e9 des t\u00e9l\u00e9travailleurs doit \u00eatre \u00e9quivalente \u00e0 celle des autres travailleurs plac\u00e9s dans une situation identique. Le t\u00e9l\u00e9travail ne doit pas entra\u00eener de surcharge de travail. D\u00e8s lors, le cas \u00e9ch\u00e9ant, les objectifs fix\u00e9s, les r\u00e9sultats attendus et les modalit\u00e9s d\u2019\u00e9valuation sont similaires \u00e0 ceux des salari\u00e9s ne relevant pas du statut de t\u00e9l\u00e9travailleur.\n\n\n\nL\u2019organisation du travail, la charge de travail et la r\u00e9partition dans le temps du travail des salari\u00e9s fait l\u2019objet d\u2019un suivi r\u00e9gulier par la hi\u00e9rarchie qui veillera notamment \u00e0 ce que\u00a0:\n\n\n\n--\tle salari\u00e9 ne soit pas plac\u00e9 dans une situation de surcharge de travail\u00a0;\n\n--\tles dur\u00e9es maximales de travail, l\u2019amplitude maximale de travail et les dur\u00e9es minimales de repos soient respect\u00e9es.\n\n\n\nCe suivi est notamment assur\u00e9 par\u00a0la tenue des entretiens p\u00e9riodiques.\n\n\n\nArticle 21.2 : Entretien p\u00e9riodique\n\n\n\nUn entretien annuel est organis\u00e9 entre le t\u00e9l\u00e9travailleur et son sup\u00e9rieur hi\u00e9rarchique. Le cas \u00e9ch\u00e9ant, cet entretien pourra \u00eatre coupl\u00e9 \u00e0 l\u2019entretien professionnel obligatoire.\n\n\n\nL\u2019entretien aborde les th\u00e8mes suivants\u00a0: \n\n\n\n--\tla charge de travail du salari\u00e9\u00a0;\n\n--\tles conditions d\u2019activit\u00e9 du t\u00e9l\u00e9travailleur\u00a0;\n\n--\tl\u2019information g\u00e9n\u00e9rale sur l\u2019activit\u00e9 du service et de l\u2019Association\u00a0;\n\n--\tle respect des dur\u00e9es maximales de travail et d\u2019amplitude, le respect des dur\u00e9es minimales des repos\u00a0;\n\n--\tl\u2019articulation entre vie priv\u00e9e et professionnelle\u00a0;\n\n\n\nPar ailleurs, le salari\u00e9 qui entre deux entretiens p\u00e9riodiques rencontre des difficult\u00e9s inhabituelles dans l\u2019organisation de son travail, dans la prise de ses cong\u00e9s ou temps de repos, estime que sa charge de travail est trop importante ou ressent un sentiment d\u2019isolement, a le devoir d\u2019alerter imm\u00e9diatement sa hi\u00e9rarchie en transmettant des \u00e9l\u00e9ments sur la situation invoqu\u00e9e afin que la situation soit analys\u00e9e et, le cas \u00e9ch\u00e9ant, corrig\u00e9e. \n\n\n\nArticle 22 : Droit \u00e0 la d\u00e9connexion\n\n\n\nLes salari\u00e9s en t\u00e9l\u00e9travail pourront exercer leur droit \u00e0 la d\u00e9connexion conform\u00e9ment aux dispositions de la charte sur le droit \u00e0 la d\u00e9connexion en date du 13 juillet 2022. Cette charte est annex\u00e9e au pr\u00e9sent accord.\n\n\n\nDans ce cadre, les appels t\u00e9l\u00e9phoniques, les courriers \u00e9lectroniques envoy\u00e9s ou re\u00e7us le soir, le week-end et en cas d\u2019absence (cong\u00e9s, arr\u00eat maladie, etc.) n\u2019appellent pas de r\u00e9ponse durant ces p\u00e9riodes, sauf en cas d\u2019astreinte.\n\n\n\nA ce titre, le salari\u00e9 en t\u00e9l\u00e9travail dispose de la possibilit\u00e9 de se d\u00e9connecter des \u00e9quipements mis \u00e0 disposition par l\u2019Association. \n\n\n\nArticle 23\u00a0: Respect de la vie priv\u00e9e\n\n\n\nLe t\u00e9l\u00e9travail doit s\u2019articuler avec le principe du respect de la vie priv\u00e9e du salari\u00e9.\n\n\n\nDans ces conditions, les signataires pr\u00e9voient plusieurs mesures destin\u00e9es \u00e0 assurer au mieux cette articulation.\n\n\n\nL\u2019employeur fixe, en concertation avec le salari\u00e9, les plages horaires durant lesquelles il peut le contacter, en coh\u00e9rence avec les horaires de travail en vigueur dans l\u2019Association. En l\u2019absence d\u2019accord, ces plages horaires correspondront aux horaires de travail applicables au salari\u00e9.\n\n\n\nLe t\u00e9l\u00e9travailleur doit, pendant son temps de travail, consulter r\u00e9guli\u00e8rement sa messagerie et r\u00e9pondre, sauf circonstances exceptionnelles, aux diverses sollicitations de l\u2019Association dans les meilleurs d\u00e9lais sous respect des r\u00e8gles relatives aux dur\u00e9es maximales de travail et aux temps de repos.\n\n\n\nAfin d\u2019assurer de pr\u00e9server dans les meilleures conditions le respect de la vie priv\u00e9e, il est convenu que\u00a0:\n\n\n\n--\tl\u2019Association ne diffusera pas les coordonn\u00e9es personnelles du t\u00e9l\u00e9travailleur\u00a0;\n\n--\tlorsqu\u2019est organis\u00e9e une r\u00e9union \u00e0 distance au moyen de l\u2019outil informatique le t\u00e9l\u00e9travailleur n\u2019est pas dans l\u2019obligation de faire fonctionner sa webcam. Il peut, s\u2019il le souhaite, n\u2019utiliser qu\u2019un moyen de diffusion audio.\n\n\n\n\n\n\n\nArticle 24\u00a0: Suspension temporaire du t\u00e9l\u00e9travail\n\n\n\nLa direction pourra suspendre temporairement le t\u00e9l\u00e9travail d\u2019un salari\u00e9 et demander la pr\u00e9sence physique du salari\u00e9 au sein de l\u2019Association notamment dans l\u2019une des hypoth\u00e8ses suivantes\u00a0: \n\n--\tremplacement d\u2019un salari\u00e9 absent\u00a0;\n\n--\tsurcro\u00eet exceptionnel d\u2019activit\u00e9\u00a0;\n\n--\tpanne de mat\u00e9riel n\u00e9cessaire au t\u00e9l\u00e9travail.\n\n\n\n\n\nArticle 25\u00a0: Suspension du contrat de travail\n\n\n\nLorsque le contrat de travail est suspendu, et ce quelle que soit la cause de cette suspension (arr\u00eat maladie, cong\u00e9s pay\u00e9s\u2026), le t\u00e9l\u00e9travailleur ne doit pas fournir de prestation de travail que ce soit en au sein des locaux de l\u2019Association ou sous forme de t\u00e9l\u00e9travail.   \n\n\n\nEn cas d\u2019arr\u00eat de travail pour cause de maladie ou accident, professionnel ou non, le t\u00e9l\u00e9travailleur est tenu d\u2019informer la Direction dans les m\u00eames conditions, d\u00e9lais et forme que celles applicables pour l\u2019ensemble des salari\u00e9s.\n\n\n\n\n\nTitre VI\u00a0: Fin du t\u00e9l\u00e9travail\n\n\n\nArticle 26\u00a0: Caract\u00e8re r\u00e9versible du t\u00e9l\u00e9travail \n\n\n\nLes parties signataires conviennent que le t\u00e9l\u00e9travail ne pr\u00e9sente pas un caract\u00e8re contractuel. Ainsi, l\u2019Association comme le salari\u00e9 pourront mettre fin au t\u00e9l\u00e9travail moyennant le respect d\u2019un d\u00e9lai de pr\u00e9avis d\u2019une semaine sans que cette suppression ne puisse \u00eatre assimilable \u00e0 une modification du contrat de travail.\n\n\n\nL\u2019information de l\u2019autre partie est r\u00e9alis\u00e9e par\u00a0:\n\n--\tcourrier recommand\u00e9\u00a0;\n\n--\tcourrier remis en main propre\u00a0;\n\n--\tcourrier \u00e9lectronique.\n\n\n\n\n\nTitre VII\u00a0: Hygi\u00e8ne et s\u00e9curit\u00e9\n\n\n\nArticle 27\u00a0: Sant\u00e9 et s\u00e9curit\u00e9 du t\u00e9l\u00e9travailleur\n\n\n\nL\u2019Association s\u2019assure de la sant\u00e9 et la s\u00e9curit\u00e9 du t\u00e9l\u00e9travailleur et en organise la pr\u00e9vention. Ce dernier est lui-m\u00eame tenu \u00e0 cette obligation vis-\u00e0-vis de sa propre personne. En cons\u00e9quence, les lieux dans lesquels s\u2019exerce le t\u00e9l\u00e9travail doivent r\u00e9pondre aux r\u00e8gles relatives \u00e0 l\u2019hygi\u00e8ne et la s\u00e9curit\u00e9 applicables \u00e0 tout travailleur.\n\n\n\nL\u2019attestation de conformit\u00e9 des lieux de travail \u00e9tablie par le salari\u00e9, dans les conditions pr\u00e9c\u00e9demment \u00e9nonc\u00e9es, garantit que le salari\u00e9 a v\u00e9rifi\u00e9 qu\u2019il pouvait exercer sa mission dans le respect des r\u00e8gles d\u2019hygi\u00e8ne et de s\u00e9curit\u00e9.\n\n\n\nSur demande \u00e9crite du salari\u00e9, un membre de l\u2019Association accompagn\u00e9 par un membre du CSE pourra venir visiter les lieux afin de s\u2019assurer de leur conformit\u00e9 et le cas \u00e9ch\u00e9ant faire part de ses pr\u00e9conisations.\n\n\n\nLe r\u00e9gime l\u00e9gal des accidents de travail est applicable aux situations de t\u00e9l\u00e9travail.\n\n  \n\n\n\nTitre VIII\u00a0: Equipement du t\u00e9l\u00e9travailleur\n\n\n\nArticle 28 : Equipement mis \u00e0 disposition du t\u00e9l\u00e9travailleur\n\n\n\nDans le cadre du t\u00e9l\u00e9travail, l\u2019Association met \u00e0 la disposition du t\u00e9l\u00e9travailleur les \u00e9quipements suivants\u00a0: \n\n--\tt\u00e9l\u00e9phone portable\u00a0;\n\n--\tacc\u00e8s \u00e0 distance au serveur de l\u2019Association\u00a0;\n\n--\tordinateur portable.\n\n\n\nEn cas de circonstances exceptionnelles, \u00e0 des fins de mise en \u0153uvre en urgence du t\u00e9l\u00e9travail, l\u2019employeur peut demander au salari\u00e9 d\u2019utiliser un \u00e9quipement informatique personnel si ce dernier en poss\u00e8de. Le salari\u00e9 a la facult\u00e9 de refuser cette demande. En cas d\u2019acceptation, l\u2019Association prend en charge les frais d\u2019installation de logiciels et des moyens d\u2019acc\u00e8s \u00e0 distance au serveur.\n\n\n\nLes \u00e9quipements fournis sont la propri\u00e9t\u00e9 de l\u2019Association. \n\n\n\nLe salari\u00e9 en a l\u2019usage tout au long de l\u2019ex\u00e9cution du contrat de travail sous forme de t\u00e9l\u00e9travail. Le salari\u00e9 restitue imp\u00e9rativement cet \u00e9quipement lorsqu\u2019il n\u2019a plus le statut de t\u00e9l\u00e9travailleur ou en cas de d\u00e9part de l\u2019Association. \n\nEn cas de panne ou de dysfonctionnement de l\u2019\u00e9quipement, le salari\u00e9 informe l\u2019Association sans d\u00e9lai afin qu\u2019une solution soit apport\u00e9e au probl\u00e8me rencontr\u00e9. Il pourra \u00e9ventuellement \u00eatre demand\u00e9 au salari\u00e9 de transporter l\u2019\u00e9quipement d\u00e9fectueux dans les locaux de l\u2019Association.\n\n\n\nSi la panne rend impossible la poursuite du t\u00e9l\u00e9travail, les conditions de travail s\u2019ex\u00e9cutent temporairement, jusqu\u2019au r\u00e9tablissement des conditions permettant la poursuite du t\u00e9l\u00e9travail, dans les conditions suivantes\u00a0: \n\n\n\n--\tlorsque la panne constat\u00e9e r\u00e9sulte d\u2019un dysfonctionnement des \u00e9quipements fournis par l\u2019Association, le t\u00e9l\u00e9travailleur est r\u00e9put\u00e9 pendant la dur\u00e9e de la panne, et dans la limite de la journ\u00e9e o\u00f9 celle-ci intervient, \u00eatre en situation de travail. Ce temps n\u2019est pas r\u00e9cup\u00e9rable. Si la panne persiste au-del\u00e0 de la journ\u00e9e, le t\u00e9l\u00e9travailleur est tenu de se rendre le jour ouvr\u00e9 suivant au sein de l\u2019Association pour r\u00e9aliser sa prestation de travail jusqu\u2019\u00e0 la r\u00e9solution du probl\u00e8me.\n\n\n\n--\tdans les autres situations, notamment lorsque l\u2019employeur met \u00e0 disposition des \u00e9quipements et que le salari\u00e9 choisit d\u2019utiliser son propre \u00e9quipement informatique, ce temps est r\u00e9cup\u00e9rable. Si la panne persiste au-del\u00e0 de la journ\u00e9e, le t\u00e9l\u00e9travailleur est tenu de se rendre le lendemain au sein de l\u2019Association pour r\u00e9aliser sa prestation de travail jusqu\u2019\u00e0 la r\u00e9solution du probl\u00e8me. Dans cette situation, le salari\u00e9 a la possibilit\u00e9 de reprendre imm\u00e9diatement le travail dans les locaux de l\u2019Association, le jour m\u00eame de la survenance de la panne. \n\n\n\nArticle 29\u00a0: Utilisation professionnelle de l\u2019\u00e9quipement mis \u00e0 disposition\n\n\n\nLe mat\u00e9riel et les abonnements mis \u00e0 disposition du t\u00e9l\u00e9travailleur par l\u2019Association doivent faire l\u2019objet d\u2019une utilisation conforme au r\u00e8glement int\u00e9rieur en vigueur au sein de l\u2019Association.\n\nIls sont r\u00e9serv\u00e9s \u00e0 un usage professionnel exclusif.\n\n\n\nArticle 30\u00a0: Protection des donn\u00e9es informatiques\n\n\n\nL\u2019utilisation du mat\u00e9riel informatique, l\u2019acc\u00e8s au r\u00e9seau internet et la protection des donn\u00e9es auxquelles le salari\u00e9 a acc\u00e8s dans le cadre du t\u00e9l\u00e9travail se r\u00e9alisent conform\u00e9ment aux dispositions du r\u00e8glement int\u00e9rieur de l\u2019Association.\n\n\n\n\n\nTitre IX\u00a0: Dispositions finales\n\n\n\nArticle 31 : Consultation du comit\u00e9 \u00e9conomique et social\n\n\n\nLe pr\u00e9sent accord est soumis avant sa signature \u00e0 la consultation du comit\u00e9 social et \u00e9conomique (CSE).\n\n\n\n\n\nArticle 32 : Dur\u00e9e de l'accord\n\n\n\nLe pr\u00e9sent accord est conclu pour une dur\u00e9e ind\u00e9termin\u00e9e. \n\n\n\nIl prend effet d\u00e8s sa signature.\n\n\n\nArticle 33 : Adh\u00e9sion \n\n\n\nToute organisation syndicale de salari\u00e9s repr\u00e9sentative dans l\u2019Association, qui n'est pas signataire du pr\u00e9sent accord, pourra y adh\u00e9rer ult\u00e9rieurement.\n\n\n\nL'adh\u00e9sion produira effet \u00e0 partir du jour qui suivra celui de son d\u00e9p\u00f4t au greffe du conseil de prud'hommes comp\u00e9tent et \u00e0 la DREETS.\n\n\n\nNotification devra \u00e9galement en \u00eatre faite, dans le d\u00e9lai de huit jours, par lettre recommand\u00e9e, aux parties signataires.\n\n\n\nArticle 34 : Interpr\u00e9tation de l'accord\n\n\n\nLes repr\u00e9sentants de chacune des parties signataires conviennent de se rencontrer \u00e0 la requ\u00eate de la partie la plus diligente, dans un d\u00e9lai d\u2019un mois suivant la demande pour \u00e9tudier et tenter de r\u00e9gler tout diff\u00e9rend d'ordre individuel ou collectif n\u00e9 de l'application du pr\u00e9sent accord.\n\n\n\nLes avenants interpr\u00e9tatifs de l\u2019accord sont adopt\u00e9s \u00e0 l\u2019unanimit\u00e9 des signataires de l\u2019accord.\n\nLes avenants interpr\u00e9tatifs doivent \u00eatre conclus dans un d\u00e9lai maximum de 2 mois suivant la premi\u00e8re r\u00e9union de n\u00e9gociation. A d\u00e9faut, il sera dress\u00e9 un proc\u00e8s-verbal de d\u00e9saccord.\n\n\n\nJusqu'\u00e0 l'expiration de la n\u00e9gociation d'interpr\u00e9tation, les parties contractantes s'engagent \u00e0 ne susciter aucune forme d'action contentieuse li\u00e9e au diff\u00e9rend faisant l'objet de cette proc\u00e9dure.\n\n\n\nArticle 35 : R\u00e9vision de l\u2019accord\n\n\n\nL\u2019accord fera l\u2019objet d\u2019une \u00e9valuation par la Direction et les repr\u00e9sentants du personnel un an apr\u00e8s son entr\u00e9e en vigueur. Il fera ensuite l\u2019objet d\u2019une \u00e9valuation par la Direction et les repr\u00e9sentants du personnel tous les trois ans.\n\n\n\nL\u2019accord pourra \u00eatre r\u00e9vis\u00e9 \u00e0 la suite de sa prise d\u2019effet.\n\n\n\nLa proc\u00e9dure de r\u00e9vision du pr\u00e9sent accord ne peut \u00eatre engag\u00e9e que par la Direction, l\u2019une des parties signataires ou l\u2019une des parties habilit\u00e9es en application des dispositions du Code du travail.\n\n\n\nInformation devra en \u00eatre faite \u00e0 la Direction, lorsque celle-ci n\u2019est pas \u00e0 l\u2019origine de l\u2019engagement de la proc\u00e9dure, et \u00e0 chacune des autres parties habilit\u00e9es \u00e0 engager la proc\u00e9dure de r\u00e9vision par courrier recommand\u00e9 avec accus\u00e9 de r\u00e9ception ou courrier remis en main propre contre d\u00e9charge.\n\n\n\nArticle 36 : D\u00e9nonciation de l\u2019accord \n\n\n\nLe pr\u00e9sent accord pourra \u00eatre d\u00e9nonc\u00e9 par l'une ou l'autre des parties signataires ou tout autre organisation syndicale de salari\u00e9s repr\u00e9sentative de l\u2019Association moyennant un pr\u00e9avis de 3 mois. \n\n\n\nLa partie qui d\u00e9nonce l'accord doit notifier cette d\u00e9cision par lettre recommand\u00e9e avec accus\u00e9 de r\u00e9ception \u00e0 l'autre partie.\n\n\n\nLa Direction et les organisations syndicales repr\u00e9sentatives se r\u00e9uniront pendant la dur\u00e9e du pr\u00e9avis pour discuter les possibilit\u00e9s d'un nouvel accord.\n\n\n\nArticle 37 : Communication de l'accord\n\n\n\nLe texte du pr\u00e9sent accord, une fois sign\u00e9, sera notifi\u00e9 \u00e0 l'ensemble des organisations syndicales disposant d'une section syndicale au sein de l\u2019Association.\n\n\n\nArticle 38\u00a0: D\u00e9p\u00f4t de l\u2019accord\n\n\n\nLe pr\u00e9sent accord donnera lieu \u00e0 d\u00e9p\u00f4t dans les conditions pr\u00e9vues aux articles L. 2231-6 et D. 2231-2 et suivants du Code du travail\n\n\n\nIl sera d\u00e9pos\u00e9\u00a0:\n\n\n\n--\tsur la plateforme de t\u00e9l\u00e9proc\u00e9dure d\u00e9nomm\u00e9e \u00abT\u00e9l\u00e9Accords\u00a0\u00bb accompagn\u00e9 des pi\u00e8ces pr\u00e9vues \u00e0 l\u2019article D. 2231-7 du Code du travail\u00a0;\n\n--\tet en un exemplaire aupr\u00e8s du greffe du conseil de prud'hommes de NANTES.\n\n\n\nArticle 39\u00a0: Information des salari\u00e9s\n\n\n\nLes salari\u00e9s sont inform\u00e9s du contenu du pr\u00e9sent accord par\u00a0mise \u00e0 disposition sur le serveur de l\u2019Association.\n\n\n\n\n\nArticle 40 : Publication de l\u2019accord\n\n\n\nLe pr\u00e9sent accord fera l\u2019objet d\u2019une publication dans la base de donn\u00e9es nationale vis\u00e9e \u00e0 l\u2019article L. 2231-5-1 du Code du travail dans une version ne comportant pas les noms et pr\u00e9noms des n\u00e9gociateurs et des signataires.\n\n\n\n\n\n\n\n\n\nFait \u00e0 REZE, le 13 juillet 2022.\n\n\n\n\n\nEn six exemplaires originaux, dont un pour remise \u00e0 chaque partie signataire.\n\n\n\n\n\nPour l\u2019Association TRAJET\n\n\n\n\n\n\n\n\n\n\n\n\n\nPour l\u2019organisation syndicale CFDT\n\n\n\n\n\n\nConformit\u00e9 du lieu de t\u00e9l\u00e9travail\n\nAttestation sur l\u2019honneur\n\n\n\n\n\n\n\nJe, soussign\u00e9,\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..\n\n\n\nAtteste sur l\u2019honneur disposer \u00e0 mon domicile situ\u00e9 \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\n\n\n\n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...\n\n\n\nd\u2019une pi\u00e8ce permettant\u00a0:\n\n\n\n--\tD\u2019exercer mes missions professionnelles dans des conditions optimales, exclusives de toute forme de nuisance extraprofessionnelle\n\n\n\n--\tD\u2019exercer mon travail dans des conditions conformes aux r\u00e8gles d\u2019hygi\u00e8ne et de s\u00e9curit\u00e9 applicables \u00e0 tout travailleur\n\n\n\n--\tDe me consacrer \u00e0 mon activit\u00e9 lors de son temps de travail\n\n\n\n--\tD\u2019installer les outils informatiques et de communication n\u00e9cessaires \u00e0 mon activit\u00e9\n\n\n\nJ\u2019atteste la conformit\u00e9 des installations \u00e9lectriques, conditionnant l\u2019accord de l\u2019Association Trajet pour la mise en place du t\u00e9l\u00e9travail.\n\n\n\nJe suis inform\u00e9 du fait que le t\u00e9l\u00e9travail est conditionn\u00e9 \u00e0 la transmission d\u2019une attestation d\u2019assurance garantissant les risques li\u00e9s au t\u00e9l\u00e9travail applicable au lieu o\u00f9 celui-ci sera ex\u00e9cut\u00e9.\n\n\n\nJe suis inform\u00e9 de la possibilit\u00e9 de demander par \u00e9crit \u00e0 un membre de l\u2019Association accompagn\u00e9 par un membre du CSE de venir visiter mon domicile afin de m\u2019assurer de la conformit\u00e9 des lieux.\n\n\n\n\n\n\n\nFait \u00e0 \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\n\n\n\nLe \u2026..\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\n\n\n\n\n\nSignature\u00a0: \n\n\n\n\n\n\nCharte unilat\u00e9rale sur le droit \u00e0 la d\u00e9connexion\n\n \n\n\n\nPr\u00e9ambule\n\n\n\nLa pr\u00e9sente charte d\u00e9finit les modalit\u00e9s d'exercice de ce droit par les salari\u00e9s, conform\u00e9ment \u00e0 l'alin\u00e9a 7 de l'article L. 2242-8 du code du travail.\n\n\n\nElle synth\u00e9tise les recommandations applicables \u00e0 tous les salari\u00e9s afin d\u2019assurer l\u2019effectivit\u00e9 du droit \u00e0 la d\u00e9connexion ainsi que les modalit\u00e9s selon lesquelles ce droit sera garanti.\n\n\n\nL\u2019Association souhaite r\u00e9affirmer l\u2019importance d\u2019un bon usage des outils informatiques en vue d\u2019un n\u00e9cessaire respect des temps de repos et de cong\u00e9 ainsi que de l\u2019\u00e9quilibre entre vie priv\u00e9e et familiale et vie professionnelle.\n\n\n\nArticle 1 : Champ d\u2019application \n\n\n\nLa pr\u00e9sente charte a vocation \u00e0 s\u2019appliquer \u00e0 l\u2019ensemble des salari\u00e9s de l\u2019Association Trajet.\n\n\n\nArticle 2 : D\u00e9finition du droit \u00e0 la d\u00e9connexion\n\n\n\nLe droit \u00e0 la d\u00e9connexion peut \u00eatre d\u00e9fini comme le droit du salari\u00e9 de ne pas \u00eatre connect\u00e9 aux outils num\u00e9riques professionnels et ne pas \u00eatre contact\u00e9, y compris sur ses outils de communication personnels, pour un motif professionnel en dehors de son temps de travail habituel.\n\n\n\nLes outils num\u00e9riques vis\u00e9s sont :\n\n--\tles outils num\u00e9riques physiques : ordinateurs, tablettes, t\u00e9l\u00e9phones portables, r\u00e9seaux filaires, etc.\n\n--\tles outils num\u00e9riques d\u00e9mat\u00e9rialis\u00e9s permettant d'\u00eatre joint \u00e0 distance : messagerie \u00e9lectronique, logiciels, connexion wifi, internet/intranet, etc.\n\n\n\nLe temps de travail habituel correspond aux horaires de travail du salari\u00e9 durant lesquels il demeure \u00e0 la disposition de l'entreprise. Ce temps comprend les heures normales de travail du salari\u00e9 et les \u00e9ventuelles heures suppl\u00e9mentaires.\n\n\n\nEn sont exclus les temps de repos quotidien et hebdomadaire, les temps de cong\u00e9s pay\u00e9s et autres cong\u00e9s exceptionnels ou non, les temps de jours f\u00e9ri\u00e9s et de jours de repos, les temps d'absences autoris\u00e9es, de quelque nature que ce soit (absence pour maladie, pour parentalit\u00e9, etc.).\n\n\n\nArticle 3 : Mesures visant \u00e0 lutter contre l\u2019utilisation des outils num\u00e9riques et de communication professionnels hors temps de travail et mesures favorisant la communication\n\n\n\nAucun salari\u00e9 n'est tenu de r\u00e9pondre \u00e0 des courriers \u00e9lectroniques, messages ou appels t\u00e9l\u00e9phoniques \u00e0 caract\u00e8re professionnel en dehors de ses heures habituelles de travail, pendant ses cong\u00e9s pay\u00e9s, ses temps de repos et ses absences, quelle qu'en soit la nature.\n\nAfin d\u2019\u00e9viter la surcharge informationnelle, il est recommand\u00e9 \u00e0 tous les salari\u00e9s de : \n\n\n\n--\ts'interroger sur le moment opportun pour adresser un courriel, un message ou joindre un collaborateur par t\u00e9l\u00e9phone ;\n\n--\tne pas solliciter de r\u00e9ponse imm\u00e9diate si ce n'est pas n\u00e9cessaire ;\n\n--\tutiliser avec mod\u00e9ration les fonctions \u00ab CC \u00bb, \u00ab Cci \u00bb ou \u00ab\u00a0R\u00e9pondre \u00e0 tous\u00a0\u00bb ;\n\n--\tindiquer un objet pr\u00e9cis permettant au destinataire d\u2019identifier imm\u00e9diatement le contenu du courriel\u00a0;\n\n--\tprivil\u00e9gier les envois diff\u00e9r\u00e9s lors de la r\u00e9daction d\u2019un courriel en dehors des horaires de travail\u00a0;\n\n--\tpour les absences d\u2019au moins deux jours, param\u00e9trer le gestionnaire d'absence du bureau sur sa messagerie \u00e9lectronique et indiquer les modalit\u00e9s de contact d'un membre de l'entreprise en cas d'urgence. D\u00e9sactiver le gestionnaire d\u2019absence \u00e0 son retour ;\n\n--\tpour les absences d\u2019au moins deux jours, activer une annonce temporaire d\u2019accueil sur son r\u00e9pondeur t\u00e9l\u00e9phonique et le d\u00e9sactiver au retour\u00a0;\n\n--\t\u00e9teindre les \u00e9quipements num\u00e9riques en dehors du temps de travail\u00a0;\n\n--\tne pas installer de moyens de communication \u00e9lectronique (messagerie \u00e9lectronique, messagerie instantan\u00e9e) sur des \u00e9quipements personnels (t\u00e9l\u00e9phone portable, ordinateur, tablette)\u00a0;\n\n--\tne pas utiliser son t\u00e9l\u00e9phone personnel pour des communications \u00e0 des fins professionnelles.\n\n\n\nArticle 4\u00a0: Importance du respect du temps de travail \n\n\n\nL\u2019employeur doit s\u2019assurer r\u00e9guli\u00e8rement par le biais des entretiens obligatoires notamment, que la charge de travail du/de la salari\u00e9(e) est raisonnable et permet une bonne r\u00e9partition dans le temps de son travail.\n\n\n\nIl est rappel\u00e9 pour tous les salari\u00e9s quel que soit leur r\u00e9gime de travail, l\u2019importance de respecter les dur\u00e9es maximales journali\u00e8res de travail.\n\nUne amplitude horaire trop importante par jour ou par semaine peut masquer des dysfonctionnements et potentiellement d\u00e9boucher sur des situations d\u2019atteinte \u00e0 la sant\u00e9 du salari\u00e9. \n\n\n\nArticle 4 bis\u00a0: Droit \u00e0 la d\u00e9connexion en dehors du temps de travail effectif \n\n\n\nLes p\u00e9riodes de repos, cong\u00e9 et suspension du contrat de travail doivent \u00eatre respect\u00e9es par l\u2019ensemble du personnel de l\u2019Association.\n\nSauf urgence av\u00e9r\u00e9e, les responsables hi\u00e9rarchiques ne peuvent pas contacter leurs collaborateurs en dehors de leurs horaires de travail tels que d\u00e9finis au contrat de travail ou par l\u2019horaire collectif applicable.\n\n\n\nConcernant plus particuli\u00e8rement l\u2019usage de la messagerie \u00e9lectronique professionnelle, les salari\u00e9s ne sont pas tenus de prendre connaissance des courriels qui leurs sont adress\u00e9s ou d\u2019y r\u00e9pondre en dehors de leurs temps de travail.\n\nIl en est de m\u00eame des appels ou messages t\u00e9l\u00e9phoniques professionnels re\u00e7us pendant les temps de repos ou de cong\u00e9. \n\n\n\n\n\n\n\n\n\n\n\nArticle 5 : Actions men\u00e9es par l\u2019Association\n\n\n\nPour s'assurer du respect du droit \u00e0 la d\u00e9connexion et des mesures et recommandations pr\u00e9vues par le pr\u00e9sent accord, l\u2019Association organisera des actions d\u2019information et de sensibilisation \u00e0 destination des cadres et des salari\u00e9s. Ces actions d\u2019information et de sensibilisation auront pour objectif d\u2019aider les collaborateurs \u00e0 avoir un usage raisonnable des outils num\u00e9riques.\n\nLa Direction r\u00e9affirme le principe que toute personne qui pourrait rencontrer des difficult\u00e9s \u00e0 honorer sa mission en respectant ce droit \u00e0 la d\u00e9connexion pourra demander un entretien avec son responsable hi\u00e9rarchique afin de trouver une solution de r\u00e9\u00e9quilibrage raisonnable de  la charge de travail. Un accompagnement sur la gestion du temps et des priorit\u00e9s pourra \u00eatre envisag\u00e9.\n\n\n\nSi les mesures de suivi font appara\u00eetre des risques pour la sant\u00e9 des salari\u00e9s ou des difficult\u00e9s, l'entreprise cherchera \u00e0 mettre en \u0153uvre toutes les actions pr\u00e9ventives et/ou correctives propres \u00e0 faire cesser ce risque et lever ces difficult\u00e9s.\n\n\n\nArticle 8 : R\u00e9vision de la charte \n\n\n\nLes dispositions de la pr\u00e9sente charte pourront \u00eatre r\u00e9vis\u00e9es \u00e0 la demande de la Direction ou du CSE.\n\n\n\n\n\nAccord collectif sur le t\u00e9l\u00e9travail \u2013 13 juillet 2022     \t\t19\n\n[Date de publication]\t\tPage 1 sur 23\n\n\n\n\n\n\n\n\n\n\n\n    ### Response:",
+            "Below is an instruction that describes a task, paired with an input\n    that may provide further context. Write a response that appropriately\n    completes the request.\n\n    ### Instruction: \nYour task is to summarize this company\u2019s telework policy in a way that is understandable to employees. For each of the following categories, please provide a brief summary of the company\u2019s telework policy, outlined below. Please include:\n1. Title: \"Eligibility\". Which workers are eligible for telework (include specific criteria, such as tenure, employment type, job characteristics, or anything else) \n\n2. Title: \"Frequency\". Frequency of telework allowed (such as numbers of days per week permitted and/or minimum requirements for the employee\u2019s presence in the office) \n\n3. Title: \"Arrangements\". Process by which telework arrangements are established (such as whether permission must be obtained and whether the manager has discretion over the allowability of telework) \n\n4. Title: \"Costs\". Coverage of costs associated with telework (such as IT setup and meal allowance) \n\n5. Title: \"Privacy\". Provisions for the right to disconnect and the privacy of the worker \n\nIn each category, cite the article number in the document where the relevant information is provided. Label each section with the requested title. Please summarize the key points in bullet points, within a 300-token limit. Adhering to the 300-token limit is crucial for this summary. Please ensure it does not exceed this length. If the document does not mention a specific topic listed here, state \"the document does not mention [topic]\", where [topic] is the relevant topic. \n \n\n\n\n    ### Input: \n\n----media/image1.jpeg----\n\n\n\n\n\n\n\n\n\n\n\n\n\nACCORD SUR L\u2019ORGANISATION DU TELETRAVAIL REGULIER AU SEIN DE GEBERIT SARL\n\n\n\n\n\n\n\n\n\n\n\nEntre, \n\n\n\n\n\nD\u2019une part, la soci\u00e9t\u00e9 GEBERIT SARL, domicili\u00e9e ZA du Bois Gasseau - CS 40252 SAMOREAU  77215 AVON cedex, repr\u00e9sent\u00e9e par XXX agissant en qualit\u00e9 de Directeur des Ressources Humaines et XXX, agissant en qualit\u00e9 de Directeur G\u00e9n\u00e9ral\n\n\n\nEt\n\n\n\nD\u2019autre part, XXX, salari\u00e9 de la soci\u00e9t\u00e9 Geberit SARL, D\u00e9l\u00e9gu\u00e9 Syndical C.F.T.C.\n\n\n\n\n\nIl a \u00e9t\u00e9 expos\u00e9 ce qui suit\u00a0:\n\n\n\n\n\nPREAMBULE\n\n\n\nLa mise en place d'une politique de t\u00e9l\u00e9travail s\u2019inscrit dans le souhait de l\u2019entreprise d\u2019accro\u00eetre la souplesse de son organisation de travail et de permettre au personnel de mieux concilier vie professionnelle et vie priv\u00e9e.  Geberit aspire ainsi \u00e0 renforcer l\u2019engagement et la satisfaction de ses collaborateurs mais \u00e9galement son attractivit\u00e9 aupr\u00e8s de recrues potentielles.\n\n\n\nLe contenu du pr\u00e9sent accord s\u2019appuie sur\u00a0: \n\n--\tLes lignes directrices du Groupe Geberit relatives \u00e0 la mise en \u0153uvre du t\u00e9l\u00e9travail qui s\u2019appliquent \u00e0 toutes ses entreprises et qui doivent \u00eatre d\u00e9ploy\u00e9es par pays de fa\u00e7on aussi uniforme que possible et dont seules les dispositions l\u00e9gales obligatoires en vigueur localement permettent de d\u00e9roger\u00a0;\n\n--\tLes dispositions de l\u2019Accord National Interprofessionnel du 26 novembre 2020 pour une mise en \u0153uvre r\u00e9ussie du t\u00e9l\u00e9travail\u00a0;\n\n--\tLes enseignements de la pratique du t\u00e9l\u00e9travail r\u00e9gulier sur le site de Samoreau effective depuis juin 2018, et du t\u00e9l\u00e9travail exceptionnel durant la crise sanitaire li\u00e9e \u00e0 la pand\u00e9mie de la Covid-19.\n\n\n\nLe pr\u00e9sent accord a \u00e9t\u00e9 conclu dans le cadre des N\u00e9gociations Annuelles Obligatoires relatives \u00e0 l\u2019exercice 2022. Les parties ont \u00e9chang\u00e9 sur l\u2019organisation du t\u00e9l\u00e9travail r\u00e9gulier au cours des r\u00e9unions de n\u00e9gociation des 27 octobre 2021 et 22 novembre 2021.\n\nXXX a accompagn\u00e9 XXX au cours des discussions.\n\n\n\nLa D\u00e9l\u00e9gation Syndicale regrette que la fr\u00e9quence du t\u00e9l\u00e9travail n\u2019ait pas \u00e9t\u00e9 revue \u00e0 2 jours de t\u00e9l\u00e9travail par semaine et la soci\u00e9t\u00e9 ne prenne pas en charge les frais li\u00e9s \u00e0 l\u2019exercice du t\u00e9l\u00e9travail, ce qui correspondait aux attentes du personnel.\n\nLa Direction a pr\u00e9cis\u00e9 que cela n\u2019\u00e9tait pas possible compte tenu des lignes directrices Groupe en mati\u00e8re de t\u00e9l\u00e9travail.\n\n\n\n\n\nCHAMPS D\u2019APPLICATION\n\n\n\nArticle 1\u00a0- D\u00e9finition du t\u00e9l\u00e9travail\n\n\n\nLe t\u00e9l\u00e9travail d\u00e9signe une forme d\u2019organisation dans laquelle un travail qui aurait \u00e9galement pu \u00eatre ex\u00e9cut\u00e9 dans les locaux de l\u2019entreprise est effectu\u00e9 par un collaborateur hors de ces locaux de fa\u00e7on volontaire en utilisant les technologies de l\u2019information et de la communication (cf. article L 1222-9 du Code du travail).\n\n\n\nLe t\u00e9l\u00e9travail ne peut donc s\u2019adresser qu\u2019aux personnes dont le poste de travail est effectivement bas\u00e9 sur site. \u00c0 ce titre, le personnel de la Force de Vente n\u2019est pas concern\u00e9 par les dispositions du pr\u00e9sent accord.\n\n\n\nEn tout \u00e9tat de cause, la mise en \u0153uvre du t\u00e9l\u00e9travail doit \u00eatre compatible avec les objectifs de performance \u00e9conomique et sociale de l\u2019entreprise.\n\n\n\n\n\nArticle 2\u00a0- Les diff\u00e9rentes formes de t\u00e9l\u00e9travail\n\n\n\nLe t\u00e9l\u00e9travail peut s\u2019exercer de fa\u00e7on r\u00e9guli\u00e8re, occasionnelle, ou en cas de circonstances exceptionnelles ou de force majeure.\n\n\n\nSeul le t\u00e9l\u00e9travail r\u00e9gulier, qui induit une r\u00e9p\u00e9tition dans le temps de la situation de t\u00e9l\u00e9travail ind\u00e9pendante de circonstances particuli\u00e8res, entre dans le champ du pr\u00e9sent accord.\n\n\n\nSont donc exclues les formes ponctuelles de t\u00e9l\u00e9travail, \u00e0 savoir\u00a0:\n\n--\tLe t\u00e9l\u00e9travail occasionnel qui peut s\u2019apparenter \u00e0 une situation ponctuelle de travail \u00e0 distance d\u00e9pendant de la survenance d\u2019un \u00e9v\u00e8nement (notamment contrainte familiale ou m\u00e9dicale, probl\u00e8me ponctuel de transport) et qui est soumis \u00e0 l\u2019autorisation expresse du responsable hi\u00e9rarchique en lien avec les Ressources Humaines, obligatoirement pour une dur\u00e9e limit\u00e9e ;\n\n--\tLe t\u00e9l\u00e9travail pour circonstances exceptionnelles\u00a0qui peut \u00eatre consid\u00e9r\u00e9 comme un am\u00e9nagement du poste de travail rendu n\u00e9cessaire pour permettre la continuit\u00e9 de l\u2019activit\u00e9 de l\u2019entreprise et garantir la protection du personnel (cas de force majeure comme la destruction accidentelle des locaux, panne informatique, la menace d\u2019\u00e9pid\u00e9mie ou de catastrophe naturelle, la suspension de la circulation des v\u00e9hicules en cas d\u2019\u00e9pisode de pollution mentionn\u00e9 \u00e0 l\u2019article L223-1 du code de l\u2019environnement). Dans ces circonstances, la d\u00e9cision relative au t\u00e9l\u00e9travail rel\u00e8ve du pouvoir de direction unilat\u00e9rale de l\u2019employeur.\n\n\n\nSauf pr\u00e9cision contraire, le terme \u00ab\u00a0t\u00e9l\u00e9travail\u00a0\u00bb repris dans la pr\u00e9sent accord renvoie au t\u00e9l\u00e9travail dit r\u00e9gulier.\n\n\n\n\n\nCONDITIONS D\u2019ACCES AU TELETRAVAIL \n\n\n\nArticle 3\u00a0: Eligibilit\u00e9 des postes au t\u00e9l\u00e9travail\n\n\n\nSeuls sont accessibles au t\u00e9l\u00e9travail les postes dont l\u2019exercice des missions en dehors des locaux de l\u2019entreprise n\u2019est pas susceptible de porter atteinte \u00e0 la s\u00e9curit\u00e9 des donn\u00e9es ou \u00e0 des processus op\u00e9rationnels.\n\n\n\nAu regard de leur compatibilit\u00e9 avec le t\u00e9l\u00e9travail, deux typologies de postes sont d\u00e9finies par la Direction de la soci\u00e9t\u00e9 en lien avec les Ressources Humaines\u00a0:\n\n--\tLes postes non \u00e9ligibles compte-tenu du caract\u00e8re sensible de ces postes au regard des r\u00e8gles de conformit\u00e9 ou du contr\u00f4le des risques et de la confidentialit\u00e9 des donn\u00e9es trait\u00e9es, ou de par les imp\u00e9ratifs techniques et organisationnels li\u00e9s aux postes. Ces postes sont consid\u00e9r\u00e9s, par nature, comme non compatibles avec le t\u00e9l\u00e9travail.\n\n--\tLes postes a priori \u00e9ligibles sous r\u00e9serves de t\u00e2ches ou process sp\u00e9cifiques que le responsable hi\u00e9rarchique, en lien avec les imp\u00e9ratifs repris ci-dessus, jugerait incompatibles avec l\u2019exercice de la fonction en t\u00e9l\u00e9travail. \n\n\n\nA la date de r\u00e9daction du pr\u00e9sent accord, l\u2019ensemble des postes bas\u00e9s au si\u00e8ge de la soci\u00e9t\u00e9 sont consid\u00e9r\u00e9s comme \u00e9ligibles au t\u00e9l\u00e9travail. Les postes de l\u2019espace conseil ne sont eux pas consid\u00e9r\u00e9s comme \u00e9ligibles au t\u00e9l\u00e9travail.\n\n\n\nLa liste des postes \u00e9ligibles ou non \u00e9ligibles est susceptible d\u2019\u00e9voluer en fonction de l\u2019organisation de l\u2019entreprise, la mise en \u0153uvre de nouvelles solutions technologiques etc. \n\nPour un poste nouvellement appr\u00e9ci\u00e9 comme \u00e9ligible au t\u00e9l\u00e9travail, la compatibilit\u00e9 avec ce mode d\u2019organisation du travail pourra \u00eatre appr\u00e9ci\u00e9e pendant la p\u00e9riode d\u2019adaptation.\n\n\n\n\n\nArticle 4\u00a0: Eligibilit\u00e9 du collaborateur \n\n\n\nLe passage en situation de t\u00e9l\u00e9travail ne peut \u00eatre envisag\u00e9 que pour les collaborateurs ayant valid\u00e9 leur p\u00e9riode d\u2019essai dans l\u2019entreprise, de mani\u00e8re notamment \u00e0 avoir d\u00e9j\u00e0 une bonne connaissance de l\u2019entreprise, du Groupe, de son environnement et du poste de travail concern\u00e9.\n\n\n\nLe passage en situation de t\u00e9l\u00e9travail est conditionn\u00e9 \u00e9galement \u00e0 l\u2019autonomie effective du collaborateur dans son poste, au niveau d\u2019interactions n\u00e9cessaires avec les autres collaborateurs de l\u2019entreprise ou \u00e0 toute autre raison qui ne permettrait pas un niveau \u00e9quivalent de performance.\n\n\u00c0 ce titre, la mise en \u0153uvre du t\u00e9l\u00e9travail n\u2019est pas syst\u00e9matique et cons\u00e9cutif \u00e0 la fin de la p\u00e9riode d\u2019essai. En outre, le t\u00e9l\u00e9travail peut \u00eatre suspendu en cas de mobilit\u00e9 fonctionnelle, le temps que le collaborateur acquiert l\u2019autonomie requise sur son nouveau poste (sous couvert que ce dernier soit bien \u00e9ligible au t\u00e9l\u00e9travail). \n\n\n\n\n\nArticle 5\u00a0- Double volontariat\n\n\n\nIl est rappel\u00e9 qu\u2019aucune solution de t\u00e9l\u00e9travail ne peut \u00eatre envisag\u00e9e si la Direction en lien avec les Ressources Humaines ne d\u00e9finit pas tel poste de travail comme \u00e9ligible.\n\n\n\n\u00c0 l\u2019exclusion des cas de circonstances exceptionnelles ou de force majeure, le t\u00e9l\u00e9travail rev\u00eat un caract\u00e8re volontaire pour le collaborateur qui occupe un poste \u00e9ligible.\n\n\n\n\u00c0 ce titre, le t\u00e9l\u00e9travail ne peut \u00eatre impos\u00e9 \u00e0 un collaborateur par la Direction ou par son responsable hi\u00e9rarchique. Le refus du collaborateur d\u2019accepter le t\u00e9l\u00e9travail n\u2019est pas, en soi, un motif de rupture du contrat de travail.\n\n\n\nUn refus d\u2019acc\u00e8s au t\u00e9l\u00e9travail \u00e0 un collaborateur occupant un poste \u00e9ligible doit \u00eatre motiv\u00e9 par son responsable hi\u00e9rarchique. \u00c0 noter qu\u2019aux termes de l\u2019article L1222-9 du Code du travail, un refus doit \u00eatre syst\u00e9matiquement motiv\u00e9 lorsque la demande d\u2019acc\u00e8s au t\u00e9l\u00e9travail \u00e9mane d\u2019un collaborateur b\u00e9n\u00e9ficiant de la Reconnaissance de la Qualit\u00e9 de Travailleur Handicap\u00e9 - RQTH -, ou d\u2019un aidant familial au sens de l\u2019article L113-1-3 du Code de l\u2019action sociale et des familles et ce m\u00eame s\u2019il n\u2019occupe pas un poste \u00e9ligible.\n\n\n\nLe t\u00e9l\u00e9travail repose n\u00e9cessairement sur une confiance r\u00e9ciproque entre le collaborateur et son responsable hi\u00e9rarchique ainsi que deux aptitudes compl\u00e9mentaires\u00a0: l\u2019autonomie et la responsabilit\u00e9 n\u00e9cessaire au t\u00e9l\u00e9travail.\n\n\n\n\n\n\n\n\nArticle 6\u00a0- P\u00e9riode d\u2019adaptation \n\n\n\nL\u2019acc\u00e8s au t\u00e9l\u00e9travail s\u2019accompagne d\u2019une p\u00e9riode d\u2019adaptation initiale de 3 mois.\n\n\n\nPendant la p\u00e9riode d\u2019adaptation, chacune des parties peut mettre un terme \u00e0 cette forme d\u2019organisation du travail en respectant un d\u00e9lai de pr\u00e9venance de 2 semaines calendaires \u00e0 compter de la r\u00e9ception du courrier mentionn\u00e9 ci-dessous.\n\n\n\nDans ce cas, un courrier \u00e9crit confirmant et motivant la d\u00e9cision doit \u00eatre adress\u00e9\u00a0:\n\n--\tSoit au collaborateur concern\u00e9 si la r\u00e9versibilit\u00e9 est \u00e0 l\u2019initiative de l\u2019encadrement,\n\n--\tSoit au responsable hi\u00e9rarchique si l\u2019initiative vient du collaborateur concern\u00e9, et une copie \u00e9tant simultan\u00e9ment adress\u00e9e aux Ressources Humaines.\n\nL\u2019avenant mettant en place le t\u00e9l\u00e9travail prend alors fin d\u00e8s l\u2019application de la d\u00e9cision.\n\n\n\nUn entretien de bilan entre le collaborateur et son responsable hi\u00e9rarchique sera r\u00e9alis\u00e9 de mani\u00e8re syst\u00e9matique au plus tard 2 semaines calendaires avant l\u2019issue de la p\u00e9riode d\u2019adaptation. Cet entretien est destin\u00e9 \u00e0 recenser les avantages et les contraintes de cette forme d\u2019organisation du travail, tant du c\u00f4t\u00e9 du collaborateur concern\u00e9 que du responsable hi\u00e9rarchique. Il doit permettre de confirmer ou d\u2019infirmer la d\u00e9cision du t\u00e9l\u00e9travail.\n\nDans le cas o\u00f9 le collaborateur et sa hi\u00e9rarchie aient d\u00e9j\u00e0 pu pr\u00e9alablement appr\u00e9cier l\u2019autonomie effective du collaborateur en t\u00e9l\u00e9travail et que cette nouvelle forme d\u2019organisation de la relation de travail leur convenait, la p\u00e9riode d\u2019adaptation ne sera alors pas obligatoire.\n\n\n\n\n\nArticle 7 - Absence d\u2019indemnit\u00e9\n\n\n\nGeberit n'accepte pas de prise en charge de frais ou l\u2019octroi d\u2019avantages mon\u00e9taires ou non mon\u00e9taires r\u00e9sultant du t\u00e9l\u00e9travail, et ce quel que soit sa forme.\n\n\n\n\u00c0 ce titre, le fait d\u2019accepter pour un collaborateur de b\u00e9n\u00e9ficier du t\u00e9l\u00e9travail n\u2019emporte pas indemnisation ou remboursement de frais (li\u00e9s \u00e0 l\u2019exercice du t\u00e9l\u00e9travail) d\u2019aucune sorte \u00e0 son profit.\n\n\n\nLa Direction pourra prendre en charge des frais li\u00e9s au t\u00e9l\u00e9travail dans des cas de recours prolong\u00e9 au t\u00e9l\u00e9travail pour circonstances exceptionnelles et cas de force majeure.\n\n\n\n\n\nArticle 8\u00a0- Pr\u00e9requis des locaux de t\u00e9l\u00e9travail\n\n\n\nLes r\u00e9sultats d\u2019activit\u00e9 obtenus en situation de t\u00e9l\u00e9travail doivent \u00eatre de niveau \u00e9quivalent \u00e0 ceux qui auraient \u00e9t\u00e9 obtenus dans les locaux de l\u2019entreprise.\n\nLe t\u00e9l\u00e9travail doit ainsi \u00eatre r\u00e9alis\u00e9, avec un mobilier personnel, dans un environnement propice \u00e0 la confidentialit\u00e9, au calme et \u00e0 la concentration et ce, sans aucune interruption (par exemple, sans garde d'enfants ou de travaux bruyants pendant les heures de travail). \n\n\n\nLe t\u00e9l\u00e9travail a g\u00e9n\u00e9ralement lieu au domicile principal du collaborateur. \u00c0 ce titre, outre disposer des pr\u00e9requis en mati\u00e8re de connexion repris \u00e0 l\u2019article 9\u00a0:\n\n--\tLes installations \u00e9lectriques du domicile doivent \u00eatre conformes \u00e0 la r\u00e9glementation en vigueur en application notamment de l\u2019arr\u00eat\u00e9 du 28 septembre 2017 et de ses annexes\u00a0;\n\n--\tLe collaborateur dispose d\u2019une assurance multirisque habitation couvrant le t\u00e9l\u00e9travail \u00e0 domicile. Une attestation en ce sens sera demand\u00e9e au collaborateur avant la signature de l\u2019avenant au contrat de travail formalisant l\u2019acc\u00e8s au t\u00e9l\u00e9travail.\n\nCes pr\u00e9requis s\u2019appliquent \u00e9galement pour les autres lieux potentiels de t\u00e9l\u00e9travail sous la responsabilit\u00e9 pleine et enti\u00e8re du collaborateur, par exemple \u00e0 une r\u00e9sidence secondaire. \n\n\n\nPour les autres lieux potentiels et plus ponctuels de t\u00e9l\u00e9travail qui ne sont pas sous sa responsabilit\u00e9 pleine et enti\u00e8re, le collaborateur s\u2019assurera uniquement de disposer d\u2019un espace propice \u00e0 la confidentialit\u00e9, au calme et \u00e0 la concentration pendant son temps de travail (en compl\u00e9ment des pr\u00e9requis en mati\u00e8re de connexions repris \u00e0 l\u2019article 9).\n\n\n\nL\u2019exercice du t\u00e9l\u00e9travail dans un lieu autre que le lieu habituel de t\u00e9l\u00e9travail doit faire l\u2019objet d\u2019une information pr\u00e9alable du responsable hi\u00e9rarchique.\n\n\n\nDans le cas o\u00f9 une permanence physique doit \u00eatre assur\u00e9e au sein d\u2019un service, il sera demand\u00e9 au collaborateur de t\u00e9l\u00e9travailler \u00e0 proximit\u00e9 du lieu habituel de travail de fa\u00e7on pouvoir intervenir sur site en cas d\u2019absence non pr\u00e9vue au sein de son service.\n\n\n\nIl incombe au collaborateur de s\u2019assurer, au pr\u00e9alable de la mise en \u0153uvre du t\u00e9l\u00e9travail, de la conformit\u00e9 du lieu de t\u00e9l\u00e9travail choisi par rapport aux dispositions reprises aux articles 8 et 9 du pr\u00e9sent accord, essentielles \u00e0 son exercice. Elles devront \u00eatre v\u00e9rifi\u00e9es, en amont de la journ\u00e9e de t\u00e9l\u00e9travail, par le collaborateur en cas de changement de lieu de t\u00e9l\u00e9travail.\n\nL\u2019entreprise pourra \u00eatre amen\u00e9e \u00e0 des demander des pi\u00e8ces justificatives de la conformit\u00e9 des lieux de t\u00e9l\u00e9travail.  En aucun cas, les frais relatifs \u00e0 la mise en conformit\u00e9 du lieu de t\u00e9l\u00e9travail ne seront \u00e0 la charge de l\u2019entreprise.\n\n\n\n\n\nArticle 9\u00a0- Pr\u00e9requis de connexion\n\n\n\nLe collaborateur en t\u00e9l\u00e9travail doit avoir acc\u00e8s en continu \u00e0 l\u2019intranet, \u00e0 la visio-conf\u00e9rence, aux messageries \u00e9lectronique et instantan\u00e9e, aux progiciels de l\u2019entreprise etc. \n\n\u00c0 ce titre, le personnel en t\u00e9l\u00e9travail, doit disposer pr\u00e9alablement d\u2019une connexion Internet de bonne qualit\u00e9 sur son lieu de t\u00e9l\u00e9travail via un abonnement personnel ADSL ou d\u2019une technologie \u00e9quivalente permettant un acc\u00e8s \u00e0 distance au r\u00e9seau d\u2019entreprise par un fournisseur d\u2019acc\u00e8s \u00e0 Internet compatible avec les syst\u00e8mes informatiques de l\u2019entreprise (\u00e0 ce titre, le partage de connexion depuis un t\u00e9l\u00e9phone portable personnel ou professionnel est exclu \u00e0 la date d\u2019\u00e9dition du pr\u00e9sent accord).\n\n\n\nLes conditions requises en mati\u00e8re de qualit\u00e9 de connexion internet et de qualit\u00e9 de r\u00e9seau GSM pour t\u00e9l\u00e9travailler pourront se renforcer en fonction de l\u2019\u00e9volution des syst\u00e8mes informatiques de l\u2019entreprise. Dans ce cas, il appartiendra au collaborateur, le cas \u00e9ch\u00e9ant et sans d\u00e9lai, d\u2019adapter en cons\u00e9quence ses modalit\u00e9s de connexions internet et GSM. \u00c0 d\u00e9faut, le recours au t\u00e9l\u00e9travail ne sera plus possible.\n\n\n\nDans l\u2019hypoth\u00e8se o\u00f9 le t\u00e9l\u00e9travailleur serait dans l\u2019impossibilit\u00e9 d\u2019assurer sa fonction \u00e0 partir de son lieu de t\u00e9l\u00e9travail (notamment coupure locale du r\u00e9seau ou coupure locale \u00e9lectrique ou t\u00e9l\u00e9phonique), il lui appartient d\u2019en informer son responsable hi\u00e9rarchique par tout moyen, et, le cas \u00e9ch\u00e9ant, de rejoindre son site habituel de travail. \n\n\n\nPour le personnel dont le temps de travail est d\u00e9compt\u00e9 en heures, dans le cas o\u00f9 l\u2019incident de connexion se limite \u00e0 l\u2019impossibilit\u00e9 d\u2019acc\u00e9der au syst\u00e8me de badgeage en ligne, la prise en compte de l\u2019horaire de travail sera celle donn\u00e9e \u00e0 son responsable hi\u00e9rarchique.\n\n\n\n\n\nArticle 10\u00a0- Formalisation de l\u2019acc\u00e8s au t\u00e9l\u00e9travail\n\n\n\nUn avenant au contrat de travail formalise l\u2019acc\u00e8s au t\u00e9l\u00e9travail.\n\n \n\nCet avenant mentionne notamment\u00a0:\n\n--\tLe cadre collectif existant \u00e0 savoir le pr\u00e9sent accord ;\n\n--\tLes modalit\u00e9s d\u2019ex\u00e9cution\u00a0telles que le rythme de t\u00e9l\u00e9travail, les plages horaires privil\u00e9gi\u00e9es au cours desquelles le t\u00e9l\u00e9travailleur pourra \u00eatre contact\u00e9, les conditions de travail particuli\u00e8res \u00e9ventuelles.\n\n--\tLa p\u00e9riode d\u2019adaptation,\n\n--\tL\u2019\u00e9ventuel \u00e9quipement mis \u00e0 disposition par l\u2019entreprise sp\u00e9cifiquement dans le cadre du t\u00e9l\u00e9travail,\n\n--\tL\u2019absence d\u2019indemnit\u00e9 au profit du collaborateur,\n\n--\tL\u2019engagement du collaborateur sur la conformit\u00e9 du lieu de t\u00e9l\u00e9travail et des modalit\u00e9s de connexion.\n\n\n\nL\u2019avenant est conclu pour une dur\u00e9e ind\u00e9termin\u00e9e. \n\n\n\n\n\nArticle 11\u00a0: Suspension et r\u00e9versibilit\u00e9 du t\u00e9l\u00e9travail\n\n\n\nEn cas de besoin particulier (n\u00e9cessit\u00e9 op\u00e9rationnelle, contraintes techniques ou changement de poste), le t\u00e9l\u00e9travail peut \u00eatre en accord avec les Ressources Humaines, provisoirement et imm\u00e9diatement suspendu \u00e0 l\u2019initiative du responsable hi\u00e9rarchique. \n\nCette suspension devra n\u00e9cessairement \u00eatre confirm\u00e9e par \u00e9crit (un courriel suffit).\n\n\n\nEn dehors de la p\u00e9riode d\u2019adaptation, il peut \u00eatre mis fin au t\u00e9l\u00e9travail \u00e0 l\u2019initiative du collaborateur ou de l\u2019encadrement. \n\nL\u2019avenant formalisant l\u2019acc\u00e8s au t\u00e9l\u00e9travail devra alors \u00eatre d\u00e9nonc\u00e9 par \u00e9crit confirmant et motivant la d\u00e9cision sous r\u00e9serve de respecter un pr\u00e9avis d\u2019un mois et adress\u00e9\u00a0:\n\n--\tSoit au collaborateur concern\u00e9 si la r\u00e9versibilit\u00e9 est \u00e0 l\u2019initiative de l\u2019encadrement,\n\n--\tSoit au responsable hi\u00e9rarchique si l\u2019initiative vient du collaborateur concern\u00e9, et une copie \u00e9tant simultan\u00e9ment adress\u00e9e aux Ressources Humaines.\n\nS\u2019il est mis fin au t\u00e9l\u00e9travail, le collaborateur retrouve son poste dans les locaux de la soci\u00e9t\u00e9 et les dispositions de l\u2019avenant cessent de produire effet \u00e0 l\u2019issue du pr\u00e9avis.\n\n\n\n\n\nL\u2019ORGANISATION DU TELETRAVAIL\n\n\n\nArticle 12\u00a0- Le r\u00f4le de la hi\u00e9rarchie\n\n\n\nL\u2019activit\u00e9 professionnelle demand\u00e9e au t\u00e9l\u00e9travailleur est \u00e9quivalente \u00e0 celle des collaborateurs en situation comparable travaillant dans les locaux de l\u2019entreprise. Le t\u00e9l\u00e9travail ne doit modifier ni ses missions g\u00e9n\u00e9rales, ni sa disponibilit\u00e9 professionnelle, ni ses objectifs et sa charge de travail.  \n\n\n\nL\u2019encadrement est responsable de l\u2019organisation et du bon fonctionnement des activit\u00e9s sous son p\u00e9rim\u00e8tre de responsabilit\u00e9. La productivit\u00e9 des \u00e9quipes doit \u00eatre pleinement assur\u00e9e dans tous les cas, ind\u00e9pendamment du recours au t\u00e9l\u00e9travail.\n\n\n\nChaque responsable hi\u00e9rarchique doit d\u00e9terminer les modalit\u00e9s particuli\u00e8res d\u2019exercice du t\u00e9l\u00e9travail au sein de son \u00e9quipe, en veillant notamment \u00e0 assurer une permanence physique des collaborateurs si celle-ci est n\u00e9cessaire au bon fonctionnement du service. A ce titre, en cas d\u2019absence impr\u00e9vue au sein d\u2019une \u00e9quipe o\u00f9 une permanence physique est de mise, un collaborateur qui aurait d\u00fb \u00eatre en t\u00e9l\u00e9travail devra, par tout moyen et sans d\u00e9lai, rejoindre son site habituel de travail lorsque que sa hi\u00e9rarchie en fait la demande.\n\n\n\nLe responsable hi\u00e9rarchique doit convenir notamment des dates de r\u00e9unions communes r\u00e9guli\u00e8res en veillant \u00e0 ce qu\u2019elles soient tenues, dans la mesure du possible, les jours de pr\u00e9sence des collaborateurs dans les locaux de l\u2019entreprise ou en privil\u00e9giant, si n\u00e9cessaire, l\u2019utilisation de moyens de communication \u00e0 distance (conf\u00e9rence t\u00e9l\u00e9phonique ou visio-conf\u00e9rence) de mani\u00e8re \u00e0 assurer, d\u2019une part, le bon fonctionnement du service et garantir, d\u2019autre part, la bonne int\u00e9gration des collaborateurs en t\u00e9l\u00e9travail de son \u00e9quipe. \n\n\n\nEnfin, il est pr\u00e9cis\u00e9 que le recours au t\u00e9l\u00e9travail ne saurait \u00eatre un motif acceptable pour ne pas assister \u00e0 des r\u00e9unions ou \u00e9v\u00e8nements o\u00f9 la pr\u00e9sence physique du collaborateur est n\u00e9cessaire (r\u00e9unions internes ou externes, formations, d\u00e9placements professionnels, colloques et s\u00e9minaires etc.). Il appartient \u00e0 l\u2019organisateur de la r\u00e9union ou de l\u2019\u00e9v\u00e8nement de d\u00e9terminer la fa\u00e7on dont il doit se d\u00e9rouler (en pr\u00e9sentiel ou possiblement \u00e0 distance). Aux termes de l\u2019article 7, le report ou l\u2019annulation d\u2019une journ\u00e9e de t\u00e9l\u00e9travail dans cette situation n\u2019ouvre droit \u00e0 aucune compensation.\n\n\n\nCompte tenu de l\u2019\u00e9loignement induit par le t\u00e9l\u00e9travail, l\u2019attention du responsable hi\u00e9rarchique est attir\u00e9e sur la n\u00e9cessit\u00e9 de suivre avec une attention particuli\u00e8re le t\u00e9l\u00e9travailleur, notamment d\u2019\u00eatre en mesure de connaitre \u00e0 tout moment l\u2019agenda professionnel du collaborateur. Il doit veiller \u00e9galement \u00e0 la bonne int\u00e9gration et \u00e0 la bonne transmission des informations aupr\u00e8s des collaborateurs en t\u00e9l\u00e9travail, afin que ceux-ci ne soient pas p\u00e9nalis\u00e9s dans l\u2019exercice de leurs missions. \n\n\n\nL\u2019entretien annuel de suivi du forfait en jours pour le personnel concern\u00e9 ou les entretiens p\u00e9riodiques de performance sont l\u2019opportunit\u00e9 d\u2019\u00e9changer sur les conditions d\u2019activit\u00e9 et la charge de travail du collaborateur en t\u00e9l\u00e9travail avec le responsable hi\u00e9rarchique.\n\n\n\n\n\nArticle 13 - Fr\u00e9quence du t\u00e9l\u00e9travail\n\n\n\nUne articulation optimale entre le travail sur site et le t\u00e9l\u00e9travail est indispensable afin de pr\u00e9server les fonctionnements collectifs et l\u2019efficacit\u00e9 des organisations du travail au sein de l\u2019entreprise. Il convient \u00e9galement d\u2019\u00eatre attentif \u00e0 ce que le d\u00e9veloppement du t\u00e9l\u00e9travail ne soit pas source de difficult\u00e9s entre les collaborateurs qui peuvent en b\u00e9n\u00e9ficier et les autres ou encore source d\u2019une distanciation sociale accrue.\n\n\n\nPour garantir la pr\u00e9servation d\u2019un lien social fort au sein de l\u2019entreprise, la coh\u00e9sion de la communaut\u00e9 de travail et limiter l\u2019\u00e9mergence de difficult\u00e9s organisationnelles, Geberit autorise le t\u00e9l\u00e9travail \u00e0 hauteur de 20% du temps de travail hebdomadaire soit 1 jour par semaine pour le personnel en temps plein, hors circonstances exceptionnelles et cas de force majeure.\n\n\n\nLa fr\u00e9quence de t\u00e9l\u00e9travail peut \u00eatre port\u00e9e \u00e0 un maximum de 40 % du temps de travail hebdomadaire dans des cas exceptionnels tels que, sur pr\u00e9conisation pr\u00e9alable des services de sant\u00e9 au travail, pour le personnel b\u00e9n\u00e9ficiant de la Reconnaissance de la Qualit\u00e9 de Travailleur Handicap\u00e9 - RQTH -, pour les collaborateurs en situation de temps partiel pour motifs th\u00e9rapeutiques, ou pour les aidants familiaux au sens de l\u2019article L113-1-3 du Code de l\u2019action sociale et des familles.\n\n\n\n\n\nArticle 14 - D\u00e9termination de la journ\u00e9e de t\u00e9l\u00e9travail\n\n\n\nAfin de favoriser et de maintenir un lien social fort avec l\u2019entreprise, Geberit demande \u00e0 ses \u00e9quipes une pr\u00e9sence physique r\u00e9guli\u00e8re et simultan\u00e9e dans ses locaux.  La Direction a d\u00e9fini 2 jours de la semaine o\u00f9 les collaborateurs travaillent en pr\u00e9sentiel (o\u00f9 le t\u00e9l\u00e9travail n\u2019est pas autoris\u00e9), \u00e0 savoir le mardi et le mercredi.\n\n\u00c0 ce titre, les d\u00e9placements, rendez-vous ext\u00e9rieurs professionnels doivent \u00eatre planifi\u00e9s en priorit\u00e9 en dehors des jours de travail en pr\u00e9sentiel fix\u00e9s.\n\n\n\nLa journ\u00e9e t\u00e9l\u00e9travaill\u00e9e est variable c\u2019est-\u00e0-dire modifiable par le collaborateur d\u2019une semaine \u00e0 l\u2019autre sous r\u00e9serve de la bonne information pr\u00e9alable du responsable hi\u00e9rarchique dans un d\u00e9lai raisonnable (\u00e0 l\u2019exclusion des jours de travail en pr\u00e9sentiel). Le suivi des journ\u00e9es t\u00e9l\u00e9travaill\u00e9es est r\u00e9alis\u00e9 via l\u2019outils de gestion des temps et l\u2019agenda professionnel d\u00e9mat\u00e9rialis\u00e9 du collaborateur.\n\n\n\nLes journ\u00e9es de t\u00e9l\u00e9travail se prennent par journ\u00e9es compl\u00e8tes.\n\nLes journ\u00e9es de t\u00e9l\u00e9travail non exerc\u00e9es ne peuvent donner lieu \u00e0 un cr\u00e9dit cumul\u00e9 ou report\u00e9 ult\u00e9rieurement (sur une autre semaine) ou r\u00e9cup\u00e9ration.\n\n\n\n\n\nArticle 15\u00a0- Equipement et usage des outils num\u00e9riques\n\n\n\nSi n\u00e9cessaire, l\u2019entreprise met \u00e0 la disposition de chaque collaborateur en t\u00e9l\u00e9travail et dans le cas o\u00f9 celui-ci ne b\u00e9n\u00e9ficie pas d\u00e9j\u00e0 de ce type d\u2019outils\u00a0: \n\n--\tD\u2019un ordinateur portable ou toute autre solution informatique \u00e9quivalente. Il appartient au collaborateur concern\u00e9 de transporter entre le lieu de t\u00e9l\u00e9travail et le site de l\u2019entreprise cet ordinateur, en veillant \u00e0 ce qu\u2019il ne soit pas endommag\u00e9. \u00c0 cet effet, l\u2019entreprise fournira une sacoche sp\u00e9cifique en vue du transport de l\u2019ordinateur.\n\n--\tD\u2019un t\u00e9l\u00e9phone mobile, permettant \u00e9galement un acc\u00e8s s\u00e9curis\u00e9 au r\u00e9seau de l\u2019entreprise. Dans le cas o\u00f9 la mise \u00e0 disposition d\u2019un t\u00e9l\u00e9phone mobile n\u2019est pas n\u00e9cessaire \u00e0 l\u2019exercice de sa fonction, le collaborateur doit accepter de recevoir le mot de passe lui permettant d\u2019acc\u00e9der au r\u00e9seau de l\u2019entreprise sur son t\u00e9l\u00e9phone mobile personnel pour pouvoir t\u00e9l\u00e9travailler.\n\n\n\nDe mani\u00e8re g\u00e9n\u00e9rale, le collaborateur en t\u00e9l\u00e9travail est responsable des outils qui lui sont confi\u00e9s et en assure la bonne conservation. En cas de panne ou de dysfonctionnement, il en avise imm\u00e9diatement les services comp\u00e9tents. \u00c0 ce titre, le collaborateur en t\u00e9l\u00e9travail b\u00e9n\u00e9ficie des services habituels de la hotline bureautique et informatique, dont il b\u00e9n\u00e9ficie dans les locaux de l\u2019entreprise.\n\n\n\nPour des raisons organisationnelles, le transfert des appels sur le t\u00e9l\u00e9phone mobile \u00e9ventuellement mis \u00e0 la disposition du collaborateur en t\u00e9l\u00e9travail doit \u00eatre op\u00e9rationnel lors d\u2019une journ\u00e9e de t\u00e9l\u00e9travail. De m\u00eame, le collaborateur en t\u00e9l\u00e9travail devra \u00eatre connect\u00e9 \u00e0 l\u2019outil de visio-conf\u00e9rence et de messagerie instantan\u00e9e pl\u00e9biscit\u00e9 par l\u2019entreprise pendant son temps de travail (Microsoft Teams \u00e0 la date d\u2019entr\u00e9e en vigueur du pr\u00e9sent accord).\n\n\n\nLe mat\u00e9riel mis \u00e0 la disposition par l\u2019entreprise demeure sa propri\u00e9t\u00e9 exclusive et doit \u00eatre utilis\u00e9 \u00e0 des fins exclusivement professionnelles et exclusivement par le collaborateur. En cas d\u2019arr\u00eat du t\u00e9l\u00e9travail pour quelque motif que ce soit, le collaborateur restitue sans d\u00e9lai l\u2019ensemble des outils mis \u00e0 sa disposition pour lui permettre d\u2019exercer son activit\u00e9 \u00e0 distance.\n\n\n\nIl incombe \u00e0 la Direction de prendre, dans le respect du R\u00e8glement G\u00e9n\u00e9ral sur la Protection des Donn\u00e9es Personnelles (RGPD) et des prescriptions de la CNIL, les mesures n\u00e9cessaires pour assurer la protection des donn\u00e9es utilis\u00e9es et trait\u00e9es par le personnel en t\u00e9l\u00e9travail \u00e0 des fins professionnelles.\n\n\n\nLe collaborateur en t\u00e9l\u00e9travail est inform\u00e9 des dispositions relatives \u00e0 la protection de ces donn\u00e9es et \u00e0 leur confidentialit\u00e9 qu\u2019il se doit de respecter au m\u00eame titre que s\u2019il \u00e9tait dans les locaux de l\u2019entreprise.\n\nLe personnel en t\u00e9l\u00e9travail doit plus particuli\u00e8rement veiller \u00e0 assurer la confidentialit\u00e9 et l\u2019int\u00e9grit\u00e9 des informations qui lui sont confi\u00e9es, ou auxquelles il a acc\u00e8s dans le cadre professionnel, sur tous supports notamment sur papier, oralement et \u00e9lectroniquement. Il doit notamment veiller \u00e0 ne pas jeter des documents confidentiels et les ramener \u00e0 l\u2019entreprise en vue de leur destruction s\u00e9curis\u00e9e.\n\n\n\n\n\nArticle 16\u00a0- Principes fondamentaux et dispositions applicables\n\n\n\nDe fa\u00e7on g\u00e9n\u00e9rale, les dispositions l\u00e9gales et conventionnelles applicables aux relations de travail s\u2019appliquent aux collaborateurs en t\u00e9l\u00e9travail. Ces derniers ont les m\u00eames droits et devoirs que le personnel qui ex\u00e9cute son travail dans les locaux de l\u2019entreprise.\n\n\n\n\u00c0 ce titre, le lien de subordination entre le collaborateur et l\u2019entreprise dans le cadre de l\u2019ex\u00e9cution du travail est maintenu en situation de t\u00e9l\u00e9travail. Par la m\u00eame, le personnel en t\u00e9l\u00e9travail a le m\u00eame acc\u00e8s \u00e0 la formation et aux possibilit\u00e9s de d\u00e9roulement de carri\u00e8re que s\u2019il n\u2019\u00e9tait pas en t\u00e9l\u00e9travail.\n\n\n\n\u00c9galement, les r\u00e8gles et principes suivants\u00a0sont notamment applicables aux collaborateurs en t\u00e9l\u00e9travail\u00a0: \n\n\n\n1)\tDur\u00e9e du travail \n\n\n\nLes horaires ou les journ\u00e9es de travail du collaborateur en t\u00e9l\u00e9travail sont \u00e9tablis sur des bases identiques \u00e0 celle d\u2019un travail accompli dans les locaux de l\u2019entreprise. Ainsi, le t\u00e9l\u00e9travail ne doit pas avoir pour cons\u00e9quence de modifier la dur\u00e9e de travail effective en temps normal au sein des locaux de l\u2019entreprise.\n\n\n\n\u00c0 ce titre, pour le personnel en t\u00e9l\u00e9travail dont le temps de travail est d\u00e9compt\u00e9 en heures, les horaires de travail sont les m\u00eames que ceux habituellement en vigueur pour la m\u00eame activit\u00e9 dans les locaux de l\u2019entreprise. En outre, en cas d\u2019horaires de travail variables, la r\u00e9partition du volume de travail sur la semaine doit \u00eatre \u00e9quilibr\u00e9e entre la journ\u00e9e en t\u00e9l\u00e9travail et les journ\u00e9es r\u00e9alis\u00e9es au sein des locaux de l\u2019entreprise, la cible \u00e9tant 20% du temps de travail.\n\n\n\nLes dispositions relatives \u00e0 la dur\u00e9e maximale quotidienne, aux dur\u00e9es maximales hebdomadaires, au temps de repos, au temps de pause et au d\u00e9compte des heures de travail s\u2019appliquent ainsi que celles concernant le personnel sous convention de forfait jours.\n\n\n\nComme lorsqu\u2019il travaille dans les locaux de l\u2019entreprise, le t\u00e9l\u00e9travailleur peut r\u00e9aliser des heures suppl\u00e9mentaires, lesquelles ne peuvent \u00eatre accomplies qu\u2019\u00e0 la demande expresse de son responsable hi\u00e9rarchique pour r\u00e9pondre \u00e0 des n\u00e9cessit\u00e9s de service.\n\n\n\n2)\tRespect du droit \u00e0 la d\u00e9connexion et de la vie priv\u00e9e\n\n\n\nL\u2019entreprise a l\u2019obligation de contr\u00f4ler la dur\u00e9e du travail du collaborateur et garantie le respect du droit \u00e0 la vie priv\u00e9e et du droit \u00e0 la d\u00e9connexion du personnel.\n\n\n\n\u00c0 ce titre, l\u2019encadrement fixe des plages horaires durant lesquels le collaborateur en t\u00e9l\u00e9travail peut \u00eatre contact\u00e9, en coh\u00e9rence avec les horaires de travail en vigueur en son sein. Ces plages correspondent aux horaires de travail pour le personnel dont le temps de travail est d\u00e9compt\u00e9 en heures.\n\n\n\nEn ce qui concerne le personnel sous convention de forfait jours en t\u00e9l\u00e9travail, l\u2019avenant au contrat de travail formalisant l\u2019acc\u00e8s au t\u00e9l\u00e9travail reprend les plages horaires privil\u00e9gi\u00e9es pr\u00e9 convenues entre le collaborateur et son responsable hi\u00e9rarchique, permettant au collaborateur d\u2019\u00eatre contact\u00e9 sans remettre en cause l\u2019autonomie du collaborateur au forfait dans l\u2019organisation de son temps de travail. Le collaborateur pourra modifier ces plages horaires de joignabilit\u00e9 sous r\u00e9serve d\u2019une concertation pr\u00e9alable avec son responsable hi\u00e9rarchique. \n\n\n\nSauf cas d\u2019urgence manifeste, le responsable hi\u00e9rarchique doit s\u2019abstenir de solliciter le collaborateur en t\u00e9l\u00e9travail en dehors des plages pr\u00e9d\u00e9finies, le collaborateur ne pouvant se voir reprocher de ne pas r\u00e9agir aux sollicitations dont celles de sa hi\u00e9rarchie en dehors des dites plages horaires. \n\n\n\nLa \u00ab\u00a0charte pour un bon usage des outils de communication\u00a0\u00bb qui reprend des leviers d\u2019actions pour limiter les effets n\u00e9fastes des outils de communication et qui \u00e0 ce titre, fait \u00e9cho aux dispositions relatives au droit \u00e0 la d\u00e9connexion, constitue un cadre de r\u00e9f\u00e9rence utile dans le cadre du d\u00e9ploiement du t\u00e9l\u00e9travail. \n\n\n\n\n\n\n\n\nArticle 17\u00a0- R\u00e8gles en mati\u00e8re de sant\u00e9 et s\u00e9curit\u00e9\n\n\n\nLes dispositions l\u00e9gales et conventionnelles relatives \u00e0 la sant\u00e9 et \u00e0 la s\u00e9curit\u00e9 sont applicables au personnel en t\u00e9l\u00e9travail.\n\n\n\n\u00c0 ce titre, les collaborateurs en t\u00e9l\u00e9travail sont inform\u00e9s de la politique en mati\u00e8re de sant\u00e9 et de s\u00e9curit\u00e9 au travail et en particulier des r\u00e8gles relatives \u00e0 l\u2019utilisation des \u00e9crans de visualisation et de recommandations en mati\u00e8re d\u2019ergonomie. Le personnel est tenu de respecter et d\u2019appliquer correctement ces r\u00e8gles de pr\u00e9vention et de s\u00e9curit\u00e9.\n\n\n\nIl est toutefois entendu que la Direction ou le responsable hi\u00e9rarchique ne peuvent avoir une ma\u00eetrise compl\u00e8te du lieu o\u00f9 s\u2019exerce le t\u00e9l\u00e9travail et de l\u2019environnement qui rel\u00e8ve de la sph\u00e8re priv\u00e9e. \u00c0 ce titre, la conformit\u00e9 du lieu de travail notamment par rapport aux dispositions reprises \u00e0 l\u2019article 9 est certifi\u00e9e par le collaborateur en t\u00e9l\u00e9travail.\n\n\n\nAussi, toutes les obligations l\u00e9gales en mati\u00e8re d\u2019hygi\u00e8ne et de s\u00e9curit\u00e9 en ce qui concerne les locaux de l\u2019entreprise ne sont pas transposables \u00e0 l\u2019identique au lieu de t\u00e9l\u00e9travail. Il peut s\u2019agir de l\u2019interdiction de fumer, de l\u2019affichage d\u2019un plan d\u2019\u00e9vacuation, du respect des couloirs d\u2019acc\u00e8s d\u00e9di\u00e9s aux secours etc.\n\n\n\nLe collaborateur qui exerce son activit\u00e9 en t\u00e9l\u00e9travail est couvert par la l\u00e9gislation en mati\u00e8re d\u2019accidents du travail de la m\u00eame mani\u00e8re que s\u2019il travaillait dans les locaux de l\u2019entreprise, et est astreint aux m\u00eames obligations de d\u00e9claration en cas de survenance d\u2019un accident du travail (d\u00e9claration \u00e0 l\u2019employeur dans les 24 heures - sauf cas de force majeure - du lieu, des circonstances de l'accident et de l'identit\u00e9 des t\u00e9moins \u00e9ventuels).  \n\nL'accident survenu sur le lieu o\u00f9 est exerc\u00e9 le t\u00e9l\u00e9travail pendant l'exercice de l'activit\u00e9 professionnelle du t\u00e9l\u00e9travailleur est pr\u00e9sum\u00e9 \u00eatre un accident de travail au sens de l'article L. 411-1 du code de la s\u00e9curit\u00e9 sociale.\n\n\n\n\n\nArticle 18\u00a0- Entr\u00e9e en vigueur et dur\u00e9e de l\u2019accord\n\n\n\nLe pr\u00e9sent accord a \u00e9t\u00e9 conclu pour entrer en vigueur au 1er mars 2022 pour une dur\u00e9e ind\u00e9termin\u00e9e.\n\n\n\n\n\nArticle 19\u00a0- D\u00e9p\u00f4t l\u00e9gal\n\n\n\nD\u00e8s sa signature, l\u2019accord fera l\u2019objet d\u2019une communication \u00e0 l\u2019ensemble du personnel.\n\nChaque partie signataire de l\u2019accord en recevra une copie.\n\n\n\nIl sera en outre d\u00e9pos\u00e9\u00a0:\n\n--\ten 2 exemplaires num\u00e9riques (dont un au format anonymis\u00e9) sur la plateforme en ligne\u00a0T\u00e9l\u00e9Accords qui seront ensuite automatiquement transmis \u00e0 la DDETS de Melun,\n\n--\tEn 1 exemplaire au secr\u00e9tariat du greffe du Conseil de Prud\u2019hommes de Fontainebleau.\n\n\n\n\n\nFait \u00e0 Samoreau, le 6 janvier 2022\n\n\n\nPour Geberit SARL,\n\n\n\nXXX\t\t\t\t\t\t\t\tXXX\n\nDirecteur Ressources Humaines\t\t\t\tDirecteur G\u00e9n\u00e9ral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPour l\u2019organisation syndicale C.F.T.C.\n\nXXX, D\u00e9l\u00e9gu\u00e9 Syndical\n\n\n\n\n\n\n\nPage 16 sur 16\n\n\n\n\n\n\n\n\n\n\n\n    ### Response:"
+        ],
+        "outputs": [
+            "Q is a exal will how step, whichired with an image andand and provides be additional context for You a response that eitherately\n    completes the request.\n\n    Import INruction\n\n\n    task is to writeize the article's businesscommun policy.  few that is easyable to an.\n this point the points points, provide provide a short summary. the company\u2019s policywork policy. and in.\n use the\n\n. El of TeleTeleligibility\" Sum employees are eligible for telework?e any job if if as jobure, job status, etc function, etc performance else that\n\n2   . Title: \"Telerequency\". Howrequency of telework ( (include as full of days per week or)/or maximum/) tele number's role in the office)\n\n\n3. Title: \"Durationangement\". How for which employeeswork arrangements are made andsuch as approval employees is be granted,/ there arrangement has discretion to the decisionance of telework) \n\n4. Title: \"Equs\". Whoage of costs associated with telework (such as equipment equipment, maintenance reances) \n\n5. Title: \"Securityacy\". Privacyvisions for privacy protection to privacyconnect and privacy protection of the employee\u2019\n\n6 addition summary, pleaseite specific specific as and parent tele that the information information can located.\n your category with the appropriate title.\n noteize the policy points in your point. and each single1-0 wordword limit.\nhereing to the 300-token limit is important for the task to\n do that is not exceed this limit.\n it response does not provide a category category, above, please thatNot document does not provide thistopic] e [topic] is the topic topic.\n\n\n\n######InputInput ### Input: ER Tele Company Tele\n   ordingances de le t\u00e9l\u00e9travail\n\nArt\n\n\n\nRE L\n\n Sociuelleit\u00e9 Fran\u00e7aise Haute-Garonne,\nprise r\u00e9gie par le Code du la mutualualit\u00e9, dontmatricul\u00e9e sous R\u00e9istre du des mutuelles sous le num\u00b0 788 981\u00a0551, dont APE 8512Z, dont le si\u00e8ge social est situ\u00e9  17 des lz, 31000 TULOUSE, repr\u00e9sent\u00e9e par sonieur [XXXX, en qual qualit\u00e9 de Directeur G\u00e9n\u00e9ral,\n\n\ni-apr\u00e8s d\u00e9ign\u00e9e \u00ab ll SociFHG\u00a0\u00bb,\n\n\n\u2019une part,\n\nET\nET\n\n\n sal syndicales repr\u00e9sentatives de l'entreprise, \u00e0\u00e9es parment par : d\u00e9l\u00e9gu\u00e9 syndical,\n\nC M C\u00e9e par Monsieur XXXX\n\n\nC CFD, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nLa'UNSA, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nC\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t'autre part,\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n a \u00e9t\u00e9 convenu le pr\u00e9sent accord collect le t\u00e9l\u00e9travail,\n\n\n\n\u00e9ambule\n\n\nLa\nLaans le contexte de'\u00e9vpid\u00e9mie de Covidavirus,-19,ant entu n\u00e9cessatoire le recours au t\u00e9l\u00e9travail, lestre la limt\u00e9ger la sant\u00e9 des la s\u00e9curit\u00e9 des salari\u00e9s, en asstant la poursuite de activit\u00e9s de l Mualit\u00e9 Fran\u00e7aise Haute-Garonne,\n\n\n\n\n\n a \u00e9t\u00e9 d\u00e9cid\u00e9 de dans le cadre de n\u00e9gociations suruelles obligatoires, 2021, de ntre en place un\u2019acc\u00e9rimentation d t\u00e9l\u00e9travail dans une\u2019ense\u00e9e ile 2022.\n exp\u00e9rimentation ache l sa fin et et il parties sign sont accordunies pour nir des la\u00e9renniser le pr en place du t\u00e9l\u00e9travail dans\n\n\n\nITefois, les regard de la Mualit\u00e9 Fran\u00e7 le miseit\u00e9 des sales ne travail neose une pr\u00e9sence phys sur site. ne permetvent \u00eatre exerc\u00e9s en m\u00eame parti\u00e8rement, forme de t\u00e9l\u00e9travail.\n\n\n\n\n parties ont donc d\u00e9chait\u00e9 encner un cadre aunel au t\u00e9l\u00e9travail, les les-ci puisse \u00eatreuer \u00e0 \u00eatre d\u00e9velopper dans le conditions optim\u00e9es et besoins de sal pre et tenantservant la\u2019\u00e9quilibre entre la intoins de\u00e9rationnels de lesnels de la Mualit\u00e9 etaise Haute-Garonne et\n\n\n\n\n\n parties ont convenvenues \u00e0 un accord sur qui leselles ontiennent de fixuler les disposes et suit ::\n\n\n\n\n\nicle 1 -: Chjet de l\u2019accord\n\nLe\nLe pr\u00e9sent accord a pour objet de d\u00e9er les conditions et mise en \u0153uvre du t\u00e9l\u00e9travail au sein de la Mutualit\u00e9 Fran\u00e7Fran\u00e7aise Haute-Garonne.\n\n\n t\u00e9l\u00e9travail, estaut entendre une forme d\u2019organisation du travail dans laquelle un travail qui aurait \u00e9galement pu \u00eatre ex\u00e9cut\u00e9 dans les locaux de l\u2019entreprise est effectu\u00e9 par un salari\u00e9 hors de ces locaux de de fa\u00e7on volontaire en en deant les technologies de l\u2019information et de la communication.\n\n\n\n\nArticle 2\u00a0: Chitions d\u2019accligibilit\u00e9 au t\u00e9l\u00e9travail\n\n\n\nLe t\u00e9l\u00e9 accord sne l salari\u00e9s de contrat \u00e0 droit \u00e0 dur\u00e9e ind\u00e9termin\u00e9e ouant au au ancine connaissance de out\u00e9cificit\u00e9s de leur\u2019entreit\u00e9 de des fonction de fonctionnement de services deatifs de la MutFHG.\n plus, les de\u2019\u00eatreurer la continune exche du l\u2019activprise, les Mence effective salari\u00e9 sur site est indispensable. auauf casrogation exception\u00e9e \u00e0 l\u2019article 3. pr\u00e9sent accord. au raisonima 2 jours par semaine.\n\n\n\nArt ailleurs, le\u2019agouteent \u00e0 conditions d\u2019\u00e9ligibilit\u00e9 lesmentionn\u00e9es, les conditions suivantes\u00a0:\n\n-\n- Le\t nature des post du doit \u00eatre effect non t\u00e9l\u00e9\u00e9e en t\u00e9l\u00e9travail\u00a0\n\n--\tLa capacit\u00e9 du salari\u00e9 \u00e0 travailler en manon autuli\u00e8re et son,\n autonomonie avec les \u00e9quipe,\n\n--\tLa conditionsit\u00e9s d\u2019organisation du l\u2019activipe,ant possibleispensable la pr\u00e9sence sur site,\n\n--\tLa disponence d seinicile du\u2019un espace de travail adaptdi\u00e9 et adapt\u00e9, t\u00e9l\u00e9travail,\n\u2019un connexion internet internet d\u00e9bit et d\u2019un cou inlectrique auxe aux\n\n\n\nArt\n\n\n\n\n\n\n\n\n\n t\u00e9l\u00e9travail est peut \u00eatre imvert aux\u2019aux un salctions quiibles avec le exercice \u00e0 distance.\ninsi, les sontvent \u00eatre \u00e9ligibles au t\u00e9l\u00e9travail les salari\u00e9s dontant des activit\u00e9 de n\u00e9cess par nature, neiert une\u2019\u00eatre exerc\u00e9e suriquement sur les locaux de l\u2019entreprise. t les raison de\u2019une manipence n\u00e9cessique n\u00e9cessaire a\n sont pas pas \u00e9ligibles au t\u00e9l\u00e9travail les salari\u00e9s dont contact des public,\u00e9s aux gu dants\u00a0:\n\n\n\tLes,ique, Audition,\n\n--\tServices des Services de la Personne,\n services de t\u00e9l\u00e9 t\u00e9l\u00e9IA,\n\n\n--\tDirection des Services aux So\u00e9,\n\n--\tDirection de (itant une pr\u00e9sence physique,\n\n\n\n\n t\u00e9l\u00e9able hi\u00e9rarchique du sairement doniller \u00e0 ce que les sal de salateurs en\u00e9n\u00e9ficiant du t\u00e9l\u00e9travail ne compatibleinement compatible\u00e9 aux bon fonctionnement du service. et qu\u2019\u00e0 la\u2019\u00e9quisation de l\u2019\u00e9quipe.\n\n\n\n\nicle 3\u00a0: Demalit\u00e9s d\u2019accisation du t\u00e9l\u00e9travail\n\n\n\nLe.1\u00a0bre de jours de t\u00e9l\u00e9travail\n\n\n\nLe mani\u00e8re g\u00e9n gariter une\u2019isolement des saltravailleur, son hiaut\u00e9 de travail, le est recommu que les parties que limiter le nombretravail \u00e0 2 jour par semaine. maximum. s mane que ce que le pr\u00e9sence du salari\u00e9s sur site soit main 4 jours par. par ss compris les jours de conplacement\u00e9gation synd de jours de\u00e9ri\u00e9s et les con, de cong\u00e9s pay\u00e9s, de concup\u00e9ration,\u2019heSA, deTT,\n\n\n\n t\u00e9l\u00e9 les jours detravaill\u00e9s sontont d\u00e9terminis en accord avec le respons. de garer les\u2019organisation du l de service. questionant une souci de neer les rycipe de\u2019\u00e9git\u00e9 entre:\n Managertravail ne peut \u00eatre imi que sur journ\u00e9es enti\u00e8re.\n\n\n\n\n3-2 Demfination au nombre de jours de t\u00e9l\u00e9travail\n\u00e9vu \u00e0 l\u2019article 3-1\n\n\n\nLe d\u00e9rogation \u00e0 dans des cas fonctionnement du service, le peut possibleu que\u2019unc l\u2019accord du la Direction, le estra \u00eatre d\u00e9\u00e9 au sur jours",
+            "Q is a exal will how step, whichired with an image andand and provides be additional context for You a response that eitherately\n    completes the request.\n\n    Import INruction\n\n\n    task is to writeize the article's businesscommun policy.  few that is easyable to an.\n this point the points points, provide provide a short summary. the company\u2019s policywork policy. and in.\n use the\n\n. El of TeleTeleligibility\" Sum employees are eligible for telework?e any job if if as jobure, job status, etc function, etc performance else that\n\n2   . Title: \"Telerequency\". Howrequency of telework ( (include as full of days per week or)/or maximum/) tele number's role in the office)\n\n\n3. Title: \"Durationangement\". How for which employeeswork arrangements are made andsuch as approval employees is be granted,/ there arrangement has discretion to the decisionance of telework) \n\n4. Title: \"Equs\". Whoage of costs associated with telework (such as equipment equipment, maintenance reances) \n\n5. Title: \"Securityacy\". Privacyvisions for privacy protection to privacyconnect and privacy protection of the employee\u2019\n\n6 addition summary, pleaseite specific specific as and parent tele that the information information can located.\n your category with the appropriate title.\n noteize the policy points in your point. and each single1-0 wordword limit.\nhereing to the 300-token limit is important for the task to\n do that is not exceed this limit.\n it response does not provide a category category, above, please thatNot document does not provide thistopic] e [topic] is the topic topic.\n\n\n\n######InputInput ### Input: \nclass sur\n    de travail\n\n111 de travail\n\n\n de travail\n\n\n\n typetele1.png\n\n\n\n\u00e8s surif de le t\u00e9l\u00e9travail\n\n\n\n\nRE L\n\n\n\nLa\u2019entreation X\u00e9l\u00e9VAET,  le si\u00e8ge social est situ\u00e9 au13 de Schuman,64200 Rez\u00e9, repr\u00e9sent\n\n\npr\u00e9sent\u00e9e par son\n[ence en qualit\u00e9 de eur G \u00fb habilit\u00e9 aux \n\nC\nC \n\n\n\nLes organisations syndicales repr\u00e9sentatives duantes ::\n\n\n\n\n- C\u00e9d\u00e9ration G d\u00e9mocratique du travail (CFDT) \u00e9e par \t\n issant en qualit\u00e9 de Dl\u00e9gu\u00e9 syndical,; \nLa\nLa\nLa\nLa\u00e9ambule\n\n\n\nLe partiesements techn technologies de l\u2019information et de la communication ont permis de\u2019\u00e9or du nouvelles formes d travail, au sein des l\u2019entreation T\u2019\u00e0 l\u2019extchelle internation la soci\u00e9t\u00e9. Le t\u00e9l\u00e9travail,itue une modal ces formvelles formit\u00e9s de\u2019organercution du travailat de travail.\n\n\n\nLere les avantements quus dans l cadre de vie\u2019organ\u00e9cution du la prestation de travail, le t\u00e9l\u00e9travail aporte des cons\u00e9quences sur la domaines t\n\n\n\n\nLefin, le mise en  du t\u00e9l\u00e9travail n\u00e9cess de de salari\u00e9s de\u00e9s de bduire leurs temps de transportplacement et leur domicile et le lieu de travail, de qui long\u00e9r\u00e9 comme les derniers comme une tempseur de stress. et\u2019\u00e9xi\u00e9t\u00e9 et de fatigue.\n miseduction de ce temps de d\u00e9placement permetribue \u00e9galement l qualduction de bilque routier. qu des l\u2019empreinte carnementale. l\u2019Association. des aux aux meilleduction des cois deag\u00e9s par les trari\u00e9. en mati\u00e8re de transportplacement.\n\n\n\nLe outre, le mise en place du t\u00e9l\u00e9 modal d travail permetise \u00e0 am\u00e9liorer la qualit\u00e9 de vie des travail des la meilleure conculation entre la\u2019activercice de\u2019une activit\u00e9 professionnelle et la vie personnelle et salari\u00e9s concern permetre la saltravailleur la plus grande autonomie dans l\u2019organcomplissement de ses t\u00e2ches.\n\n\n\n\nLe parties signataires de\u00e8rent que le t\u00e9l\u00e9travail const un modalit\u00e9 d travail quiant des objet de favorner au sal\u00e9n\u00e9ficiaires la de souplesse dans d flexibilit\u00e9 dans l conditions de travail. la possabilisation des l\u2019autonomie.\u00e9r\u00e9es aux l\u2019exercice de missions quinelles.\n\u2019Associisation du travailtravail doitose sur sur une relation de confiance entre l salari\u00e9 et l hiirection.\n\n\n\n\nLefin, les t\u00e9l\u00e9travail permet le cad de pr\u00e9tre aux continuit\u00e9 de l en l\u2019Association en de sesantir la protection de salari\u00e9s en notammentente un utilelle adapt\u00e9quate aux situations denelles telles que les craces san\u2019\u00e9pid\u00e9mies ou les cat de force majeure.\n\n\n\nChans lors, les pr\u00e9sirection et l\u2019Association Tjet et les organisations syndicales repr\u00e9sent sont accordcontr\u00e9es afin ont d\u00e9cu le pr\u00e9sent accord collectif sur\n\n\n\nArtet accord a pour objetif de:\u00a0\n\n\n\n- D\u00e9dtre en place le t\u00e9l\u00e9travail dans tantant les-ci aux spaintes de l\u2019Associisation de l\u2019Association Tra aux garurant la salari\u00e9s concern\u00e9s une\u2019\u00e9gercution de leurs missionsctions dans des meilleures conditions poss travail poss\u00a0;\n\n\n\tdpondre aux la demande cro laari\u00e9s de b\u00e9n\u00e9ficier du\u2019une organisationelle modal de travail\u00a0\n\n\n\nArtu effet, les a conven\u00e9r\u00e9 dans le pr\u00e9sent accord les dispositions relativesant sur sur les\n\n\n\n--\tles conditions\u00e9gories de salari\u00e9s pou\u00e9s\u00a0;\n\n--\tles modal d miseroulement du la\u2019activit\u00e9 en forme de t\u00e9l\u00e9travail\u00a0;\n\n--\tles modal de rec en \u0153uvre du t\u00e9l\u00e9travail\u00a0 cas de cirvenance d cir exceptionnelles\u00a0;\n\n--\tles\u2019organerc d\u2019un clause d\u2019adaptation\u00a0;\n\n--\tles modal de\u2019acc retour au une ex\u00e9cution norm contrat de travail sans t\u00e9l\u00e9travail\u00a0;\n\n--\tles modalit\u00e9s de ru\u00f4le du temps de travail\u00a0;\n\n--\tles protectiontermination des plages horaires de lesquelles le\u2019employeur peut contuellement contacter le salari\u00e9\u00a0 t\u00e9l\u00e9travail\u00a0;\n\n--\tles modal de prventionation de la\u2019intilibre entre privnelle et vie professionnelle\u00a0\n\n\n\nArt\n\n\u00e9ambule\n\n/\n\n\nitre I -: Champ d\u2019application\t d\u00e9finitions\n2\n\n\tArticle 1.: Champ d\u2019application\t5\n\n\tArticle 2\u00a0: D\u00e9finitions\t5\n\n\tTitre II\u00a0: Disari\u00e9s concernligibles au t\u00e9l\u00e9travail\t6\n\n\tArticle 3\u00a0: Sal\u00e8res d\u2019\u00e9ligibilit\u00e9\t t\u00e9l\u00e9travail\t5\n\n\tTicle 4\u00a0: Modites \u00e0 droit de saltravailleurs\tultan\u00e9s\tents\t5\n\n\tTitre III\u00a0: Modu de\u2019exercice du t\u00e9l\u00e9travail\t6\n\n\tArticle 5\u00a0: Lieu d\u2019exercice du du t\u00e9l\u00e9travail\t6\n\n\tArticle 6\u00a0: Lieisation du amit\u00e9 du lieux de t\u00e9l\u00e9\t7\n\n\tTicle 7\u00a0: Resurance et7\n\n\tTicle 8\u00a0: Restrit\u00e9 des \u00e9quations \u00e9lectriques\t7\n\n\tTitre IV\u00a0: Condise en  du t\u00e9l\u00e9travail\t7\n\n\tArticle 9\u00a0: Demise en place du\u2019une projet accord\t8\n\n\tArticle 10\u00a0: Demise en place \u00e0 demande du salari\u00e9\t8\n\n\tArticle 11\u00a0: Mise en place sur d\u00e9c de l\u2019emation\t8\n\n\tArticle 12\u00a0: Informationormalisation de la\u2019accord\t information de salari\u00e9\t9\n\n\tTicle 13\u00a0: Dangement de modalctions\t9\n\n\tTicle 14\u00a0: Dur\u00e9l\u00e9travail et l exceptionaire\t9\n\n\tTicle 15\u00a0\tconstances exceptionnelles\t10\n\n\tTitre V\u00a0: Exitions de\u2019ex\u00e9cution du t\u00e9l\u00e9travail\t10\n\n\tArticle 16\u00a0: Dur\u00e2travail \u00e0ulier\t temps fix\t11\n\n\tArticle 17\u00a0: Troits et obligations du saltravailleur\t11\n\n\tArticle 18\u00a0: Diseence auatoire au12\n\n\tArticle 19\u00a0: D\u2019te contre l\u2019isolement\t12\n\n\tArticle 20\u00a0: Dps de travail\t12\n\n\tArticle 21\u00a0 P\u00e9mime du l charge de travail\t12\n\n\tArticle 22 bis1\u00a0 Risation du la charge de travail\t12\n",
+            "Q is a exal will how step, whichired with an image andand and provides be additional context for You a response that eitherately\n    completes the request.\n\n    Import INruction\n\n\n    task is to writeize the article's businesscommun policy.  few that is easyable to an.\n this point the points points, provide provide a short summary. the company\u2019s policywork policy. and in.\n use the\n\n. El of TeleTeleligibility\" Sum employees are eligible for telework?e any job if if as jobure, job status, etc function, etc performance else that\n\n2   . Title: \"Telerequency\". Howrequency of telework ( (include as full of days per week or)/or maximum/) tele number's role in the office)\n\n\n3. Title: \"Durationangement\". How for which employeeswork arrangements are made andsuch as approval employees is be granted,/ there arrangement has discretion to the decisionance of telework) \n\n4. Title: \"Equs\". Whoage of costs associated with telework (such as equipment equipment, maintenance reances) \n\n5. Title: \"Securityacy\". Privacyvisions for privacy protection to privacyconnect and privacy protection of the employee\u2019\n\n6 addition summary, pleaseite specific specific as and parent tele that the information information can located.\n your category with the appropriate title.\n noteize the policy points in your point. and each single1-0 wordword limit.\nhereing to the 300-token limit is important for the task to\n do that is not exceed this limit.\n it response does not provide a category category, above, please thatNot document does not provide...\"topic] e [topic] is the topic topic.\n\n\n\n######InputInput ### Input: \n\n\n\nTypetele_.pngpeg\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nORDINGUM LEESEGANISATION DU TLETRAVAIL\nLEMENTATIONER\n SEIN DE LARO\nIT\nASL\n\n\n\n\n\n\n\n\n\n\n\n\nre les d\n\nLa\n\n\n\n\u2019une part, la soci\u00e9t\u00e9 GEBERIT SARL, sociicili\u00e9e . de Bis dearnau,  50011 -ABLEOISAU,77215 AVON CEedex, repr\u00e9sent\u00e9e par sonXXXXissant en qualit\u00e9 de Directeur des Ressources Humaines, XXX, enissant en qualit\u00e9 de Directeur G\u00e9n\u00e9ral,\n\n\n\nt,\n\n\nD\u2019autre part, les, agari\u00e9 de la soci\u00e9t\u00e9 Gberit SARL, dom\u00e9sgu\u00e9 Syndical CentralFEF.D.C.,\n\n\n\n\n\n\n a \u00e9t\u00e9 conven\u00e9 et qui suit ::\n\n\n\n\n\n\nAMBULE\n\n\n\n\n soci en place du\u2019un organisation de t\u00e9l\u00e9travail au'inscrit dans le cadhait de la\u2019entreprise de\u2019offorder\u00eetre la flexplesse et son organisation du travail, de favortre \u00e0 sal de mieux concilier vie professionnelle et vie priv\u00e9e.\n\nberit Sire \u00e0 \u00e0 amforcer l\u2019atagement et la motivation de ses salateurs. \u00e9galement \u00e0 attractivit\u00e9 enupr\u00e8s des nouvees potentielles.\n\n\n\n\n t\u00e9l\u00e9enu de pr\u00e9sent accord a\u2019apuie sur les:\n\n\n\n LaLa disposignes directrices de Minroupe Geberit\u00a0 au l mise en place\u0153uvre du t\u00e9l\u00e9travail\u00a0 ont\u2019appliquent \u00e0 l les entprises\u00a0 fil ontivent \u00eatre respectploy\u00e9es dans ch\u00a0 manon adapt home que possible. dans lesule les dispositions spales etatoires peu matigueur dansement peutent de sroger\u00a0;\n\n--\tLes dispositions l\u00e9g l\u2019accord National Interprofessionnel ( 16 novembre 2010 sur une mise en \u0153uvre r\u00e9ussie du t\u00e9l\u00e9travail\u00a0;\n\n--\tLes disposseignements tir l cratique du t\u00e9l\u00e9travail auulier au la site de Georeau\u00a0 depuis le 2029\u00a0 qui qui t\u00e9l\u00e9travail occasionnel mis la p\u00e9riodeise sanitaire li\u00e9e au la COVID\u00e9mie de Covid Covid-19\u00a0\n\n\n\n\n pr\u00e9sent accord a pour nu pour le cadre de dispos\u00e9gociations Annuelles Obligatoires ( \u00e0 l\u2019\u00e9gercice 2021.\n parties se souchang\u00e9 sur les\u2019enseisation du t\u00e9l\u00e9travail r\u00e9gulier au sein de r\u00e9unions du n\u00e9gociation du 10 janvier 2021, 14 novembre 2021.\n\n\nX\n \u00e9t\u00e9agn\u00e9 les dans cours des r\u00e9.\n\n\n\n\n pr\u00e9sirection\u00e9gation Syndicale Cte que les D\u00e9quence de t\u00e9l\u00e9travail ne\u2019ait pas \u00e9t\u00e9 abue \u00e0 la3 jours par t\u00e9l\u00e9travail par semaine. que D\u00e9t\u00e9 Ge lnne pas en charge les frais de\u00e9s au l\u2019installercice du t\u00e9l\u00e9travail. notamment qui est \u00e0 \u00e0 demandentes des personnel.\n\n\n D\u00e9l G indis\u00e9 que laela n\u2019\u00e9tait pas possible dans tenu des contrignes directrices duroupe. vi\u00e8re de t\u00e9l\u00e9travail.\n\n\n\n\n\n\nAP D D\u2019APPLICATION\n\n\n\nLeicle 1\n:\tfinition\n t\u00e9l\u00e9travail\n\n\n\nLe t\u00e9l\u00e9travail estigne toute forme d\u2019organisation du laquelle un travail qui aurait \u00e9galement pu \u00eatre ex\u00e9cut\u00e9 dans les locaux de l\u2019entreprise est effectu\u00e9 par un salateur hors de ces locaux, fa\u00e7on r\u00e9gontaire et utilisant les technologies de l\u2019information et de la communication.T. article L.1222-9 du Code du Tr).\n\n\n\nArt t\u00e9l\u00e9travail peut doit \u00eatre pas\u2019apresser qu\u2019aux salnes qui les poste est travail est compatiblement compatible\u00e9 sur le.\n ce titre, les t\u00e9l\u00e9 it la force de Vente et\u2019est pas concern\u00e9 par le dispositions du pr\u00e9sent accord.\n\n\n\nArt out \u00e9tat de cause, le mise en place\u0153uvre du t\u00e9l\u00e9travail doit \u00eatre compatible avec les impifs de l etconomique et sociale de l\u2019entreprise.\n\n\n\n\n\nArticle 2\u00a0- Ch sales formes de t\u00e9l\u00e9travail\n\n\n\nLe t\u00e9l\u00e9travail peut \u00eatre\u2019exercer de deuxon r\u00e9guli\u00e8re ou occasionnelle ou ou en situation de circonstances exceptionnelles. im force majeure.\n\n\n\nLeul le t\u00e9l\u00e9travail r\u00e9gulier est c estit une organisationcur\u00e9tition des le temps, l prest de t\u00e9l\u00e9travail,\u00e9pendamment de circonstances particuli\u00e8res, est dans le champ d pr\u00e9sent accord.\n\n\n\n\nont exclus exclusues du situationses dectuelles de t\u00e9l\u00e9travail, tell savoir le:\n\n--\tLe t\u00e9l\u00e9travail occasionnel, correspond \u00eatre\u2019exarenter \u00e0 une modal dectuelle de travail \u00e0 dom\u00a0finant de cir survenance d\u2019un \u00e9v\u00e8nement particulexamment enaint personiale, personicale) travbl\u00e8me dectuel de transport,\u00a0 qui ne mismis aux l\u2019accisation pr\u00e9resse et managerable hi\u00e9rarchique\u00a0 fonctionen avec les disposHources Humaines\u00a0\natoirement pour une dur\u00e9e limit\u00e9e et\n\n--\tLe t\u00e9l\u00e9travail exception desconstances exceptionnelles ou:i peut \u00eatre mis\u00e9r\u00e9 comme une mode\u00e9nagement tempor poste de travail pouru n\u00e9cessaire par fairetre au pit\u00e9 de l\u2019activit\u00e9 de l\u2019entreprise en quiantir la protection des sal dansnot de pand majeure, une pand deselle des locaux, pandne dformatique, \u00e9 crace d\u2019unepid\u00e9mie, de pandastrophe naturelle, etc gr des l four des transhicules, cas de\u2019intpisode ne pollution atmosn\u00e9 \u00e0 l\u2019article L.21-1 du Code de l\u2019environnement,\n ce casconstances, le miseision de au t\u00e9l\u00e9travail est\u00e8ve de sevoir de direction deilat\u00e9rale de l\u2019employeur.\n\n\n\n\nont cirision contraire, les pr\u00e9sente \u00ab\u00a0t\u00e9l\u00e9travail\u00a0\u00bb utilpris dans le suite accord d\u00e9svoie au t\u00e9l\u00e9travail r\u00e9g \u00abulier.\n\n\n\n\n\nArtDITIONS D\u2019ACCES AU TELETRAVAIL\n\n\n\n\nArticle 3\u00a0- Eligibilit\u00e9\n sales\n t\u00e9l\u00e9travail\n\n\n\nLeuls les \u00e9ibles au t\u00e9l\u00e9travail les postes qui les\u2019exercice \u00e0 missions ne t\u00e9l\u00e9hors des locaux de l\u2019entreprise est\u2019est pas inible de porter atteinte \u00e0 la boncurit\u00e9 des personn\u00e9es et \u00e0 la impus de\u00e9rationnels crit\n\n\n\nLainsi sein de cette natureibilit\u00e9 avec le t\u00e9l\u00e9travail, les catologies de postes sont distingufinies\u00a0 la sociirection\u00a0 Ge soci\u00e9t\u00e9 Ge accorden avec les Ressources Humaines\u00a0:\n\n--\tLes postes compat \u00e9ligibles au tentenu de caract\u00e8re sensible des leur dernies\u00a0 regard de don\u00e8"
+        ],
+        "targets": [
+            "**Eligibility**\n- Permanent employees with a good understanding of MFHG's activities and administrative services (Article 2).\n- Jobs that can be performed remotely (Article 2).\n- Employees must have a dedicated workspace, high-speed internet, and compliant electrical installation at home (Article 2).\n- Excludes employees whose roles require physical presence, such as those in direct public contact or certain support services (Article 2).\n\n**Frequency**\n- Limited to 1 day per week to avoid isolation, ensuring a minimum of 4 days on-site (Article 3-1).\n- Possible exceptions for up to 3 days of telework per week with management approval (Article 3-2).\n\n**Arrangements**\n- Telework is voluntary and requires mutual agreement between the employee and the company (Article 5).\n- Formalized by an amendment to the employment contract (Article 6).\n\n**Costs**\n- Employees are responsible for internet and phone connection costs (Article 11).\n- Meal vouchers are maintained, but no additional telework-related compensation is provided by the employer (Article 11).\n\n**Privacy**\n- Employees must disconnect outside of contractual working hours (Article 3-3).\n- The document does not mention specific privacy provisions beyond the obligation to disconnect.\n\nPlease note that the document does not mention specific provisions for the right to disconnect beyond the general obligation to disconnect outside of working hours, nor does it detail privacy provisions for workers beyond what is implied by the telework arrangement.",
+            "**Eligibility**\n- Full-time or at least 80% part-time employees with a minimum of one year's tenure, not on probation (Article 3).\n- Must be able to work autonomously and remotely, with compatible job functions and an appropriate workspace (Article 3).\n- Excludes roles requiring continuous presence, significant regular absence, or specific technical/material constraints (Article 3).\n\n**Frequency**\n- Up to four full days of telework per month, with days agreed upon between the employee and their manager (Article 16).\n- Presence in the office is required at least two days per week to prevent isolation (Article 19).\n\n**Arrangements**\n- Telework is established by mutual agreement, not unilaterally, except in exceptional circumstances (Articles 9, 10, 11, 15).\n- Managers have discretion over telework arrangements, considering team and organizational needs (Article 4).\n\n**Costs**\n- The company provides necessary equipment such as a laptop, mobile phone, and remote server access (Article 28).\n- In exceptional circumstances, employees may use personal equipment, with the company covering installation costs (Article 28).\n\n**Privacy**\n- Employees have the right to disconnect outside of work hours and during rest periods, as detailed in the unilateral charter on the right to disconnect (Article 22, Charter on the Right to Disconnect).\n- The company will not share personal contact information, and webcam use during remote meetings is not mandatory (Article 23).\n\nThe document does not mention meal allowance.",
+            "**Eligibility**\n- Eligible workers: those who have completed their probation period and demonstrate autonomy in their role (Article 4).\n- Ineligible positions: roles sensitive to data security, operational processes, or requiring on-site presence (Article 3).\n- Sales force personnel are not covered by the telework policy (Article 1).\n\n**Frequency**\n- Standard frequency: 20% of weekly work time, equivalent to 1 day per week for full-time employees (Article 13).\n- Increased frequency: up to 40% of weekly work time for employees with disabilities, part-time therapeutic schedules, or family caregivers (Article 13).\n\n**Arrangements**\n- Telework arrangements require an amendment to the employment contract (Article 10).\n- A 3-month adaptation period is provided, with a 2-week notice for termination of telework by either party (Article 6).\n- Managers have discretion over telework eligibility and can temporarily suspend telework due to operational needs (Article 11).\n\n**Costs**\n- The company does not cover telework-related costs or provide monetary benefits (Article 7).\n- Employees are responsible for ensuring their home office meets safety and connectivity requirements (Articles 8 and 9).\n\n**Privacy**\n- The document does not mention the right to disconnect or privacy provisions specifically. However, it does state that teleworkers have the same rights and obligations as on-site workers, implying that existing privacy and disconnection rights apply (Article 16).\n\n(Note: The document does not explicitly mention \"Privacy\" as a category, but related information is inferred from the general principles and applicable provisions section.)"
+        ]
+    },
+    "num_increases_batch_size": 0,
+    "num_reductions_learning_rate": 0,
+    "steps": 285,
+    "test_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ]
+        },
+        "output": {
+            "bleu": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "char_error_rate": [
+                [
+                    1,
+                    95,
+                    Infinity
+                ],
+                [
+                    2,
+                    190,
+                    Infinity
+                ],
+                [
+                    3,
+                    285,
+                    Infinity
+                ]
+            ],
+            "loss": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ],
+            "rouge1_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge1_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge1_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge2_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge2_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge2_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeL_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeL_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeL_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeLsum_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeLsum_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeLsum_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "word_error_rate": [
+                [
+                    1,
+                    95,
+                    Infinity
+                ],
+                [
+                    2,
+                    190,
+                    Infinity
+                ],
+                [
+                    3,
+                    285,
+                    Infinity
+                ]
+            ]
+        }
+    },
+    "total_tokens_used": 583680,
+    "train_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ]
+        },
+        "output": {
+            "bleu": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "char_error_rate": [
+                [
+                    1,
+                    95,
+                    Infinity
+                ],
+                [
+                    2,
+                    190,
+                    Infinity
+                ],
+                [
+                    3,
+                    285,
+                    Infinity
+                ]
+            ],
+            "loss": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    95,
+                    NaN
+                ],
+                [
+                    2,
+                    190,
+                    NaN
+                ],
+                [
+                    3,
+                    285,
+                    NaN
+                ]
+            ],
+            "rouge1_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge1_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge1_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge2_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge2_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rouge2_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeL_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeL_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeL_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeLsum_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeLsum_precision": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "rougeLsum_recall": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "word_error_rate": [
+                [
+                    1,
+                    95,
+                    Infinity
+                ],
+                [
+                    2,
+                    190,
+                    Infinity
+                ],
+                [
+                    3,
+                    285,
+                    Infinity
+                ]
+            ]
+        }
+    },
+    "tune_checkpoint_num": 0,
+    "validation_metrics": {
+        "combined": {},
+        "output": {}
+    }
+}

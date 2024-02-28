@@ -1,0 +1,779 @@
+
+
+
+
+
+
+
+
+
+
+
+
+ACCORD 
+
+RELATIF AU TELETRAVAIL
+
+
+
+
+
+
+
+
+
+
+ENTRE
+
+La Société DIAGNOSTICA STAGO SAS dont le siège social est situé 3 Allée Thérésa à Asnières sur Seine (92600), représentée par M……………………………. agissant en qualité de Directeur Ressources Humaines Groupe, par délégation de M………………………………, Vice-Président Délégué.
+
+
+
+d'une part,
+
+
+
+
+
+
+
+
+
+
+
+ET
+
+
+
+
+
+
+
+Les Organisations Syndicales représentatives de la Société, ci-dessous énumérées, prises en la personne de leur représentant qualifié :
+
+
+
+--	La CFE-CGC représentée par M……………………., délégué syndical
+
+--	La CFTC représentée par M………………….., déléguée syndicale
+
+--	La CGT STAGO, représentée par M………………….., délégué syndical
+
+--	FO représenté par M……………………….., déléguée syndicale
+
+
+
+d'autre part.
+
+
+
+
+
+
+
+
+
+SOMMAIRE
+
+
+
+PREAMBULE
+
+Article 1 : Champ d’application
+
+Article 2 : Définition du télétravail
+
+Article 3 : Conditions d’éligibilité au télétravail
+
+	3.1 Eligibilité liée au métier, à la nature des activités et au fonctionnement d’équipe
+
+	3.2 Eligibilité du salarié
+
+	3.3 Eligibilité du lieu de télétravail
+
+
+
+Article 4 : Modalités du télétravail et organisation du temps de travail
+
+	4.1 Modalités de télétravail
+
+	4.2 Latitude donnée aux responsables hiérarchiques
+
+	4.3 Organisation du temps de travail
+
+4.4 Suivi du temps en télétravail
+
+4.5 Suivi de la charge de travail
+
+4.6 Télétravail et réunions
+
+
+
+Article 5 : Equipements liés au télétravail
+
+Article 6 : Santé et sécurité
+
+Article 7 : Confidentialité et protection des données
+
+Article 8 : Protection de la vie privée du télétravailleur et droit a la déconnexion
+
+Article 9 : Droits individuels et collectifs
+
+Article 10 : Mise en œuvre du télétravail
+
+10.1 Principe de volontariat et formalisation de la demande
+
+10.2 Examen de la demande
+
+10.3 Période probatoire
+
+10.4 Réversibilité et suspension
+
+Article 11 – Dispositifs particuliers de Télétravail 
+
+11.1  Modalités d’accès au télétravail pour les travailleurs handicapés
+
+11.2  Modalités d’accès au télétravail pour circonstances exceptionnelles
+
+Article 12 : Suivi du télétravail
+
+Article 13 : Entrée en vigueur de l’accord
+
+Article 14: Révision
+
+Article 15 : Formalité de dépôt et de publicité
+
+
+
+PREAMBULE
+
+Le télétravail a pour objectif de permettre aux salariés qui en font le choix, de bénéficier d’une plus grande souplesse dans l’organisation de leur travail, tout en contribuant à un meilleur équilibre entre vies professionnelle et personnelle. Le télétravail représente une opportunité supplémentaire pour contribuer à l’amélioration du bien-être, au développement de la confiance (entre les salariés, les responsables hiérarchiques et l’entreprise) et de la performance. Ce sont des valeurs importantes de la culture de Stago. 
+
+Il convient aussi de noter l’importance que Stago porte aux valeurs d’esprit d’équipe et à la collaboration transversale qui sera encore plus importante à l’avenir pour garantir notre succès.  Il faut ainsi veiller à maintenir ce lien indispensable à la performance individuelle et collective, incluant l’efficacité opérationnelle.
+
+Le télétravail est une modalité d’organisation du travail qui permet aux salariés d’exécuter de manière régulière ou occasionnelle, hors des locaux de l’entreprise, un travail qui aurait pu être exécuté dans ces locaux, grâce aux technologies de l’information et de la communication. 
+
+Dans ce contexte, un pilote Télétravail a été lancé en Octobre 2018 au sein de certains services. Dans le cadre de ce pilote, 200 salariés volontaires ont eu l’occasion d’expérimenter le télétravail pendant plusieurs mois. Ce pilote avait ainsi pour objectif de définir la possibilité de généralisation et d’identifier les conditions favorables de sa potentielle mise en œuvre : critères d’éligibilité, modalités de mise en œuvre, dispositif d’accompagnement.
+
+Les enseignements de ce pilote se sont avérés positifs tant d’un point de vue quantitatif que qualitatif notamment en terme de bien-être, motivation et performance. Pour ces raisons et parce que le télétravail répond parfaitement à l’évolution de notre environnement, à notre Internationalisation, à nos fondamentaux RH et à notre besoin de transformer l’entreprise, la Direction a souhaité étendre ce dispositif.
+
+Les partenaires sociaux ont participé activement aux réflexions sur le Télétravail et au suivi dans un groupe de travail sur le pilote. C’est dans ce cadre que des négociations se sont ouvertes sur l’élargissement du recours au Télétravail. 
+
+Les négociations ont permis d’aboutir à la conclusion du présent accord au terme duquel la Direction et les Organisations Syndicales représentatives signataires définissent les conditions et modalités de la mise en place d’un dispositif de télétravail au sein de Diagnostica Stago. 
+
+
+
+Article 1 : Champ d ‘application
+
+Le présent accord s’applique aux salariés de Diagnostica Stago, sous réserve des conditions d’éligibilité définies au présent accord.
+
+
+
+Article 2 : Définition du télétravail
+
+Le télétravail désigne, au sens de l’article L. 1222.9 du code du travail, toute forme d’organisation du travail dans laquelle un travail qui aurait également pu être exécuté dans les locaux de l’employeur est effectué par un salarié hors de ces locaux de façon volontaire en utilisant les technologies de l’information et de la communication de STAGO, sauf autorisation spécifique.
+
+Il est rappelé que le télétravail repose sur un choix personnel du salarié nécessitant l’accord de l’employeur. En conséquence le télétravail ne peut pas être imposé au salarié par la société et ne peut être considéré comme un droit exigible par le salarié. 
+
+Le télétravail revêt un caractère réversible pour le salarié et pour l’employeur.
+
+
+
+
+
+Article 3 : Conditions d’éligibilité au télétravail
+
+Le télétravail n’est ni un droit, ni une obligation et sa mise en œuvre répond à certaines conditions.
+
+Par principe le télétravail est ouvert à tout salarié répondant à l’ensemble des critères d’éligibilité définis ci-après.
+
+
+
+	3.1 : Eligibilité liée au métier, à la nature des activités et au fonctionnement d’équipe
+
+L’accès au télétravail est réservé aux métiers et aux activités compatibles avec cette forme d’organisation du travail.
+
+Ainsi, ne peuvent être éligibles au télétravail, les salariés ayant une activité qui, par nature, requiert d’être exercée de façon permanente au sein de l’entreprise, notamment en raison :
+
+--	De la nature du métier
+
+--	Des équipements et matériels utilisés
+
+--	De la nécessité d’une présence physique
+
+--	De la nécessité de travailler avec des documents confidentiels ne pouvant être consultés hors de l’entreprise,
+
+--	De l’impossibilité de se connecter à distance sur les applicatifs utilisés par le salarié.
+
+A titre d’exemples, ne sont pas éligibles au télétravail : les salariés relevant des métiers de l’accueil, de la maintenance, de la sécurité, de la production, etc.
+
+Enfin, la mise en œuvre du télétravail doit en tout état de cause être organisée tout en préservant le bon fonctionnement du service au regard des délivrables et de la cohésion de l’équipe.
+
+
+
+3.2 : Eligibilité du salarié
+
+Le télétravail est basé sur une relation de confiance mutuelle et est fondé sur la capacité du salarié à exercer ses fonctions de façon autonome. En complément de cette autonomie, la maîtrise du poste est également impérative.
+
+Ainsi, sont éligibles au télétravail, les salariés :
+
+--	Titulaires d’un contrat de travail à durée indéterminée (CDI) à temps plein ou dont la durée est supérieure ou égale à 80%
+
+--	Titulaires d’un contrat de travail à durée déterminée (CDD) à temps plein (sauf dérogation accordée par le responsable hiérarchique et le Manager Ressources Humaines dans l’hypothèse où la durée de travail est supérieure ou égale à 80%)
+
+--	Justifiant d’une ancienneté minimale de 12 mois sur le poste pour disposer des connaissances suffisantes sur l’organisation et le fonctionnement de l’entreprise, (sauf dérogation accordée par le responsable hiérarchique et le Manager Ressources Humaines dans l’hypothèse où le salarié serait considéré comme autonome)
+
+--	Ayant été considéré par leur responsable hiérarchique comme « autonome dans leur poste ». L’autonomie s’entend par la capacité du salarié en situation de télétravail à organiser seul son travail avec anticipation des tâches à faire, à répondre en toute autonomie aux problèmes qu’il rencontre et à avoir une bonne connaissance de son environnement de travail et de ses interlocuteurs.
+
+Cette autonomie peut faire l’objet d’une évaluation par le salarié avec son responsable hiérarchique en lien avec le Manager Ressources Humaines. L’appréciation du dernier EAP (Entretien Annuel de Performance) peut être un indicateur de non autonomie, pour exemple (liste non exhaustive), si la tenue du poste, voire les objectifs, sont considérés comme non atteints.
+
+Les apprentis et les stagiaires ne sont pas éligibles au télétravail, considérant que la présence dans une communauté de travail est un élément indispensable à leur apprentissage. 
+
+
+
+3.3 : Eligibilité du lieu de télétravail
+
+Pour tenir compte des souhaits des salariés, mais également pour leur offrir une plus grande souplesse dans l’organisation du télétravail, il est admis que le télétravail soit exercé depuis la résidence principale du salarié ou depuis tout autre lieu de résidence à usage privé, dès lors que ce lieu est habituel et localisé en France. 
+
+Le lieu de résidence à usage privé par le salarié est obligatoirement déclaré à la Direction des Ressources Humaines par le salarié au moment de sa demande d’entrée dans le dispositif du télétravail. Tout changement d’adresse impliquant un changement du lieu de résidence à usage privé tel qu’il est mentionné doit être déclaré à la Direction des Ressources Humaines.  
+
+Le lieu de Télétravail du salarié doit répondre à certaines conditions pour que le passage au télétravail puisse être réalisé dans de bonne conditions.
+
+Ainsi le salarié volontaire pour le télétravail doit :
+
+--	Attester sur l’honneur de la conformité de l’installation électrique du lieu du télétravail, si une mise en conformité s’avérait nécessaire, elle serait intégralement à la charge du salarié concerné.
+
+--	Disposer d’une connexion internet haut débit suffisant, cela afin de garantir une bonne connexion pour pouvoir travailler. 
+
+--	Bénéficier sur le lieu du télétravail d’un espace dédié dans un environnement compatible au travail à domicile.
+
+--	Justifier d’une assurance multirisques habitation qui doit couvrir sa présence pendant sa journée de télétravail à domicile.
+
+--	Etre couvert par les réseaux de téléphone.
+
+--	Accepter d’être joint durant les plages horaires définies ci-après, sur les moyens de communications de l’entreprise. Néanmoins, dans l’hypothèse ces moyens ne pourraient être utilisé, les salariés devront accepter qu’un transfert de ligne soit opéré où être joint directement sur leur téléphone personnel et ce afin de demeurer joignables.
+
+
+
+
+
+
+
+Article 4 : Modalités du télétravail et organisation du temps de travail
+
+4.1 : Modalité de télétravail
+
+Il est entendu que le jour de télétravail n’est ni divisible, ni reportable. Ainsi, si le salarié choisit de ne pas utiliser son jour de télétravail, ou de ne l’utiliser que pour la moitié de la journée, il ne pourra pas reporter le solde du temps non télétravaillé sur un autre moment de la semaine ou du mois.
+
+Cette journée télétravaillée pourra être fixe ou variable en fonction des contraintes de fonctionnement propres à chaque service.
+
+En tout état de cause, il est précisé que le choix doit être suffisamment anticipé pour ne pas désorganiser le service.
+
+
+
+4.1.1 : Modalité de télétravail pour les postes éligibles au télétravail
+
+Afin de garantir le bon fonctionnement du service et la cohésion de l’équipe, le télétravail sera mis en œuvre selon le principe suivant : au maximum 1 journée entière de télétravail par semaine.
+
+
+
+4.1.2 : Modalité de télétravail pour les postes partiellement éligibles au télétravail
+
+Certains postes présentent des caractéristiques ne permettant pas de recourir au télétravail à hauteur de 1 journée entière par semaine.
+
+Il en est ainsi des postes pour lesquels une présence accrue sur site ou une planification des activités en amont est nécessaire.
+
+Il en est de même des postes ayant recours fréquemment à des équipements non transportables ou à des logiciels non accessibles depuis leur domicile.
+
+Pour ces postes, et afin néanmoins de permettre un recours au télétravail, il est convenu qu’ils pourront être éligibles au télétravail à hauteur de 2 jours par mois ou de façon occasionnelle en fonction des contraintes particulières de leur activité.
+
+
+
+4.2 : Latitude donnée aux responsables hiérarchiques
+
+Chaque service et chaque métier a des spécificités propres qui doivent être prises en compte dans l’organisation du service. A ce titre, le responsable hiérarchique est le mieux placé pour définir les nécessités de son service. On note par contre un besoin d’alignement pour assurer une certaine cohérence au sein de la Direction.
+
+Dans le respect des obligations de service liées à l’activité, chaque responsable hiérarchique fera en sorte de permettre au maximum de salariés éligibles de pouvoir utiliser leur droit au télétravail.
+
+Néanmoins, tout comme le salarié pourra décider de ne pas utiliser certaines semaines son droit au télétravail, si des nécessités de service le justifient, le responsable hiérarchique pourra ponctuellement décider de refuser certaines journées ou semaines de télétravail.
+
+En cas de situation d’effectif réduit au sein du service (exemples : période de congés ou absences simultanées), le responsable hiérarchique évaluera la nécessité d’avoir tout l’effectif présent physiquement au bureau afin d’assurer le bon fonctionnement du service. Dans la mesure du possible, de telles situations particulières seront portées à la connaissance des salariés du service le plus en amont possible.
+
+
+
+4.3 : Organisation du temps de travail
+
+Le salarié en télétravail gère l’organisation de son travail dans le respect des dispositions légales et conventionnelles applicables et notamment dans le respect des règles relatives aux durées maximales quotidiennes et hebdomadaires de travail.
+
+Pendant la journée de télétravail, le temps exercé au titre du télétravail sera décompté comme temps de travail effectif sur les mêmes bases que celui qui aurait été retenu si le télétravailleur avait travaillé dans les locaux de l’entreprise.
+
+Pour ces raisons le salarié sera joignable à ses horaires habituels de travail quand il est dans l’entreprise et au minimum sur le créneau horaire suivant : 9h-12h et 14h-17h.
+
+A toutes fins utiles, il est rappelé que le salarié ne peut en aucun cas se placer en situation de télétravail pendant les périodes de suspension du contrat de travail pour quelque cause que ce soit (maladie, congés, …).
+
+
+
+4.4 : Suivi du temps en télétravail
+
+Les journées de télétravail devront être enregistrées par avance dans le système de gestion des absences (actuellement Kelio) et soumise de fait à validation par le responsable hiérarchique au plus tard la veille du jour télétravaillé, sauf autre règle définie par le responsable hiérarchique.
+
+Les salariés non cadres devront définir une plage horaire à domicile correspondant à 7h28 de travail journalier effectif (hors pause). C’est ce temps qui sera automatiquement décompté sous Kelio lorsqu’ils déclareront le télétravail.
+
+Il est rappelé que les heures supplémentaires ne peuvent être réalisées qu’à la demande de la hiérarchie et déclarées selon les procédures internes en vigueur.
+
+Pour les cadres au forfait la journée sera comptabilisée également automatiquement via Kelio.
+
+
+
+4.5 : Suivi de la charge de travail
+
+A titre préalable il est rappelé que le responsable hiérarchique est responsable de la charge de travail de ses collaborateurs que ceux-ci soient en télétravail ou pas. 
+
+Il lui revient de s’assurer que le télétravail n’engendre pas de déséquilibre dans la journée/semaine de travail du salarié. Il est aussi important à noter que le télétravail ne doit pas engendrer de déséquilibre sur les autres salariés de l’équipe ou affecter le bon fonctionnement du service et leurs interactions avec les autres services.   
+
+A cette fin, un point sera fait avec le responsable hiérarchique sur l’impact du télétravail et le maintien du lien avec l’entreprise et les équipes, avant le terme de la période probatoire du Télétravail (ref point 10.3).
+
+Par ailleurs, la question des conditions de l’activité du salarié et de sa charge de travail sera abordée au cours d’un entretien annuel.
+
+
+
+4.6 : Télétravail et réunions
+
+Les salariés en télétravail doivent assister aux réunions pour lesquelles leur présence physique est requise par leur management. Dans la mesure du possible, ces réunions seront planifiées suffisamment à l’avance pour permettre au télétravailleur de ne pas prendre ses jours de télétravail pendant les jours de réunion. 
+
+La situation de télétravail n’exonère pas les salariés de participer aux réunions auxquelles ils sont conviés. Les moyens de communications et digitale (skype, webex etc..) permettent aujourd’hui la participation efficace à distance. Cela fait partie de la transformation de nos pratiques qui sera nécessaire pour que le télétravail fonctionne à une plus large échelle.
+
+
+
+Article 5. Equipements liés au télétravail
+
+L’entreprise fournit et entretient les équipements nécessaires au télétravail (ordinateur portable, connexion au réseau interne de l’entreprise) ainsi qu’un service approprié d’appui technique.
+
+Le matériel pourra être fourni sous la forme de prêt de matériel exclusivement pour les journées de télétravail. Ces équipements ne sont pas nécessairement garantis et fournis pour les autres jours travaillés sur site.
+
+En cas d’incident technique, ne pouvant être solutionné à distance par l’assistance et l’empêchant d’effectuer normalement son activité, le salarié doit en informer immédiatement son Responsable hiérarchique et contacter le service d’appui technique. Le Responsable hiérarchique prendra alors les mesures appropriées pour assurer la bonne organisation de l’activité.  
+
+Si un télétravailleur estime avoir besoin d’un équipement complémentaire pour effectuer sa mission en Télétravail, celui-ci ne sera pas pris en charge par l’entreprise et restera donc à la charge du télétravailleur.  Il en est de même en cas d’aménagement matériel de poste de travail à domicile à la demande du médecin du travail. En effet, un besoin d’aménagement matériel de poste de travail, qu’il soit à la demande du télétravailleur ou du médecin du travail ne sera pas pris en charge par l’entreprise. Si l’amenagement de matériel s’avère indispensable pour l’exercice de la mission à domicile, le télétravail ne sera pas ou plus envisageable.
+
+Il est néanmoins précisé que compte tenu de l’élargissement du recours au télétravail, l’accès aux équipements nécessaires au Télétravail se fera de manière progressive si les salariés ne sont pas déjà équipés de ce matériel. 
+
+Le salarié s’engage à utiliser exclusivement le matériel informatique mis à sa disposition par l’entreprise, à en prendre soin et à le restituer en cas de cessation d’activité au lieu de résidence à usage privé déclarée, rupture de contrat de travail, d’arrêt du télétravail ou si demandé par l’entreprise.
+
+Le choix étant laissé au salarié d’effectuer du télétravail ou non, Stago ne prendra en charge aucun frais lié à l’exercice du droit au télétravail.
+
+
+
+
+
+Article 6. Santé et sécurité
+
+Les dispositions légales et conventionnelles relatives à la santé et la sécurité au travail sont applicables aux télétravailleurs et doivent être strictement respectées par le Responsable hiérarchique.
+
+Pendant sa journée de télétravail le salarié continue à bénéficier de la même couverture accident, maladie, prévoyance que lorsqu’il travaille sur site.
+
+Si un accident survient au domicile pendant la journée de télétravail, le salarié doit informer son responsable hiérarchique et son MRH dans les mêmes délais que ceux en vigueur pour un travail dans les locaux de l’entreprise. Tout accident survenu dans l’espace dédié au Télétravail sur le lieu déclaré d’exercice du Télétravail et pendant l’exercice de l’activité professionnelle est présumé être un accident de travail et doit être déclaré comme tel.
+
+Si des éléments factuels laissaient supposer que les conditions d’exercice du télétravail présentaient un risque pour le salarié, il pourra être demandé au salarié de rencontrer la médecine du travail qui étudiera plus en détail les conditions de mise en œuvre et fera sa recommandation.
+
+L’entreprise doit pouvoir s’assurer que le salarié en situation de télétravail exerce sa mission dans des conditions conformes. En conséquence l’employeur ou son représentant et un membre élu du CSE, membre de la CSSCT, pourront le cas échéant, et uniquement sur rendez-vous, être amenés à accéder au domicile du salarié. Une telle démarche ne pourra être diligentée qu’après accord du salarié et moyennant un délai de prévenance de deux jours ouvrés minimum. En cas de refus du salarié sans motif légitime, celui-ci ne sera plus éligible au télétravail. De même, si après cette visite il est identifié un risque pour le salarié, celui-ci devra se mettre en conformité pour pouvoir continuer le télétravail.
+
+
+
+Article 7. Confidentialité et protection des données
+
+Le salarié s’engage à respecter les règles internes en matière de sécurité informatique. Il veille à assurer la confidentialité, l’intégrité et la protection des données qui lui sont confiées et auxquelles il accède dans le cadre de son activité.
+
+Dans l’hypothèse où il serait amené à travailler sur des données à caractère personnel, et plus encore sur des données patients, il s‘engage à ne jamais transporter avec lui ce type de données et de n’y accéder que par les réseaux informatiques de l’entreprise.
+
+Il s‘engage également à ne transférer aucune donnée de l’entreprise sur du matériel personnel de quelque nature que ce soit (ordinateur, clés USB, disque dur, …) et notamment aussi lors de ses journées en télétravail.
+
+
+
+Article 8. Protection de la vie privée du télétravailleur et droit à la déconnexion
+
+Il est important que le salarié en situation de télétravail puisse préserver son équilibre vie professionnelle-vie privée et bénéficier de son droit à la déconnexion.
+
+Le salarié pourra donc être contacté exclusivement lors de ses plages horaires de travail habituelles, et en aucun cas avant 8h00 et après 19h00. Le responsable hiérarchique s‘assurera que l’équipe est tenue au courant des horaires habituellement travaillés de chacun.
+
+
+
+Article 9. Droits individuels et collectifs
+
+Le salarié en télétravail bénéficie des mêmes droits et avantages sociaux légaux et conventionnels notamment en matière de rémunération, de gestion de carrière, d’évaluation, d’accès à la formation professionnelle que ceux applicables aux salariés travaillant exclusivement dans les locaux de l’entreprise.
+
+Le télétravail est une forme d’organisation du travail, il ne peut en aucun cas être considéré comme une récompense ou une reconnaissance faite à un salarié pour quelque motif que ce soit.
+
+
+
+Article 10 : Mise en œuvre du télétravail
+
+10.1 : Principe de volontariat et formalisation de la demande
+
+L’exercice d’une activité de télétravail s’inscrit nécessairement dans une démarche fondée sur le volontariat. Par conséquent, aucun salarié ne peut être contraint d’accepter, ni ne peut l’imposer à la direction. 
+
+L’accès au télétravail est réservé aux salariés faisant acte de candidature et remplissant les conditions d’éligibilité. 
+
+Il est à l’initiative du salarié et est subordonné à l’accord de son responsable hiérarchique (n+1), qui appréciera sa demande de passage en télétravail lors d’un entretien spécifique, en fonction des critères d’éligibilité prévues par le présent accord et des contraintes de l’entreprise.
+
+Le salarié déposera sa candidature écrite (par email ou par courrier) utilisant le formulaire défini à cet effet (annexe 1) auprès de son responsable hiérarchique en mettant en copie le Manager Ressources Humaines du périmètre. Le Manager Ressources Humaines transmet au responsable hiérarchique les éléments d’information sur le télétravail, si celui-ci n’en a pas déjà eu communication, ainsi que les documents nécessaires à cette demande.
+
+En parallèle, le responsable hiérarchique revoit avec les services informatique les besoins et ils s’assurent de la faisabilité technique du télétravail.
+
+Il est rappelé que les responsables hiérarchiques sont les garants du bon fonctionnement de leur service, de son efficacité et de l’esprit d’équipe. Ils devront notamment examiner, avec le plus grand soin et toute objectivité ces demandes, tant d’un point de vue éligibilité du poste que du salarié. 
+
+
+
+10.2 : Examen de la demande
+
+La demande de télétravail est examinée dans le cadre d’un entretien avec le salarié et le responsable hiérarchique dans les 15 jours suivant la demande. 
+
+Cet entretien a notamment pour objectif :
+
+--	De s’assurer des critères d’éligibilité 
+
+--	D’examiner la faisabilité de la réalisation des tâches à distance (équipements informatiques, …)
+
+--	De porter à la connaissance du salarié les règles relatives au télétravail telles que définies par l’accord.
+
+L’entreprise donnera via le responsable hiérarchique une réponse écrite au maximum dans les 15 jours suivant cet entretien (hors période de lancement).
+
+En cas de réponse positive, le salarié devra valider son acceptation sous forme d‘un e-mail adressé au Coordinateur Ressources Humaines de son périmètre et fournir à celui-ci :
+
+--	Un document justifiant le niveau du débit internet.
+
+--	Une copie de l’assurance habitation multirisque indiquant qu’elle couvre le télétravail à domicile 
+
+--	Une attestation sur l’honneur de disposition à domicile d’un espace de travail compatible avec l’exercice du télétravail dans de bonnes conditions (environnement calme et espace de travail dédié et confortable)
+
+--	Une attestation sur l’honneur de la conformité de l’installation électrique aux normes de sécurité.
+
+En cas de refus, le responsable hiérarchique adressera une réponse au salarié en concertation avecle Manager Ressources Humaines, précisant les motifs du refus par écrit. 
+
+Il est précisé que la mise en œuvre du télétravail sera formalisée via la signature d’un avenant au contrat de travail pour les salariés occupant un poste partiellement éligible au télétravail tel que visé au point 4.1.2 du présent accord et ce afin de préciser les modalités particulières.
+
+
+
+10.3 : Période probatoire
+
+Après acceptation du télétravail, débutera une période probatoire de 3 mois pendant laquelle le salarié ou la société peuvent décider de mettre fin au télétravail.
+
+Avant le terme de cette période probatoire, le responsable hiérarchique et le salarié feront le point sur le fonctionnement du télétravail.
+
+
+
+10.4 : Réversibilité et suspension
+
+10.4.1 Réversibilité du télétravail
+
+L’accord des parties de passer au télétravail est réversible tant à l’initiative du Responsable hiérarchique que du salarié. 
+
+Le salarié peut demander à tout moment à mettre fin à l'organisation de l'activité en télétravail. Un courriel ou courrier remis en main propres est à adresser à la Direction des Ressources Humaines du périmètre.
+
+Le responsable hiérarchique peut mettre fin à l'organisation de l'activité en télétravail, il devra informer le salarié préalablement à cette décision dans le cadre d’un entretien. La décision du responsable hiérarchique doit être motivée et envoyée au Manager des Ressources Humaines du périmètre. En tout état de cause cette décision devra être validée par la Direction des Ressources Humaines. Cette décision sera communiquée au salarié par courriel, avec un délai de prévenance de 30 jours calendaires.
+
+Il sera mis fin automatiquement et de manière unilatérale au télétravail en cas de perte d’un des critères d’éligibilité ou du non-respect du présent accord par le collaborateur en respectant un délai de prévenance de 15 jours calendaires.
+
+Lorsqu’il est mis fin à la situation de télétravail, le salarié doit remettre à l’entreprise dans les plus brefs délais le matériel éventuellement mis à sa disposition pour permettre le télétravail.
+
+10.4.2 Suspension du télétravail
+
+La situation de télétravail peut être immédiatement suspendue, à l’initiative de la direction, du responsable hiérarchique ou du salarié, en cas de :
+
+--	Nécessité pour le bon fonctionnement du service
+
+--	Problèmes techniques rendant impossible le télétravail
+
+--	Circonstances auxquelles le collaborateur doit faire face de nature à empêcher temporairement la réalisation de ses missions à domicile
+
+--	Force majeure,
+
+--	Sur recommandation du médecin du travail
+
+Lorsque l’événement à l’origine de la suspension cesse, la situation de télétravail est rétablie. Enfin, la situation de télétravail pourra également être suspendue en cas de projet nécessitant la présence constante du salarié dans les locaux de l’entreprise, sans pouvoir excéder un mois. Dans ce cas la suspension interviendra au terme d‘un délai de prévenance d’une semaine.
+
+
+
+Article 11 – Dispositifs particuliers de Télétravail 
+
+
+
+Article 11.1 - Modalités d’accès au télétravail pour les travailleurs handicapés
+
+
+
+Ces dispositions concernent les salariés disposant de la reconnaissance de la qualité de travailleur handicapé (RQTH). Ces derniers, sont soumis aux mêmes règles que l’ensemble des salariés concernant le dispositif télétravail.
+
+
+
+Cependant, afin de permettre à un travailleur handicapé d'accéder à un emploi ou de conserver son emploi, l’entreprise s’engage à faciliter son accès au télétravail. 
+
+
+
+L’entreprise s’engage à étudier chaque situation spécifique après avis du médecin du travail. Le dispositif télétravail, tel que prévu par le présent accord, pourrait être aménagé pour un travailleur handicapé sous réserve de faisabilité opérationnelle, technique et que les charges consécutives à leur mise en œuvre ne soient pas disproportionnées.
+
+
+
+Article 11.2 - Modalités d’accès au télétravail pour circonstances exceptionnelles
+
+
+
+Au-delà du télétravail régulier tel que défini précédemment, les parties ont la volonté de pouvoir recourir au télétravail pour répondre à des besoins particuliers et ponctuels.
+
+
+
+Le Code du travail prévoit qu’en cas de circonstances exceptionnelles, la mise en œuvre du télétravail peut être considérée comme un aménagement du poste de travail rendu nécessaire pour permettre la continuité de l’activité de l’entreprise et garantir la protection des salariés.
+
+
+
+Ainsi, les parties au présent accord, ont identifié les circonstances exceptionnelles suivantes :
+
+--	Mouvements sociaux de types grèves des transports entrainant des difficultés importantes d’accès au lieu de travail, 
+
+--	Conditions climatiques exceptionnelles (ex : intempéries, mise en place de la circulation différenciée en cas de pics de pollution),
+
+--	Epidémie grave,
+
+--	Immobilisation physique temporaire sans arrêt de travail, limitant pour une période déterminée, les déplacements d’un salarié souhaitant être en situation de travail, après avis du médecin du travail,
+
+--	Projet particulier nécessitant une concentration particulière supérieure à 1 jour par semaine (en continu ou non)
+
+--	Toute autre demande exceptionnelle, inhabituelle et temporaire.
+
+
+
+Après l’information de la Direction des Ressources Humaines ou chef d’établissement d’une situation exceptionnelle, le télétravail s’exerce à la demande du salarié, sous réserve de validation de son responsable hiérarchique. La demande du salarié et la réponse du responsable hiérarchique devront être formalisées par écrit.
+
+
+
+En cas de télétravail pour circonstances exceptionnelles, le dispositif classique de télétravail pourra être assoupli selon l’appréciation du responsable hiérarchique étant précisé que le recours au télétravail dans ce cadre demeure occasionnel. 
+
+
+
+Pourront bénéficier du télétravail pour circonstances exceptionnelles après approbation de leur responsable hiérarchique: 
+
+--	Les télétravailleurs,
+
+--	Les non télétravailleurs susceptibles de répondre aux critères d’éligibilité et disposant du matériel de l’entreprise leur permettant d’exercer leur activité en télétravail.
+
+
+
+Article 12. Suivi du télétravail
+
+Le suivi de l’accord sera réalisé annuellement au cours d’une des réunions de la Commission d’égalité professionnelle. Le premier bilan sur l’élargissement du recours au Télétravail se fera après 6 mois d’application de l’accord. 
+
+
+
+Article 13. Entrée en vigueur de l’accord
+
+Le présent accord est conclu pour une durée déterminée d’une année à compter du 1er Septembre 2019 et prendra fin sans autre formalité à l’issue de cette période.
+
+
+
+Article 14 – Révision
+
+Le présent accord pourra être révisé, en tout ou partie à la demande de chaque partie signataire ou adhérente selon les modalités suivantes :  
+
+--	Toute demande devra être notifiée par lettre recommandée avec accusé de réception à chacune des parties signataires, par courriel ou remise en main propre contre décharge et comporter en outre les dispositions dont la révision est demandée et les propositions de remplacement,
+
+--	Les parties ouvriront les négociations dans le délai de trois mois suivant réception de la demande de révision,
+
+--	Les dispositions de l’accord dont la révision est demandée resteront en vigueur jusqu’à la conclusion d’un nouvel accord ou à défaut seront maintenues.
+
+Les dispositions de l’accord portant révision se substituent de plein droit à celles qu’elles modifient soit à la date expressément prévue soit à défaut, à partir du jour qui suivra son dépôt auprès du service compétent. 
+
+
+
+Article 15 – Formalité de dépôt et de publicité 
+
+Le présent accord fera l'objet des formalités de dépôt prévues par la loi, à la diligence de la Direction.
+
+Il sera ainsi déposé dans une version anonymisée sur la plateforme de téléprocédure du ministère du travail en vue des formalités de dépôt et de publication sur la base de données nationale. 
+
+De plus, le présent accord sera déposé au greffe du Conseil de prud’hommes de Nanterre. 
+
+Il sera communiqué à l’ensemble du personnel via les moyens de communication en vigueur dans l’entreprise. 
+
+Une copie sera remise aux représentants du personnel. 
+
+Une notification du présent accord sera également réalisée, dans les plus brefs délais, par lettre recommandée avec accusé de réception ou remise en main propre contre décharge, à l’ensemble des organisations syndicales représentatives. 
+
+
+
+Fait à Asnières, le 10 Juillet 2019
+
+En 6 exemplaires
+
+
+
+
+
+Pour DIAGNOSTICA STAGO, M……………………………, par délégation de M………………………., 
+Vice-Président Délégué
+
+
+
+
+
+Pour La CFE-CGC, M……………………………….
+
+
+
+
+
+Pour La CFTC, M…………………………………….
+
+
+
+
+
+Pour la CGT STAGO, M……………………………
+
+
+
+
+
+Pour FO, M……………………………………
+
+
+Annexe 1
+
+
+
+Partie 1. Demande du Salarié (A compléter par le salarié demandeur)
+
+Nom : ______________________________________	Prénom : _____________________________
+
+Intitulé du poste : ___________________________________________________________________
+
+Direction : _________________________________________________________________________
+
+Nom du responsable hiérarchique: ______________________________________________________
+
+Nom du MRH : ______________________________________________________________________
+
+Adresse du télétravail : 
+
+Résidence principale : __________________________________________________________
+
+Autre lieu de résidence à usage privé: ____________________________________________
+
+
+
+Raison/motivation de la demande de télétravail : (facultatif)
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+Je soussigné(e) …………………………………………………. atteste avoir pris connaissance des dispositions de l’accord relatif au télétravail signé le 10 Juillet 2019 et notamment des critères d’éligibilité au télétravail ainsi que les engagements auxquels je suis tenu(e). 
+
+Par la présente, je certifie être volontaire à la mise en place du télétravail dans mon intérêt personnel. Ce document constitue ma demande de télétravail. 
+
+Commentaires éventuels : ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+Fait à : 							Date : 
+
+
+
+Signature du salarié : 
+
+Partie 2. Acceptation de la demande (A compléter par le responsable hiérarchique)
+
+La réponse fait suite à un entretien avec le salarié dans les 15 jours suivants la demande. La réponse est faite par écrit au maximum dans les 15 jours suivants l’entretien. 
+
+
+
+Date de l’entretien avec l’employé : _____________________________________________________
+
+Nom du responsable hiérarchique: ______________________________________________________
+
+Nom du MRH : ______________________________________________________________________
+
+
+
+Sous réserve du respect des dispositions de l’accord relatif au télétravail signé le 10 Juillet 2019, le responsable hiérarchique du salarié donne son accord de principe pour la mise en place du télétravail. 
+
+
+
+Modalité du télétravail : (cocher la case applicable) 
+
+<span style=font-family:Wingdings>&#x00A8;</span> 1 jour par semaine 	 	<span style=font-family:Wingdings>&#x00A8;</span> 2 jour par mois 		<span style=font-family:Wingdings>&#x00A8;</span> Occasionnel
+
+
+
+Le salarié devra valider son acceptation sous forme d‘un e-mail adressé au Manager Ressources Humaines de son périmètre et fournir à celui-ci :
+
+--	Un document justifiant le niveau du débit internet
+
+--	Une copie de l’assurance habitation multirisque indiquant qu’elle couvre le télétravail au lieu défini comme lieu de télétravail
+
+--	Une attestation sur l’honneur de disposition à domicile d’un espace de travail compatible avec l’exercice du télétravail dans de bonnes conditions (environnement calme et espace de travail dédié et confortable)
+
+--	Une attestation sur l’honneur de la conformité de l’installation électrique aux normes de sécurité.
+
+
+
+Commentaires éventuels : (zone libre pour les deux parties)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Fait à : 							Date : 
+
+Signature responsable hiérarchique: 						Signature du salarié:
+
+
+
+
+
+Partie 2. Refus de la demande de télétravail (A compléter par le responsable hiérarchique)
+
+La réponse fait suite à un entretien avec le salarié dans les 15 jours suivants la demande. La réponse est faite par écrit au maximum dans les 15 jours suivants l’entretien. 
+
+
+
+Date de l’entretien avec l’employé : _____________________________________________________
+
+Nom du responsable hiérarchique: ______________________________________________________
+
+Nom du MRH : ______________________________________________________________________
+
+
+
+Conformément aux motivations décrites ci-dessous, la demande de télétravail est refusée. 
+
+
+
+Motivation obligatoire du refus : 
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+Fait à : 							Date : 
+
+Signature responsable hiérarchique: 		
+
+
+
+
+
+	
+
+1
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@ import shutil
 
 lora_path = "outputs_squad/checkpoint-18200" # Path to the LoRA weights
 output_path = "outputs_squad/merged_model"   # Path to output the merged weights
-model_type = "wizard7"                      # falcon or llama or wizard7 or wizard13
+model_type = "mixtral"                      # falcon or llama or wizard7 or wizard13
 
 
 
@@ -33,6 +33,9 @@ elif model_type == "wizard13":
     path = os.listdir("models/models--WizardLM--WizardLM-13B-V1.2/snapshots")[0]
     path = os.path.join("models/models--WizardLM--WizardLM-13B-V1.2/snapshots", path)
 elif model_type == "llama":
+    path = os.listdir("models/models--meta-llama--Llama-2-7b-hf/snapshots")[0]
+    path = os.path.join("models/models--meta-llama--Llama-2-7b-hf/snapshots", path)
+elif model_type == "mixtral":
     path = os.listdir("models/models--meta-llama--Llama-2-7b-hf/snapshots")[0]
     path = os.path.join("models/models--meta-llama--Llama-2-7b-hf/snapshots", path)
 else:

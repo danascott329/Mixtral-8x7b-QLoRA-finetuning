@@ -4,7 +4,12 @@ from transformers import (
     AutoTokenizer,
 )
 import torch
+import os
 
+cache_dir = "/vast/palmer/scratch/odea/das293/huggingface/"
+os.environ['TRANSFORMERS_CACHE'] = cache_dir
+os.environ['HF_HOME'] = cache_dir
+os.environ['HF_DATASETS_CACHE'] = cache_dir
 
 device = "auto"
 local_model_path = "outputs_squad/merged_model"     # Path to the combined weights
