@@ -1,0 +1,1378 @@
+{
+    "batch_size": 1,
+    "best_eval_metric_checkpoint_number": 0,
+    "best_eval_metric_epoch": 0,
+    "best_eval_metric_steps": 0,
+    "best_eval_metric_value": Infinity,
+    "best_eval_test_metrics": {},
+    "best_eval_train_metrics": {},
+    "best_eval_validation_metrics": {},
+    "best_increase_batch_size_eval_metric": Infinity,
+    "checkpoint_number": 6,
+    "checkpoint_to_epoch": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3
+    },
+    "checkpoint_to_step": {
+        "1": 95,
+        "2": 95,
+        "3": 190,
+        "4": 190,
+        "5": 285,
+        "6": 285
+    },
+    "cumulative_checkpoint_token_usage": {
+        "1": 134978,
+        "2": 134978,
+        "3": 269956,
+        "4": 269956,
+        "5": 404934,
+        "6": 404934
+    },
+    "cumulative_step_token_usage": {
+        "0": 1444,
+        "1": 2750,
+        "10": 15693,
+        "100": 143103,
+        "101": 144477,
+        "102": 145858,
+        "103": 147254,
+        "104": 148815,
+        "105": 150181,
+        "106": 151585,
+        "107": 152959,
+        "108": 154380,
+        "109": 155834,
+        "11": 17192,
+        "110": 157208,
+        "111": 158555,
+        "112": 159935,
+        "113": 161402,
+        "114": 162802,
+        "115": 164171,
+        "116": 165670,
+        "117": 167188,
+        "118": 168539,
+        "119": 169926,
+        "12": 18566,
+        "120": 171366,
+        "121": 172842,
+        "122": 174325,
+        "123": 175777,
+        "124": 177263,
+        "125": 178746,
+        "126": 180142,
+        "127": 181602,
+        "128": 182934,
+        "129": 184332,
+        "13": 19993,
+        "130": 185670,
+        "131": 187065,
+        "132": 188471,
+        "133": 189856,
+        "134": 191346,
+        "135": 192760,
+        "136": 194107,
+        "137": 195465,
+        "138": 196910,
+        "139": 198299,
+        "14": 21492,
+        "140": 199721,
+        "141": 201127,
+        "142": 202492,
+        "143": 204016,
+        "144": 205466,
+        "145": 206976,
+        "146": 208398,
+        "147": 209864,
+        "148": 211317,
+        "149": 212696,
+        "15": 22809,
+        "150": 214018,
+        "151": 215417,
+        "152": 216822,
+        "153": 218192,
+        "154": 219588,
+        "155": 220962,
+        "156": 222384,
+        "157": 223845,
+        "158": 225154,
+        "159": 226683,
+        "16": 24167,
+        "160": 228201,
+        "161": 229690,
+        "162": 231214,
+        "163": 232637,
+        "164": 234137,
+        "165": 235612,
+        "166": 237015,
+        "167": 238425,
+        "168": 239852,
+        "169": 241287,
+        "17": 25691,
+        "170": 242604,
+        "171": 244164,
+        "172": 245560,
+        "173": 246955,
+        "174": 248443,
+        "175": 249859,
+        "176": 251355,
+        "177": 252691,
+        "178": 254112,
+        "179": 255490,
+        "18": 27097,
+        "180": 256914,
+        "181": 258401,
+        "182": 259778,
+        "183": 261264,
+        "184": 262735,
+        "185": 264145,
+        "186": 265701,
+        "187": 267114,
+        "188": 268512,
+        "189": 269956,
+        "19": 28521,
+        "190": 271401,
+        "191": 272862,
+        "192": 274386,
+        "193": 275724,
+        "194": 277130,
+        "195": 278528,
+        "196": 280017,
+        "197": 281470,
+        "198": 282855,
+        "199": 284321,
+        "2": 4172,
+        "20": 29805,
+        "200": 285745,
+        "201": 287123,
+        "202": 288510,
+        "203": 289889,
+        "204": 291221,
+        "205": 292643,
+        "206": 294032,
+        "207": 295428,
+        "208": 296809,
+        "209": 298231,
+        "21": 31280,
+        "210": 299647,
+        "211": 301051,
+        "212": 302398,
+        "213": 303842,
+        "214": 305328,
+        "215": 306888,
+        "216": 308284,
+        "217": 309724,
+        "218": 311207,
+        "219": 312610,
+        "22": 32732,
+        "220": 314062,
+        "221": 315379,
+        "222": 316779,
+        "223": 318189,
+        "224": 319610,
+        "225": 321110,
+        "226": 322509,
+        "227": 323930,
+        "228": 325340,
+        "229": 326763,
+        "23": 34110,
+        "230": 328137,
+        "231": 329446,
+        "232": 330970,
+        "233": 332254,
+        "234": 333681,
+        "235": 335058,
+        "236": 336432,
+        "237": 337837,
+        "238": 339393,
+        "239": 340922,
+        "24": 35506,
+        "240": 342291,
+        "241": 343781,
+        "242": 345231,
+        "243": 346626,
+        "244": 347991,
+        "245": 349361,
+        "246": 350844,
+        "247": 352257,
+        "248": 353724,
+        "249": 355090,
+        "25": 36902,
+        "250": 356578,
+        "251": 358054,
+        "252": 359450,
+        "253": 360744,
+        "254": 362243,
+        "255": 363753,
+        "256": 365149,
+        "257": 366471,
+        "258": 368032,
+        "259": 369528,
+        "26": 38271,
+        "260": 371014,
+        "261": 372485,
+        "262": 374003,
+        "263": 375425,
+        "264": 376783,
+        "265": 378189,
+        "266": 379664,
+        "267": 381182,
+        "268": 382617,
+        "269": 384015,
+        "27": 39684,
+        "270": 385395,
+        "271": 386807,
+        "272": 388158,
+        "273": 389572,
+        "274": 390946,
+        "275": 392252,
+        "276": 393751,
+        "277": 395098,
+        "278": 396493,
+        "279": 397947,
+        "28": 41090,
+        "280": 399321,
+        "281": 400808,
+        "282": 402268,
+        "283": 403604,
+        "284": 404934,
+        "29": 42464,
+        "3": 5701,
+        "30": 43830,
+        "31": 45296,
+        "32": 46643,
+        "33": 48038,
+        "34": 49434,
+        "35": 50770,
+        "36": 52241,
+        "37": 53606,
+        "38": 55001,
+        "39": 56490,
+        "4": 7122,
+        "40": 57951,
+        "41": 59475,
+        "42": 60807,
+        "43": 62368,
+        "44": 63767,
+        "45": 65146,
+        "46": 66520,
+        "47": 67905,
+        "48": 69279,
+        "49": 70656,
+        "5": 8575,
+        "50": 72060,
+        "51": 73543,
+        "52": 75103,
+        "53": 76593,
+        "54": 77974,
+        "55": 79409,
+        "56": 80809,
+        "57": 82276,
+        "58": 83698,
+        "59": 85181,
+        "6": 9884,
+        "60": 86586,
+        "61": 88082,
+        "62": 89480,
+        "63": 90966,
+        "64": 92454,
+        "65": 93972,
+        "66": 95393,
+        "67": 96809,
+        "68": 98179,
+        "69": 99589,
+        "7": 11329,
+        "70": 101089,
+        "71": 102427,
+        "72": 103839,
+        "73": 105249,
+        "74": 106600,
+        "75": 108087,
+        "76": 109597,
+        "77": 110993,
+        "78": 112380,
+        "79": 113702,
+        "8": 12779,
+        "80": 115082,
+        "81": 116505,
+        "82": 118061,
+        "83": 119355,
+        "84": 120702,
+        "85": 122142,
+        "86": 123660,
+        "87": 125049,
+        "88": 126471,
+        "89": 127801,
+        "9": 14239,
+        "90": 129204,
+        "91": 130618,
+        "92": 132016,
+        "93": 133492,
+        "94": 134978,
+        "95": 136308,
+        "96": 137602,
+        "97": 138886,
+        "98": 140192,
+        "99": 141691
+    },
+    "epoch": 3,
+    "incremental_checkpoint_token_usage": {
+        "1": 134978,
+        "2": 0,
+        "3": 134978,
+        "4": 0,
+        "5": 134978,
+        "6": 0
+    },
+    "incremental_step_token_usage": {
+        "0": 1444,
+        "1": 1306,
+        "10": 1454,
+        "100": 1412,
+        "101": 1374,
+        "102": 1381,
+        "103": 1396,
+        "104": 1561,
+        "105": 1366,
+        "106": 1404,
+        "107": 1374,
+        "108": 1421,
+        "109": 1454,
+        "11": 1499,
+        "110": 1374,
+        "111": 1347,
+        "112": 1380,
+        "113": 1467,
+        "114": 1400,
+        "115": 1369,
+        "116": 1499,
+        "117": 1518,
+        "118": 1351,
+        "119": 1387,
+        "12": 1374,
+        "120": 1440,
+        "121": 1476,
+        "122": 1483,
+        "123": 1452,
+        "124": 1486,
+        "125": 1483,
+        "126": 1396,
+        "127": 1460,
+        "128": 1332,
+        "129": 1398,
+        "13": 1427,
+        "130": 1338,
+        "131": 1395,
+        "132": 1406,
+        "133": 1385,
+        "134": 1490,
+        "135": 1414,
+        "136": 1347,
+        "137": 1358,
+        "138": 1445,
+        "139": 1389,
+        "14": 1499,
+        "140": 1422,
+        "141": 1406,
+        "142": 1365,
+        "143": 1524,
+        "144": 1450,
+        "145": 1510,
+        "146": 1422,
+        "147": 1466,
+        "148": 1453,
+        "149": 1379,
+        "15": 1317,
+        "150": 1322,
+        "151": 1399,
+        "152": 1405,
+        "153": 1370,
+        "154": 1396,
+        "155": 1374,
+        "156": 1422,
+        "157": 1461,
+        "158": 1309,
+        "159": 1529,
+        "16": 1358,
+        "160": 1518,
+        "161": 1489,
+        "162": 1524,
+        "163": 1423,
+        "164": 1500,
+        "165": 1475,
+        "166": 1403,
+        "167": 1410,
+        "168": 1427,
+        "169": 1435,
+        "17": 1524,
+        "170": 1317,
+        "171": 1560,
+        "172": 1396,
+        "173": 1395,
+        "174": 1488,
+        "175": 1416,
+        "176": 1496,
+        "177": 1336,
+        "178": 1421,
+        "179": 1378,
+        "18": 1406,
+        "180": 1424,
+        "181": 1487,
+        "182": 1377,
+        "183": 1486,
+        "184": 1471,
+        "185": 1410,
+        "186": 1556,
+        "187": 1413,
+        "188": 1398,
+        "189": 1444,
+        "19": 1424,
+        "190": 1445,
+        "191": 1461,
+        "192": 1524,
+        "193": 1338,
+        "194": 1406,
+        "195": 1398,
+        "196": 1489,
+        "197": 1453,
+        "198": 1385,
+        "199": 1466,
+        "2": 1422,
+        "20": 1284,
+        "200": 1424,
+        "201": 1378,
+        "202": 1387,
+        "203": 1379,
+        "204": 1332,
+        "205": 1422,
+        "206": 1389,
+        "207": 1396,
+        "208": 1381,
+        "209": 1422,
+        "21": 1475,
+        "210": 1416,
+        "211": 1404,
+        "212": 1347,
+        "213": 1444,
+        "214": 1486,
+        "215": 1560,
+        "216": 1396,
+        "217": 1440,
+        "218": 1483,
+        "219": 1403,
+        "22": 1452,
+        "220": 1452,
+        "221": 1317,
+        "222": 1400,
+        "223": 1410,
+        "224": 1421,
+        "225": 1500,
+        "226": 1399,
+        "227": 1421,
+        "228": 1410,
+        "229": 1423,
+        "23": 1378,
+        "230": 1374,
+        "231": 1309,
+        "232": 1524,
+        "233": 1284,
+        "234": 1427,
+        "235": 1377,
+        "236": 1374,
+        "237": 1405,
+        "238": 1556,
+        "239": 1529,
+        "24": 1396,
+        "240": 1369,
+        "241": 1490,
+        "242": 1450,
+        "243": 1395,
+        "244": 1365,
+        "245": 1370,
+        "246": 1483,
+        "247": 1413,
+        "248": 1467,
+        "249": 1366,
+        "25": 1396,
+        "250": 1488,
+        "251": 1476,
+        "252": 1396,
+        "253": 1294,
+        "254": 1499,
+        "255": 1510,
+        "256": 1396,
+        "257": 1322,
+        "258": 1561,
+        "259": 1496,
+        "26": 1369,
+        "260": 1486,
+        "261": 1471,
+        "262": 1518,
+        "263": 1422,
+        "264": 1358,
+        "265": 1406,
+        "266": 1475,
+        "267": 1518,
+        "268": 1435,
+        "269": 1398,
+        "27": 1413,
+        "270": 1380,
+        "271": 1412,
+        "272": 1351,
+        "273": 1414,
+        "274": 1374,
+        "275": 1306,
+        "276": 1499,
+        "277": 1347,
+        "278": 1395,
+        "279": 1454,
+        "28": 1406,
+        "280": 1374,
+        "281": 1487,
+        "282": 1460,
+        "283": 1336,
+        "284": 1330,
+        "29": 1374,
+        "3": 1529,
+        "30": 1366,
+        "31": 1466,
+        "32": 1347,
+        "33": 1395,
+        "34": 1396,
+        "35": 1336,
+        "36": 1471,
+        "37": 1365,
+        "38": 1395,
+        "39": 1489,
+        "4": 1421,
+        "40": 1461,
+        "41": 1524,
+        "42": 1332,
+        "43": 1561,
+        "44": 1399,
+        "45": 1379,
+        "46": 1374,
+        "47": 1385,
+        "48": 1374,
+        "49": 1377,
+        "5": 1453,
+        "50": 1404,
+        "51": 1483,
+        "52": 1560,
+        "53": 1490,
+        "54": 1381,
+        "55": 1435,
+        "56": 1400,
+        "57": 1467,
+        "58": 1422,
+        "59": 1483,
+        "6": 1309,
+        "60": 1405,
+        "61": 1496,
+        "62": 1398,
+        "63": 1486,
+        "64": 1488,
+        "65": 1518,
+        "66": 1421,
+        "67": 1416,
+        "68": 1370,
+        "69": 1410,
+        "7": 1445,
+        "70": 1500,
+        "71": 1338,
+        "72": 1412,
+        "73": 1410,
+        "74": 1351,
+        "75": 1487,
+        "76": 1510,
+        "77": 1396,
+        "78": 1387,
+        "79": 1322,
+        "8": 1450,
+        "80": 1380,
+        "81": 1423,
+        "82": 1556,
+        "83": 1294,
+        "84": 1347,
+        "85": 1440,
+        "86": 1518,
+        "87": 1389,
+        "88": 1422,
+        "89": 1330,
+        "9": 1460,
+        "90": 1403,
+        "91": 1414,
+        "92": 1398,
+        "93": 1476,
+        "94": 1486,
+        "95": 1330,
+        "96": 1294,
+        "97": 1284,
+        "98": 1306,
+        "99": 1499
+    },
+    "last_improvement_steps": 0,
+    "last_increase_batch_size": 0,
+    "last_increase_batch_size_eval_metric_improvement": 0,
+    "last_increase_batch_size_steps": 0,
+    "last_learning_rate_reduction": 0,
+    "last_learning_rate_reduction_steps": 0,
+    "learning_rate": 5.418275829936537e-06,
+    "llm_eval_examples": {
+        "inputs": [
+            "Below is an instruction that describes a task, paired with an input\n    that may provide further context. Write a response that appropriately\n    completes the request.\n\n    ### Instruction: \nYour task is to summarize this company\u2019s telework policy in a way that is understandable to employees. For each of the following categories, please provide a brief summary of the company\u2019s telework policy, outlined below. Please include:\n1. Title: \"Eligibility\". Which workers are eligible for telework (include specific criteria, such as tenure, employment type, job characteristics, or anything else) \n\n2. Title: \"Frequency\". Frequency of telework allowed (such as numbers of days per week permitted and/or minimum requirements for the employee\u2019s presence in the office) \n\n3. Title: \"Arrangements\". Process by which telework arrangements are established (such as whether permission must be obtained and whether the manager has discretion over the allowability of telework) \n\n4. Title: \"Costs\". Coverage of costs associated with telework (such as IT setup and meal allowance) \n\n5. Title: \"Privacy\". Provisions for the right to disconnect and the privacy of the worker \n\nIn each category, cite the article number in the document where the relevant information is provided. Label each section with the requested title. Please summarize the key points in bullet points, within a 300-token limit. Adhering to the 300-token limit is crucial for this summary. Please ensure it does not exceed this length. If the document does not mention a specific topic listed here, state \"the document does not mention [topic]\", where [topic] is the relevant topic. \n \n\n\n\n    ### Input: MFHG\n\nAccord collectif sur le t\u00e9l\u00e9travail\n\n\n\n\n\nENTRE\n\nLa Mutualit\u00e9 Fran\u00e7aise Haute-Garonne, entreprise r\u00e9gie par le Code de la Mutualit\u00e9, immatricul\u00e9e au registre national des mutuelles sous le n\u00b0 776\u00a0950 529, code APE 6512Z, dont le si\u00e8ge social est situ\u00e9 au 3 rue de Metz - 31000 TOULOUSE, repr\u00e9sent\u00e9e par Monsieur XXXX, en sa qualit\u00e9 de Directeur G\u00e9n\u00e9ral,\n\nCi-apr\u00e8s d\u00e9sign\u00e9e \u00ab\u00a0la MFHG\u00a0\u00bb,\n\nd'une part,\n\n\n\nET\n\nLes organisations syndicales repr\u00e9sentatives dans l'entreprise, repr\u00e9sent\u00e9es respectivement par leur d\u00e9l\u00e9gu\u00e9 syndical,\n\nFO, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nLa CGT, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nL\u2019UNSA, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td\u2019autre part,\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\nIl a \u00e9t\u00e9 conclu le pr\u00e9sent accord sur le t\u00e9l\u00e9travail\n\n\n\nPr\u00e9ambule :\n\n\n\nDans un contexte d\u2019\u00e9pid\u00e9mie de coronavirus COVID-19 ayant rendu obligatoire le recours au t\u00e9l\u00e9travail pour permettre de prot\u00e9ger la sant\u00e9 et la s\u00e9curit\u00e9 des salari\u00e9s tout en permettant la poursuite des activit\u00e9s de la Mutualit\u00e9 Fran\u00e7aise Haute-Garonne. \n\n\n\nIl a \u00e9t\u00e9 d\u00e9cid\u00e9, dans le cadre des n\u00e9gociations annuelles obligatoires de 2021, de mettre en place l\u2019exp\u00e9rimentation du t\u00e9l\u00e9travail pour l\u2019ann\u00e9e civile 2021. Cette exp\u00e9rimentation touche \u00e0 sa fin, et les parties se sont r\u00e9unies pour convenir de p\u00e9renniser la mise en place du t\u00e9l\u00e9travail. \n\nToutefois, au sein de la Mutualit\u00e9, la majorit\u00e9 des postes de travail impose une pr\u00e9sence effective sur site et ne peuvent \u00eatre exerc\u00e9s, m\u00eame particuli\u00e8rement sous forme de t\u00e9l\u00e9travail.\n\n\n\nLes parties ont donc souhait\u00e9 donner un cadre organisationnel au t\u00e9l\u00e9travail pour que celui-ci puisse continuer \u00e0 se d\u00e9velopper dans des conditions adapt\u00e9es aux besoins des parties, en pr\u00e9servant l\u2019\u00e9quilibre entre les besoins op\u00e9rationnels et organisationnels de la Mutualit\u00e9 Fran\u00e7aise Haute-Garonne. \n\n\n\n",
+            "Below is an instruction that describes a task, paired with an input\n    that may provide further context. Write a response that appropriately\n    completes the request.\n\n    ### Instruction: \nYour task is to summarize this company\u2019s telework policy in a way that is understandable to employees. For each of the following categories, please provide a brief summary of the company\u2019s telework policy, outlined below. Please include:\n1. Title: \"Eligibility\". Which workers are eligible for telework (include specific criteria, such as tenure, employment type, job characteristics, or anything else) \n\n2. Title: \"Frequency\". Frequency of telework allowed (such as numbers of days per week permitted and/or minimum requirements for the employee\u2019s presence in the office) \n\n3. Title: \"Arrangements\". Process by which telework arrangements are established (such as whether permission must be obtained and whether the manager has discretion over the allowability of telework) \n\n4. Title: \"Costs\". Coverage of costs associated with telework (such as IT setup and meal allowance) \n\n5. Title: \"Privacy\". Provisions for the right to disconnect and the privacy of the worker \n\nIn each category, cite the article number in the document where the relevant information is provided. Label each section with the requested title. Please summarize the key points in bullet points, within a 300-token limit. Adhering to the 300-token limit is crucial for this summary. Please ensure it does not exceed this length. If the document does not mention a specific topic listed here, state \"the document does not mention [topic]\", where [topic] is the relevant topic. \n \n\n\n\n    ### Input: Document de travail\n\nDocument de travail\n\n\n\nDocument de travail\n\nDocument de travail\n\n----media/image1.png----\n\nAccord collectif sur le t\u00e9l\u00e9travail\n\n\n\nENTRE \n\n\n\nL\u2019Association TRAJET, dont le si\u00e8ge social est situ\u00e9 3 rue Robert Schuman 44400 Rez\u00e9, \n\nrepr\u00e9sent\u00e9e par \tagissant en qualit\u00e9 de Directeur, dument habilit\u00e9,  \n\n\n\nET \n\n\n\nLes organisations syndicales repr\u00e9sentatives suivantes\u00a0: \n\n\n\nLa Conf\u00e9d\u00e9ration fran\u00e7aise d\u00e9mocratique du travail (CFDT) repr\u00e9sent\u00e9e par \t, agissant en qualit\u00e9 de d\u00e9l\u00e9gu\u00e9 syndical\u00a0;\n\n\n\n\n\n\n\nPr\u00e9ambule\n\n\n\nLes d\u00e9veloppements des technologies de l\u2019information et de la communication ont permis l\u2019essor de nouvelles formes de travail tant au sein de l\u2019Association qu\u2019\u00e0 l\u2019\u00e9chelle de la soci\u00e9t\u00e9. Le t\u00e9l\u00e9travail constitue une de ces nouvelles modalit\u00e9s d\u2019ex\u00e9cution du contrat de travail.\n\n\n\nOutre les changements intervenant dans le cadre de l\u2019ex\u00e9cution de la prestation de travail, le t\u00e9l\u00e9travail emporte des cons\u00e9quences dans divers domaines. \n\n\n\nAinsi, la mise en place du t\u00e9l\u00e9travail permet notamment aux salari\u00e9s concern\u00e9s de r\u00e9duire le temps de d\u00e9placement entre le domicile et le lieu de travail, temps souvent consid\u00e9r\u00e9 par ces derniers comme un facteur de stress, d\u2019anxi\u00e9t\u00e9 ou de fatigue. La r\u00e9duction de ce temps de d\u00e9placement contribue \u00e0 la r\u00e9duction du risque routier ainsi que de l\u2019empreinte environnementale de l\u2019Association et permet \u00e9galement une r\u00e9duction des frais engag\u00e9s pour le salari\u00e9 notamment en mati\u00e8re de d\u00e9placement.\n\n\n\nEn outre, la mise en place de cette forme de travail vise \u00e0 am\u00e9liorer la qualit\u00e9 de vie au travail par une meilleure articulation entre l\u2019exercice d\u2019une activit\u00e9 professionnelle et la vie personnelle des salari\u00e9s et offre au t\u00e9l\u00e9travailleur une plus grande autonomie dans l\u2019accomplissement de ses t\u00e2ches. \n\n\n\nLes parties signataires consid\u00e8rent que le t\u00e9l\u00e9travail est une modalit\u00e9 de travail ayant pour but de donner aux b\u00e9n\u00e9ficiaires plus de souplesse et de flexibilit\u00e9 dans leurs conditions de travail par la responsabilisation et l\u2019autonomie conf\u00e9r\u00e9es dans l\u2019exercice des missions professionnelles. L\u2019organisation du t\u00e9l\u00e9travail repose ainsi sur une relation de confiance entre le salari\u00e9 et",
+            "Below is an instruction that describes a task, paired with an input\n    that may provide further context. Write a response that appropriately\n    completes the request.\n\n    ### Instruction: \nYour task is to summarize this company\u2019s telework policy in a way that is understandable to employees. For each of the following categories, please provide a brief summary of the company\u2019s telework policy, outlined below. Please include:\n1. Title: \"Eligibility\". Which workers are eligible for telework (include specific criteria, such as tenure, employment type, job characteristics, or anything else) \n\n2. Title: \"Frequency\". Frequency of telework allowed (such as numbers of days per week permitted and/or minimum requirements for the employee\u2019s presence in the office) \n\n3. Title: \"Arrangements\". Process by which telework arrangements are established (such as whether permission must be obtained and whether the manager has discretion over the allowability of telework) \n\n4. Title: \"Costs\". Coverage of costs associated with telework (such as IT setup and meal allowance) \n\n5. Title: \"Privacy\". Provisions for the right to disconnect and the privacy of the worker \n\nIn each category, cite the article number in the document where the relevant information is provided. Label each section with the requested title. Please summarize the key points in bullet points, within a 300-token limit. Adhering to the 300-token limit is crucial for this summary. Please ensure it does not exceed this length. If the document does not mention a specific topic listed here, state \"the document does not mention [topic]\", where [topic] is the relevant topic. \n \n\n\n\n    ### Input: \n\n----media/image1.jpeg----\n\n\n\n\n\n\n\n\n\n\n\n\n\nACCORD SUR L\u2019ORGANISATION DU TELETRAVAIL REGULIER AU SEIN DE GEBERIT SARL\n\n\n\n\n\n\n\n\n\n\n\nEntre, \n\n\n\n\n\nD\u2019une part, la soci\u00e9t\u00e9 GEBERIT SARL, domicili\u00e9e ZA du Bois Gasseau - CS 40252 SAMOREAU  77215 AVON cedex, repr\u00e9sent\u00e9e par XXX agissant en qualit\u00e9 de Directeur des Ressources Humaines et XXX, agissant en qualit\u00e9 de Directeur G\u00e9n\u00e9ral\n\n\n\nEt\n\n\n\nD\u2019autre part, XXX, salari\u00e9 de la soci\u00e9t\u00e9 Geberit SARL, D\u00e9l\u00e9gu\u00e9 Syndical C.F.T.C.\n\n\n\n\n\nIl a \u00e9t\u00e9 expos\u00e9 ce qui suit\u00a0:\n\n\n\n\n\nPREAMBULE\n\n\n\nLa mise en place d'une politique de t\u00e9l\u00e9travail s\u2019inscrit dans le souhait de l\u2019entreprise d\u2019accro\u00eetre la souplesse de son organisation de travail et de permettre au personnel de mieux concilier vie professionnelle et vie priv\u00e9e.  Geberit aspire ainsi \u00e0 renforcer l\u2019engagement et la satisfaction de ses collaborateurs mais \u00e9galement son attractivit\u00e9 aupr\u00e8s de recrues potentielles.\n\n\n\nLe contenu du pr\u00e9sent accord s\u2019appuie sur\u00a0: \n\n--\tLes lignes directrices du Groupe Geberit relatives \u00e0 la mise en \u0153uvre du t\u00e9l\u00e9travail qui s\u2019appliquent \u00e0 toutes ses entreprises et qui doivent \u00eatre d\u00e9ploy\u00e9es par pays de fa\u00e7on aussi uniforme que possible et dont seules les dispositions l\u00e9gales obligatoires en vigueur localement permettent de d\u00e9roger\u00a0;\n\n--\tLes dispositions de l\u2019Accord National Interprofessionnel du 26 novembre 2020 pour une mise en \u0153uvre r\u00e9ussie du t\u00e9l\u00e9travail\u00a0;\n\n--\tLes enseignements de la pratique du t\u00e9l\u00e9travail r\u00e9gulier sur le site de Samoreau effective depuis juin 2018, et du t\u00e9l\u00e9travail exceptionnel durant la crise sanitaire li\u00e9e \u00e0 la pand\u00e9mie de la Covid-19.\n\n\n\nLe pr\u00e9sent accord a \u00e9t\u00e9 conclu dans le cadre des N\u00e9gociations Annuelles Obligatoires relatives \u00e0 l\u2019exercice 2022. Les parties ont \u00e9chang\u00e9 sur l\u2019organisation du t\u00e9l\u00e9travail r\u00e9gulier au cours des r\u00e9unions de n\u00e9gociation des 27 octobre "
+        ],
+        "outputs": [
+            "User is a exal will how method, theired with a image/\n field the be additional context. Produ a response that completately\n    completes the request.\n\n    Import Promruction:\n\n    task is to writeize the article's businesshealth policy.  few that is easyable to an.\n this point the following points, provide provide a short summary of the company\u2019s policywork policy. and in.\n use the\n\n. El of TeleTeleligibility for\n employees are eligible for telework?i any job, if as jobure, performance status, etc function, etc performance else that\n\n2E. Title: \"Frequency\". Howrequency of telework ( (e as full of days per week,,/or maximum/ for tele number's role in the office).\n\n\n3. Title: \"Durationangement\". How for which employeeswork arrangements are made andsuch as the they is be granted from/ there arrangement has discretion to the decisionance of telework) \n\n4. Title: \"Durations\". Whoage of costs associated with telework (such as whether support, maintenance reances) \n\n5. Title: \"Securityacy\". Privacyvisions for privacy protection to privacyconnect and privacy protection of the employee\u2019\n\n6 order of, pleaseite the relevant as and parent tele for the information information can found.\n your category with the appropriate title.\n noteize the information points in a point. and each single100-word limit.\nhereence to the token300-token limit is essential for the task to\n note that is not exceed the limit.\n necessary information does not provide a category category,,, please \"Not document does not provide thistopic] e [topic] is the topic title.\n\n\n\nE1EE E E:\nER-- Tele\nEordingances d le t\u00e9l\u00e9travail de\nEE---ITPRI\n\n Duelleit\u00e9 Fran\u00e7aise Haute-Garonne\n\nprise r\u00e9gie par le droit du la mutualualit\u00e9, dontmatricul\u00e9e au Ristre du des mutuelles sous le num\u00b0 788 981\u00a0551, dont APE 8512Z, dont le si\u00e8ge social est situ\u00e9  17 des lz, 31000 TULOUSE, repr\u00e9sent\u00e9e par sonieur [XXXX, en qual qualit\u00e9 de Directeur G\u00e9n\u00e9ral,\n\n\ni-apr\u00e8s d\u00e9ign\u00e9e \u00ab ll MutFHG\u00a0\u00bb,\n\nD\u2019une part,\n\nETET\n\n\nLes sal syndicales repr\u00e9sentatives au l'entreprise, \u00e0\u00e9es parment par : d\u00e9l\u00e9gu\u00e9 syndical,\n\nC, C\u00e9e par Monsieur XXXX,\n\nC CFD, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nLa'UNSA, repr\u00e9sent\u00e9e par Monsieur XXXX,\n\nCC\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t'autre part,\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\n\n\n a \u00e9t\u00e9 convenu le pr\u00e9sent accord collect le t\u00e9l\u00e9travail,\n\n\n\n\u00e9ambule\n\n\nLeLe\nans le contexte de\u2019\u00e9vpid\u00e9mie de Covidavirus,-19,ant entu n\u00e9cessatoire le recours au t\u00e9l\u00e9travail, lestre la limt\u00e9ger la sant\u00e9 des la s\u00e9curit\u00e9 des salari\u00e9s, en asstant la continuoursuite de activit\u00e9s de l Mualit\u00e9 Fran\u00e7aise Haute-Garonne,\n\n\n\n\n\n a \u00e9t\u00e9 d\u00e9cid\u00e9 de dans le cadre de n\u00e9gociations suruelles obligatoires, 2021, de formaltre en place un\u2019acc\u00e9rimentation d t\u00e9l\u00e9travail dans une\u2019ense\u00e9e ile 2022.\n exp\u00e9rimentation ache \u00e0 sa fin et et il parties ont sont accordunies pour nir des la\u00e9renniser le pr en place du t\u00e9l\u00e9travail dans\n\n\n\nitefois, la regard de la Mualit\u00e9 Fran\u00e7 le miseit\u00e9 des sales ne travail neose une pr\u00e9sence phys sur site. ne permetvent \u00eatre exerc\u00e9s en m\u00eame parti\u00e8rement, forme de t\u00e9l\u00e9travail.\n\n\n\n\n parties ont donc d\u00e9chait\u00e9 metner un cadre jurnel et t\u00e9l\u00e9travail, les les-ci soitisse \u00eatreuer \u00e0 \u00eatre d\u00e9velopper dans le conditions optim\u00e9es et besoins des sal pre et garservant la\u2019\u00e9quilibre entre la impoins de\u00e9rationnels de lesnels de la Mualit\u00e9 Fran\u00e7aise Haute-Garonne et\n\n\n\n\n\n UserEligibility**\n- Elermanent employees with at minimum attendance of theirFHG's activities and a processes (Article 1.\n- Emobs with can be performed remotely,Article 2).\n- Employees with have a minimum workspace at a-speed internet, and necessaryiant equipment install ( home (Article 2).\n- Emcludedudes employees with presence require physical presence, such as those in the contact-, those administrative functions (Article 2).\n\n**Frequency**\n- Tele to 2 day per week ( ensure excessive and maintain team minimum of 3 days in-site (Article 3).1).\n- Exibility exceptions for specific to 2 days per telework per week for manager approval (Article 3-1).\n\n**Arrangements**\n- Telework requests voluntary and must a agreement between the employee and manager manager (Article 3).\n- Emormal request by a amendment to the employment contract (Article 5).\n-**Costs**\n- Mployees are responsible for their and electricity costs costs (Article 10).\n- Mal allowouchers provided provided for and no additional compensationwork allowrelated expenses is provided ( the company (Article 11).\n\n**Privacy**\n- Theployees have respectconnect from of workingual working hours (Article 1-3).\n- The company does not mention specific provisions provisions for the right to disconnect.\nPlease note that the document does not mention specific provisions for the right to disconnect or the obligation obligation to disconnect outside of contract hours. and does it mention the provisions beyond tele. the is already by the rightwork agreement.p",
+            "Q is a exal will how process, suchired with a image andand and is be additional context for\n a function that completately\n    accomples the request.\n\n    Input Promruction:\n\n    task is to writeize the article's businesshealth policy.  few that is easyable to an.\n this point the following points, provide provide a brief summary. the company\u2019s policywork policy. and in.\n note the\n\n. El of TeleTeleligibility for\n employees are eligible for telework?e job job)? if as jobure, job status, etc function, etc performance else that\n\n\nE. Title: \"Telerequency\". Howrequency of telework ( (e as full of days per week or,/or maximum/ for tele number's role in the office).\n\n\n3. Title: \"Durationangement\". How for which employeeswork arrangements are made andsuch as approval they is be granted from how there arrangement has discretion to the decisionance of telework) \n\n4. Title: \"Durations\". Whoage of costs associated with telework (such as whether equipment, maintenance reances) \n\n5. Title: \"Equacy\". Privacyvisions for privacy protection to privacyconnect and privacy protection of the employee\u2019\n\n6el category, pleaseite the relevant and and parent tele that the information information can found.\n each category with the appropriate title.\n noteize the tele points in a point. and each single100-word limit.\nhereing to the token300-token limit is essential for the task to\n note that is not exceed this limit.\n it summary does not provide a category category,,, please thatNot document does not provide thistopic] e [topic] is the topic title.\n\n\n\n**1EE ### Input:\n\nconstruct sur\nE de travail:\nE1\n de travail\n\n\n de travail\n\n\n\n-doc1.png\n\n\n\nording deif de le t\u00e9l\u00e9travail\n\n\n\n\nRE L\n\n\n\n\n\u2019Association des\u00e9l\u00e9VAET,\n le si\u00e8ge social est situ\u00e9 au10 de Schuman,64200 Rez\u00e9, repr\u00e9sent\n\n\npr\u00e9sent\u00e9e par son\n\tissant en qualit\u00e9 de Preur G \u2019 habilit\u00e9 aux \n\n\n\nET \n\n\n\nLes organisations syndicales repr\u00e9sentatives auantes ::\n\n\n-\n- C\u00e9d\u00e9ration G d\u00e9mocratique du travail (CFDT)\u00a0\u00e9e par \t\n issant en qualit\u00e9 de Dl\u00e9gu\u00e9 syndical,; \nLa\nLa\nLa\n\n\u00e9ambule\n\n\n\nLe partiesements techn technologies de l\u2019information et de la communication ( permis de\u2019\u00e9or du nouvelles formes d travail, au sein des l\u2019entreation T\u2019au l\u2019extchelle de la soci\u00e9t\u00e9.\n t\u00e9l\u00e9travail estitue une modal ces formvelles formit\u00e9s de\u2019exercution du travailat de travail.\n\n\n\nLere les avantements organisationus dans l cadre de l\u2019organ\u00e9cution du la prestation de travail, le t\u00e9l\u00e9travail aporte des cons\u00e9quences sur la domaines,\n\n\n\n\nLefin, le mise en  du t\u00e9l\u00e9travail doit de de salari\u00e9s de\u00e9s de bduire leurs temps de transportplacement et leur domicile et le lieu de travail, de qui long\u00e9r\u00e9 comme les derniers comme une tempseur de stress. de\u2019\u00e9xi\u00e9t\u00e9 et de fatigue.\n miseduction de ce temps de d\u00e9placement permetribue \u00e9galement l r\u00e9duction de stressque routier. qu des l\u2019empreinte carnementale de l\u2019Association. des aux de meilleduction des cois deag\u00e9s par les trari\u00e9. en mati\u00e8re de transportplacement.\n\n\n\nLe outre, le mise en place du t\u00e9l\u00e9 modal de travail permetise \u00e0 am\u00e9liorer la qualit\u00e9 de vie au travail des la meilleure articulation entre la\u2019activercice de\u2019une activit\u00e9 professionnelle et la vie personnelle et salari\u00e9s concern \u00e0re la saltravailleur la plus grande autonomie dans l\u2019organcomplissement de ses missions\u00e2ches.\n\n\n\n\nLe parties signataires de\u00e8rent que le t\u00e9l\u00e9travail const un modalit\u00e9 d travail quiant voc object de favorner aux sal\u00e9n\u00e9ficiaires la de souplesse dans d flexibilit\u00e9 dans l hor de travail, la r\u00e9abilisation des l\u2019autonomie.\u00e9r\u00e9es aux l\u2019organercice de missions quinelles.\n\u2019Associisation du t\u00e9l\u00e9travail doitose sur sur une relation de confiance entre l salari\u00e9 et l UserEligibility**\n- El-time employees part least 80% part-time employees with a minimum of  year ofs tenure ( excl in probation,Article 1.\n- Em have able to work independentlyously and haveely, with no job functions ( tasks appropriate work (Article 3).\n- Excludedudes employees requiring physical physical, such physical interaction, or specific equipment constraintssecurity constraints (Article 3).\n\n**Frequency**\n- Tele to  days days per telework per week, with a chosen upon by the employee and manager manager (Article 40).\n- Minence in the office required mandatory for least one days per week, maintain isolation andArticle 16).\n\n**Arrangements**\n- Telework requests volunt through mutual agreement between with asilaterally ( and in specific circumstances (Article 1, 10). 11). 12).\n- Theagers have discretion in thework allow, considering the dynamics organizational needs (Article 1).\n\n**Costs**\n- The document provides necessary equipment and as computers computer, screen phone, and office access access (Article 10).\n- Em- cases, the may receive personal equipment ( with re company re costs and (Article 28).\n-**Privacy**\n- Theployees have the right to disconnect and of agreed hours, are breaks periods ( with well in the companyilateral charter ( the right to disconnect (Article 21). arter). the Right to Disconnect).\n- The document respect not access personal contact information with and employeesc use is meetings meetings is optional mandatory (Article 22).\n\nThe document does not mention meal allowance oref",
+            "User is a exal will how method to whichired with a specific box\n box provides be context context.\n the story that mightately\n    answerses the request.\n\n\n\n\nruction:\n\n\n task is to writeize the article's businesscommun policy.  few that is bothable by the.\n example point the following points, write provide a short summary: the company\u2019s policywork policy: and in.\n do any\n\n. Whether of ATelelectible for\n employees are eligible for telework?e any roles, if as jobure, performance type, or type, etc performance else that\n\n22. Title: \"Frequency\". Howrequency of telework ( (include as full of days per week,)/or minimums) tele number tos presence in the office)\n\n33. Title: \"Durationangements\". What for which employeeswork is are approved andsuch as whether it is be sought,/ there arrangement has discretion to the decisionance of telework)\n\n\n4. Title: \"Durations\". Whichage of costs associated with telework (such as whether equipment, maintenance allowances)\n\n\n5. Title: \"Equacy\". Policyvisions for privacy protection to privacyconnect and/ right of the home\u2019\n\n6el case, pleaseite the relevant section and the policy that you information information can found.\n the answer with the title title.\n doize the information points in a format. and each list2-0xcharacter-.\njusting to the 100-token limit is important for the task to\n do that is not exceed the limit.\n it response is not provide a category category,,, please thatNot document does not mention thistopic] in [topic] is the topic title.\n\n\n\n\n1-\n ### El:\n\n\n\n\n-company/.pngpeg\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nENTINGUMVEESINRANIZAT OF\u2019 TLETRAVAIL\nIATER\n TIN D LROUR D\nELLOR\n\n\n\n\n\n\n\n\n\n\n\nlig nous\n\n\n\n\n\n\n\nearEuriel  G\u00e9t\u00e9,EERIT SARL\n laaineili\u00e9 GAR1 Go dEBment, ,300,10ARBAU\n\n\n57\n\n2AC0   cant par unXissant XXX tantit\u00e9 de XXXeur, Ressources Haines, de, agissant en qualit\u00e9 de Directeur des\u00e9n\u00e9ral.\n\n\n\nligud\n\n\n\n\u2019une part, la, agari\u00e9e en XXX D\u00e9t\u00e9 Gberit SarlL, domirectiongu\u00e9 parndical,US.R.C.\n\n\n\n\n\n\n\n \u00e9t\u00e9 d\u00e9c\u00e9 que qui suit ::\n\n\n\n\n\n\nSISLE\n\n\n\n\n politique en  du\u2019arr politique de t\u00e9l\u00e9travail au'inscrit dans la cadciait de la\u2019entreprise.\u2019ACCord\u00eetre la manplesse d son organisation du travail. de latre aux personnel d trux bilil son professionnelle et vie person\u00e9e.\n\nberit Sire \u00e0 \u00e0 \u00eatreforcer l'engagement de la product de ses salateurs, aussi \u00e0 devivit\u00e9 etupr\u00e8s les jees.entelles.\n\n\n\n\n t\u00e9l\u00e9enu de document document s\u2019inuie comme les:\n\n\n\n\nTitle travignes suivrices de t\u00e9l\u00e9roupe Geberit S au la t\u00e9l\u00e9 en place place d t\u00e9l\u00e9travail\u00a0 s\u2019inpliqueent \u00e0\u00a0 les entprises, \u00e0 sivent \u00eatre respectploy\u00e9es dans les. manon co coe que possible. qui les d\u00e9 les d\u00e9itions localal etatoires peu matigueur dans peu peutent de sroger.;\n\n\n\tLes litions de l\u2019accord sur surneessionnel sur T21 Ju 2010 sur la mise en \u0153uvre duussie du t\u00e9l\u00e9travail\u00a0;\n----\tLes ljeignements de l politiqueatique du t\u00e9l\u00e9travail deulier au la plan de Genaau\u00a0ment le 2029\u00a0 qui qui t\u00e9l\u00e9travail occasionnel sur la pandise sanitaire de\u00e9e \u00e0 la COVID\u00e9mie de COVID COVID-19\u00a0\n\n\n\n\n t\u00e9l\u00e9 accord s pour appu pour le butre de dispos\u00e9gociations denuelles deuvigatoires de au la\u2019\u00c9\u00e9cice du2010-\n dispos s ainsigang\u00e9 sur les\u2019apisation du t\u00e9l\u00e9travail auulier et sein de nunions de n\u00e9gociations du 20 et 2 UserEligibility**\n\n\tigible employees: All with have been their probation period ( have aonomy and their role (Article 1.\n- Exeligible workers: those requiring to the protection, requiring continu, and those physical-site presence (Article 4).\n\n Ex positions and are not eligible by the agreementwork policy (Article 3).\n\n**Frequency**\n- Regular tele: 2 days% of working working time ( with to 2- per week ( full-time employees (Article 1).).\n- Maxased frequency: up to 40% of weekly work time, a with aabilities or parents-time employeesapeutic leaveules, or family respons responsiving (Article 13).\n--Arrangements**\n- Requestwork is are a agreementendment to the employment contract (Article 13).\n- Em request30month trial period is granted to during a 3-month notice period termination ( thework ( the party (Article 1).\n- Theagers have discretion to telework allowigibility ( frequency refuse author telework ( to operational needs (Article 11).\n\n**Costs**\n- The company covers not cover telework-related costs ( expenses aetary compensation (Article 1).\n- Theployees are responsible for their their work office compl minimum and erivity standards (Article 7 and 1).\n\n**Privacy**\n- The right does not mention the right to disconnect or the provisions..\n, it does mention that telework must the same rights and obligations as on-site employees ( andlying the privacy privacy provisions disconnection policies apply.Article 12).\n\nNote: the document does not mention mention thetheacy\" as a topic, but it provisions is provided the from other text provisions of existing laws.).)\n"
+        ],
+        "targets": [
+            "**Eligibility**\n- Permanent employees with a good understanding of MFHG's activities and administrative services (Article 2).\n- Jobs that can be performed remotely (Article 2).\n- Employees must have a dedicated workspace, high-speed internet, and compliant electrical installation at home (Article 2).\n- Excludes employees whose roles require physical presence, such as those in direct public contact or certain support services (Article 2).\n\n**Frequency**\n- Limited to 1 day per week to avoid isolation, ensuring a minimum of 4 days on-site (Article 3-1).\n- Possible exceptions for up to 3 days of telework per week with management approval (Article 3-2).\n\n**Arrangements**\n- Telework is voluntary and requires mutual agreement between the employee and the company (Article 5).\n- Formalized by an amendment to the employment contract (Article 6).\n\n**Costs**\n- Employees are responsible for internet and phone connection costs (Article 11).\n- Meal vouchers are maintained, but no additional telework-related compensation is provided by the employer (Article 11).\n\n**Privacy**\n- Employees must disconnect outside of contractual working hours (Article 3-3).\n- The document does not mention specific privacy provisions beyond the obligation to disconnect.\n\nPlease note that the document does not mention specific provisions for the right to disconnect beyond the general obligation to disconnect outside of working hours, nor does it detail privacy provisions for workers beyond what is implied by the telework arrangement.",
+            "**Eligibility**\n- Full-time or at least 80% part-time employees with a minimum of one year's tenure, not on probation (Article 3).\n- Must be able to work autonomously and remotely, with compatible job functions and an appropriate workspace (Article 3).\n- Excludes roles requiring continuous presence, significant regular absence, or specific technical/material constraints (Article 3).\n\n**Frequency**\n- Up to four full days of telework per month, with days agreed upon between the employee and their manager (Article 16).\n- Presence in the office is required at least two days per week to prevent isolation (Article 19).\n\n**Arrangements**\n- Telework is established by mutual agreement, not unilaterally, except in exceptional circumstances (Articles 9, 10, 11, 15).\n- Managers have discretion over telework arrangements, considering team and organizational needs (Article 4).\n\n**Costs**\n- The company provides necessary equipment such as a laptop, mobile phone, and remote server access (Article 28).\n- In exceptional circumstances, employees may use personal equipment, with the company covering installation costs (Article 28).\n\n**Privacy**\n- Employees have the right to disconnect outside of work hours and during rest periods, as detailed in the unilateral charter on the right to disconnect (Article 22, Charter on the Right to Disconnect).\n- The company will not share personal contact information, and webcam use during remote meetings is not mandatory (Article 23).\n\nThe document does not mention meal allowance.",
+            "**Eligibility**\n- Eligible workers: those who have completed their probation period and demonstrate autonomy in their role (Article 4).\n- Ineligible positions: roles sensitive to data security, operational processes, or requiring on-site presence (Article 3).\n- Sales force personnel are not covered by the telework policy (Article 1).\n\n**Frequency**\n- Standard frequency: 20% of weekly work time, equivalent to 1 day per week for full-time employees (Article 13).\n- Increased frequency: up to 40% of weekly work time for employees with disabilities, part-time therapeutic schedules, or family caregivers (Article 13).\n\n**Arrangements**\n- Telework arrangements require an amendment to the employment contract (Article 10).\n- A 3-month adaptation period is provided, with a 2-week notice for termination of telework by either party (Article 6).\n- Managers have discretion over telework eligibility and can temporarily suspend telework due to operational needs (Article 11).\n\n**Costs**\n- The company does not cover telework-related costs or provide monetary benefits (Article 7).\n- Employees are responsible for ensuring their home office meets safety and connectivity requirements (Articles 8 and 9).\n\n**Privacy**\n- The document does not mention the right to disconnect or privacy provisions specifically. However, it does state that teleworkers have the same rights and obligations as on-site workers, implying that existing privacy and disconnection rights apply (Article 16).\n\n(Note: The document does not explicitly mention \"Privacy\" as a category, but related information is inferred from the general principles and applicable provisions section.)"
+        ]
+    },
+    "num_increases_batch_size": 0,
+    "num_reductions_learning_rate": 0,
+    "steps": 285,
+    "test_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    95,
+                    1.316493272781372
+                ],
+                [
+                    2,
+                    190,
+                    1.2493395805358887
+                ],
+                [
+                    3,
+                    285,
+                    1.2037372589111328
+                ]
+            ]
+        },
+        "output": {
+            "bleu": [
+                [
+                    1,
+                    95,
+                    0.0930197685956955
+                ],
+                [
+                    2,
+                    190,
+                    0.09215766191482544
+                ],
+                [
+                    3,
+                    285,
+                    0.09246644377708435
+                ]
+            ],
+            "char_error_rate": [
+                [
+                    1,
+                    95,
+                    2.3942618370056152
+                ],
+                [
+                    2,
+                    190,
+                    2.3792996406555176
+                ],
+                [
+                    3,
+                    285,
+                    2.378065824508667
+                ]
+            ],
+            "loss": [
+                [
+                    1,
+                    95,
+                    1.316493272781372
+                ],
+                [
+                    2,
+                    190,
+                    1.2493395805358887
+                ],
+                [
+                    3,
+                    285,
+                    1.2037372589111328
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    95,
+                    17895.0703125
+                ],
+                [
+                    2,
+                    190,
+                    17894.61328125
+                ],
+                [
+                    3,
+                    285,
+                    17823.19921875
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    95,
+                    31472.267578125
+                ],
+                [
+                    2,
+                    190,
+                    31541.587890625
+                ],
+                [
+                    3,
+                    285,
+                    31573.310546875
+                ]
+            ],
+            "rouge1_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.3368320167064667
+                ],
+                [
+                    2,
+                    190,
+                    0.338858425617218
+                ],
+                [
+                    3,
+                    285,
+                    0.34239423274993896
+                ]
+            ],
+            "rouge1_precision": [
+                [
+                    1,
+                    95,
+                    0.21907421946525574
+                ],
+                [
+                    2,
+                    190,
+                    0.22045662999153137
+                ],
+                [
+                    3,
+                    285,
+                    0.22271250188350677
+                ]
+            ],
+            "rouge1_recall": [
+                [
+                    1,
+                    95,
+                    0.7319855690002441
+                ],
+                [
+                    2,
+                    190,
+                    0.7356935143470764
+                ],
+                [
+                    3,
+                    285,
+                    0.7439469695091248
+                ]
+            ],
+            "rouge2_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.16019047796726227
+                ],
+                [
+                    2,
+                    190,
+                    0.16609610617160797
+                ],
+                [
+                    3,
+                    285,
+                    0.17210569977760315
+                ]
+            ],
+            "rouge2_precision": [
+                [
+                    1,
+                    95,
+                    0.10416582226753235
+                ],
+                [
+                    2,
+                    190,
+                    0.10806307196617126
+                ],
+                [
+                    3,
+                    285,
+                    0.11192894726991653
+                ]
+            ],
+            "rouge2_recall": [
+                [
+                    1,
+                    95,
+                    0.348328173160553
+                ],
+                [
+                    2,
+                    190,
+                    0.36053505539894104
+                ],
+                [
+                    3,
+                    285,
+                    0.3741278648376465
+                ]
+            ],
+            "rougeL_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.2451317310333252
+                ],
+                [
+                    2,
+                    190,
+                    0.2553320527076721
+                ],
+                [
+                    3,
+                    285,
+                    0.2569299340248108
+                ]
+            ],
+            "rougeL_precision": [
+                [
+                    1,
+                    95,
+                    0.15934832394123077
+                ],
+                [
+                    2,
+                    190,
+                    0.16603027284145355
+                ],
+                [
+                    3,
+                    285,
+                    0.16699567437171936
+                ]
+            ],
+            "rougeL_recall": [
+                [
+                    1,
+                    95,
+                    0.5336419343948364
+                ],
+                [
+                    2,
+                    190,
+                    0.5552949905395508
+                ],
+                [
+                    3,
+                    285,
+                    0.5596746206283569
+                ]
+            ],
+            "rougeLsum_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.3132198452949524
+                ],
+                [
+                    2,
+                    190,
+                    0.3155706822872162
+                ],
+                [
+                    3,
+                    285,
+                    0.31334376335144043
+                ]
+            ],
+            "rougeLsum_precision": [
+                [
+                    1,
+                    95,
+                    0.2034982293844223
+                ],
+                [
+                    2,
+                    190,
+                    0.205105260014534
+                ],
+                [
+                    3,
+                    285,
+                    0.20354700088500977
+                ]
+            ],
+            "rougeLsum_recall": [
+                [
+                    1,
+                    95,
+                    0.6830228567123413
+                ],
+                [
+                    2,
+                    190,
+                    0.6873016953468323
+                ],
+                [
+                    3,
+                    285,
+                    0.6837542653083801
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    95,
+                    0.005448436364531517
+                ],
+                [
+                    2,
+                    190,
+                    0.004589191637933254
+                ],
+                [
+                    3,
+                    285,
+                    0.00423281267285347
+                ]
+            ],
+            "word_error_rate": [
+                [
+                    1,
+                    95,
+                    2.6353187561035156
+                ],
+                [
+                    2,
+                    190,
+                    2.621734619140625
+                ],
+                [
+                    3,
+                    285,
+                    2.620689630508423
+                ]
+            ]
+        }
+    },
+    "total_tokens_used": 404934,
+    "train_metrics": {
+        "combined": {
+            "loss": [
+                [
+                    1,
+                    95,
+                    1.330604076385498
+                ],
+                [
+                    2,
+                    190,
+                    1.2353326082229614
+                ],
+                [
+                    3,
+                    285,
+                    1.2890979051589966
+                ]
+            ]
+        },
+        "output": {
+            "bleu": [
+                [
+                    1,
+                    95,
+                    0.06913769245147705
+                ],
+                [
+                    2,
+                    190,
+                    0.07169037312269211
+                ],
+                [
+                    3,
+                    285,
+                    0.06991910189390182
+                ]
+            ],
+            "char_error_rate": [
+                [
+                    1,
+                    95,
+                    2.408940076828003
+                ],
+                [
+                    2,
+                    190,
+                    2.6195223331451416
+                ],
+                [
+                    3,
+                    285,
+                    2.840634822845459
+                ]
+            ],
+            "loss": [
+                [
+                    1,
+                    95,
+                    1.330604076385498
+                ],
+                [
+                    2,
+                    190,
+                    1.2353326082229614
+                ],
+                [
+                    3,
+                    285,
+                    1.2890979051589966
+                ]
+            ],
+            "next_token_perplexity": [
+                [
+                    1,
+                    95,
+                    17717.322265625
+                ],
+                [
+                    2,
+                    190,
+                    17700.623046875
+                ],
+                [
+                    3,
+                    285,
+                    17815.2109375
+                ]
+            ],
+            "perplexity": [
+                [
+                    1,
+                    95,
+                    31480.251953125
+                ],
+                [
+                    2,
+                    190,
+                    31556.421875
+                ],
+                [
+                    3,
+                    285,
+                    31564.3671875
+                ]
+            ],
+            "rouge1_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.33756890892982483
+                ],
+                [
+                    2,
+                    190,
+                    0.3163730800151825
+                ],
+                [
+                    3,
+                    285,
+                    0.29893776774406433
+                ]
+            ],
+            "rouge1_precision": [
+                [
+                    1,
+                    95,
+                    0.22013695538043976
+                ],
+                [
+                    2,
+                    190,
+                    0.20188403129577637
+                ],
+                [
+                    3,
+                    285,
+                    0.18929803371429443
+                ]
+            ],
+            "rouge1_recall": [
+                [
+                    1,
+                    95,
+                    0.7354009747505188
+                ],
+                [
+                    2,
+                    190,
+                    0.7354967594146729
+                ],
+                [
+                    3,
+                    285,
+                    0.7153668403625488
+                ]
+            ],
+            "rouge2_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.15297019481658936
+                ],
+                [
+                    2,
+                    190,
+                    0.15532641112804413
+                ],
+                [
+                    3,
+                    285,
+                    0.15246112644672394
+                ]
+            ],
+            "rouge2_precision": [
+                [
+                    1,
+                    95,
+                    0.09964042156934738
+                ],
+                [
+                    2,
+                    190,
+                    0.0989537239074707
+                ],
+                [
+                    3,
+                    285,
+                    0.09645283222198486
+                ]
+            ],
+            "rouge2_recall": [
+                [
+                    1,
+                    95,
+                    0.33472540974617004
+                ],
+                [
+                    2,
+                    190,
+                    0.36334386467933655
+                ],
+                [
+                    3,
+                    285,
+                    0.36614465713500977
+                ]
+            ],
+            "rougeL_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.24982911348342896
+                ],
+                [
+                    2,
+                    190,
+                    0.23793427646160126
+                ],
+                [
+                    3,
+                    285,
+                    0.23186160624027252
+                ]
+            ],
+            "rougeL_precision": [
+                [
+                    1,
+                    95,
+                    0.16286307573318481
+                ],
+                [
+                    2,
+                    190,
+                    0.15171270072460175
+                ],
+                [
+                    3,
+                    285,
+                    0.14687034487724304
+                ]
+            ],
+            "rougeL_recall": [
+                [
+                    1,
+                    95,
+                    0.5450239777565002
+                ],
+                [
+                    2,
+                    190,
+                    0.5546925663948059
+                ],
+                [
+                    3,
+                    285,
+                    0.5541949272155762
+                ]
+            ],
+            "rougeLsum_fmeasure": [
+                [
+                    1,
+                    95,
+                    0.32795456051826477
+                ],
+                [
+                    2,
+                    190,
+                    0.30522653460502625
+                ],
+                [
+                    3,
+                    285,
+                    0.2859894931316376
+                ]
+            ],
+            "rougeLsum_precision": [
+                [
+                    1,
+                    95,
+                    0.2139156311750412
+                ],
+                [
+                    2,
+                    190,
+                    0.19478321075439453
+                ],
+                [
+                    3,
+                    285,
+                    0.181050643324852
+                ]
+            ],
+            "rougeLsum_recall": [
+                [
+                    1,
+                    95,
+                    0.7138710618019104
+                ],
+                [
+                    2,
+                    190,
+                    0.7094430923461914
+                ],
+                [
+                    3,
+                    285,
+                    0.6850786209106445
+                ]
+            ],
+            "sequence_accuracy": [
+                [
+                    1,
+                    95,
+                    0.0
+                ],
+                [
+                    2,
+                    190,
+                    0.0
+                ],
+                [
+                    3,
+                    285,
+                    0.0
+                ]
+            ],
+            "token_accuracy": [
+                [
+                    1,
+                    95,
+                    0.0049524069763720036
+                ],
+                [
+                    2,
+                    190,
+                    0.004171894397586584
+                ],
+                [
+                    3,
+                    285,
+                    0.003460056846961379
+                ]
+            ],
+            "word_error_rate": [
+                [
+                    1,
+                    95,
+                    2.6276118755340576
+                ],
+                [
+                    2,
+                    190,
+                    2.8400309085845947
+                ],
+                [
+                    3,
+                    285,
+                    3.0779101848602295
+                ]
+            ]
+        }
+    },
+    "tune_checkpoint_num": 0,
+    "validation_metrics": {
+        "combined": {},
+        "output": {}
+    }
+}
