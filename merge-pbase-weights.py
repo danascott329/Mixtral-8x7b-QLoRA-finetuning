@@ -5,6 +5,7 @@ from transformers import (
     AutoTokenizer,
 )
 import pandas as pd
+from datetime import datetime
 import os
 from peft import LoraConfig, get_peft_model, PeftModel
 
@@ -26,15 +27,16 @@ base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        # fine-tuned linewise
 bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype="float16",
+        bnb_4bit_compute_dtype="bfloat16",
         bnb_4bit_use_double_quant=True,
     )
 model = AutoModelForCausalLM.from_pretrained(
     base_model, 
     trust_remote_code=True, 
-    device_map=device#, 
+    device_map = 'auto',
+    #device_map=device#, 
     #load_in_8bit=True,
-    #quantization_config=bnb_config
+    quantization_config=bnb_config
 )
 
 model = PeftModel.from_pretrained(model, weights)
@@ -55,7 +57,7 @@ def respond(f):
     if device != "cpu":
         inputs = inputs.to('cuda')
         
-    output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=512, temperature = 0.1)
+    output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=256, temperature = 0.1)
     output = tokenizer.decode(output[0], skip_special_tokens=True)
 
     #return output.split("### Assistant: ")[1]
@@ -69,7 +71,7 @@ def policy_compare(policy1, policy2):
     if device != "cpu":
         inputs = inputs.to('cuda')
         
-    output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=512, temperature = 0.1)
+    output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=256, temperature = 0.1)
     output = tokenizer.decode(output[0], skip_special_tokens=True)
 
     #return output.split("### Assistant: ")[1]
@@ -87,6 +89,9 @@ def generate_pairs_with_indices(docs, num_pairs):
         #pairs = pairs.append(pair, ignore_index = True)
         pairs = pd.concat([pairs, pd.DataFrame([pair])], ignore_index=True)
     return(pairs)
+
+start_time = datetime.now()
+print('Start time: {}'.format(start_time))
 
 # inference function and prompt definition -- define for the different tasks
 if task == 'summary':
@@ -183,3 +188,6 @@ if task == 'compare':
     filename = 'wide-files/'+ topic + '_compare_combined_mixtral_pilot.csv'
     
 df.to_csv(filename)
+
+end_time = datetime.now()
+print('Duration: {}'.format(end_time - start_time))
