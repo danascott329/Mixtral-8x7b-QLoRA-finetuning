@@ -180,7 +180,7 @@ if task == 'compare':
         If either of the two policies does not mention privacy or the right to disconnect, state "Policy [1,2] does not mention privacy" for the relevant policy and do not answer the question. \n
         '''
 
-    df = generate_pairs_with_indices(docs, 500)
+    df = generate_pairs_with_indices(docs, 50)
     print(df)
 
     df['output'] = df.apply(lambda row: policy_compare(row['policy1'],row['policy2']), axis = 1)
