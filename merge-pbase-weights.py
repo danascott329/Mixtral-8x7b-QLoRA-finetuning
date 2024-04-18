@@ -10,6 +10,8 @@ import os
 import torch
 from peft import LoraConfig, get_peft_model, PeftModel
 
+hf_token = "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"
+
 cache_dir = "/vast/palmer/scratch/odea/das293/huggingface/"
 os.environ['TRANSFORMERS_CACHE'] = cache_dir
 os.environ['HF_HOME'] = cache_dir
@@ -43,6 +45,7 @@ model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=True, 
     torch_dtype=torch.float16,
     device_map = 'auto',
+    token = hf_token,
     #device_map=device#, 
     #load_in_8bit=True,
     #quantization_config=bnb_config
