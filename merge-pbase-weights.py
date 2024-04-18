@@ -11,12 +11,13 @@ import torch
 from peft import LoraConfig, get_peft_model, PeftModel
 
 hf_token = "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"
-
+write_token = "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"
+'''
 cache_dir = "/vast/palmer/scratch/odea/das293/huggingface/"
 os.environ['TRANSFORMERS_CACHE'] = cache_dir
 os.environ['HF_HOME'] = cache_dir
 os.environ['HF_DATASETS_CACHE'] = cache_dir
-
+'''
 task = 'summary'
 device = "auto"
 
@@ -56,9 +57,9 @@ model = model.merge_and_unload()
 
 # push model to hub
 if task=='summary':
-    model.push_to_hub("danascott329/mixtral-document-summaries-telework")
+    model.push_to_hub("danascott329/mixtral-document-summaries-telework", token = write_token)
 if task=='compare':
-    model.push_to_hub("danascott329/mixtral-telework-compare")
+    model.push_to_hub("danascott329/mixtral-telework-compare", token = write_token)
 '''
 #model.load_lora_weights("fulltext-lora-weights/model_weights", weight_name="adapter_model.safetensors")
 tokenizer = AutoTokenizer.from_pretrained(base_model)
