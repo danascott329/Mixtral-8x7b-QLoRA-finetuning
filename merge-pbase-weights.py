@@ -55,7 +55,7 @@ model = model.merge_and_unload()
 if task=='summary':
     model.push_to_hub("danascott329/mixtral-document-summaries-telework")
 if task=='compare':
-    model.push_to_hub("danascott329/mixtral-telework-compare-telework")
+    model.push_to_hub("danascott329/mixtral-telework-compare")
 '''
 #model.load_lora_weights("fulltext-lora-weights/model_weights", weight_name="adapter_model.safetensors")
 tokenizer = AutoTokenizer.from_pretrained(base_model)
