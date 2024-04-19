@@ -9,23 +9,28 @@ from datetime import datetime
 import os
 import torch
 from peft import LoraConfig, get_peft_model, PeftModel
+import huggingface_hub
+from vllm import LLM, SamplingParams
 
 hf_token = "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"
 write_token = "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"
 
+huggingface_hub.login(token = hf_token)
+
 cache_dir = "/vast/palmer/scratch/odea/das293/huggingface/"
-os.environ['TRANSFORMERS_CACHE'] = cache_dir
 os.environ['HF_HOME'] = cache_dir
 os.environ['HF_DATASETS_CACHE'] = cache_dir
 
-task = 'summary'
+os.environ['HF_TOKEN'] = hf_token
+
+task = 'compare'
 device = "auto"
 
 # Path to the LoRA weights exported from Predibase
 if task=='summary':
-    weights = "fulltext-lora-weights/model_weights"
+    ft_model = "danascott329/mixtral-document-summaries-telework"
 if task=='compare':
-    weights = "telework-compare-mixtral/model_weights"   
+    ft_model = "danascott329/mixtral-telework-compare"
 
 # fine-tuned linewise model
 base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        
@@ -33,36 +38,7 @@ base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"
 # Prompt should be in this style due to how the data was created
 #prompt = "#### Human: What is the capital of Australia?#### Assistant:"
 
-bnb_config = BitsAndBytesConfig(
-        #load_in_4bit=True,
-        quantization_bits=4,
-        #bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype="bfloat16",
-        #bnb_4bit_use_double_quant=True,
-    )
-
-model = AutoModelForCausalLM.from_pretrained(
-    base_model, 
-    trust_remote_code=True, 
-    torch_dtype=torch.float16,
-    device_map = 'auto',
-    token = hf_token,
-    #device_map=device#, 
-    #load_in_8bit=True,
-    #quantization_config=bnb_config
-)
-
-model = PeftModel.from_pretrained(model, weights)
-model = model.merge_and_unload()
-'''
-# push model to hub
-if task=='summary':
-    model.push_to_hub("danascott329/mixtral-document-summaries-telework", token = write_token)
-if task=='compare':
-    model.push_to_hub("danascott329/mixtral-telework-compare", token = write_token)
-'''
-#model.load_lora_weights("fulltext-lora-weights/model_weights", weight_name="adapter_model.safetensors")
-tokenizer = AutoTokenizer.from_pretrained(base_model)
+model = LLM(model=ft_model, tokenizer = base_model)
 
 # helper functions
 def respond(f):
@@ -111,7 +87,8 @@ def generate_pairs_with_indices(docs, num_pairs):
 
 start_time = datetime.now()
 print('Start time: {}'.format(start_time))
-'''
+
+
 # inference function and prompt definition -- define for the different tasks
 if task == 'summary':
 
@@ -124,7 +101,7 @@ if task == 'summary':
     5. Title: "Privacy". Provisions for the right to disconnect and the privacy of the worker \n
     In each category, cite the article number in the document where the relevant information is provided. Label each section with the requested title. Please summarize the key points in bullet points, within a 300-token limit. Adhering to the 300-token limit is crucial for this summary. Please ensure it does not exceed this length. If the document does not mention a specific topic listed here, state "the document does not mention [topic]", where [topic] is the relevant topic. \n \n
     '''
-    '''
+    
     # List all files in the directory
     files_in_directory = os.listdir('fulltext-pilot')
 
@@ -140,10 +117,10 @@ if task == 'summary':
     })
 
     filename = 'pilot_responses.csv'
-    '''
+    
 
 if task == 'compare':
-    '''
+    
     # Load list of potential policies to compare
     docs = pd.concat(
         [pd.read_csv('wide-files/telework_pilot_summary-mixtral-finetuned_wide_v0320.csv'), 
@@ -158,7 +135,7 @@ if task == 'compare':
         pd.read_csv('wide-files/telework_pilot_summary-mixtral-finetuned_wide_v10_v0320.csv')], 
         ignore_index=True
         )
-    '''
+    
     # set topic
     topic = "Frequency"
 
@@ -202,16 +179,15 @@ if task == 'compare':
         3. explanation (less than 25 words) \n
         If either of the two policies does not mention privacy or the right to disconnect, state "Policy [1,2] does not mention privacy" for the relevant policy and do not answer the question. \n
         '''
-    '''
+   
     df = generate_pairs_with_indices(docs, 50)
     print(df)
 
     df['output'] = df.apply(lambda row: policy_compare(row['policy1'],row['policy2']), axis = 1)
     print(df)
     filename = 'wide-files/'+ topic + '_compare_combined_mixtral_pilot.csv'
-    '''
+    
 
-'''
 df.to_csv(filename)
 
 end_time = datetime.now()
