@@ -16,11 +16,12 @@ hf_token = "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"
 write_token = "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"
 
 huggingface_hub.login(token = hf_token)
-
+'''
 cache_dir = "/vast/palmer/scratch/odea/das293/huggingface/"
 os.environ['HF_HOME'] = cache_dir
 os.environ['HF_DATASETS_CACHE'] = cache_dir
-
+'''
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 os.environ['HF_TOKEN'] = hf_token
 
 task = 'compare'
@@ -33,12 +34,13 @@ if task=='compare':
     ft_model = "danascott329/mixtral-telework-compare"
 
 # fine-tuned linewise model
-base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1"        
+base_model = "mistralai/Mixtral-8x7B-Instruct-v0.1" 
+tokenizer = AutoTokenizer.from_pretrained(base_model)       
 
 # Prompt should be in this style due to how the data was created
 #prompt = "#### Human: What is the capital of Australia?#### Assistant:"
 
-model = LLM(model=ft_model, tokenizer = base_model)
+model = LLM(model=ft_model, tokenizer = base_model, tensor_parallel_size=4)
 
 # helper functions
 def respond(f):
