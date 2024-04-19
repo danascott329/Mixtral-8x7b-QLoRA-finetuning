@@ -6,3 +6,6 @@ sentencepiece
 protobuf
 gradio
 accelerate
+lfs
+vllm
+huggingface_hub
