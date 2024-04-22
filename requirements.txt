@@ -9,5 +9,5 @@ accelerate
 lfs
 vllm
 huggingface_hub
-filelock
+filelock==3.13.4
 flash_attn
