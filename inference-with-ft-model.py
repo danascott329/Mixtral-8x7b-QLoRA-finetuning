@@ -24,6 +24,8 @@ os.environ['HF_DATASETS_CACHE'] = cache_dir
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 os.environ['HF_TOKEN'] = hf_token
 
+sampling_params = SamplingParams(temperature=0.1, top_p=0.3, top_k=60)
+
 task = 'compare'
 device = "auto"
 
@@ -54,8 +56,11 @@ def respond(f):
     if device != "cpu":
         inputs = inputs.to('cuda')
         
-    output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=256, temperature = 0.1)
-    output = tokenizer.decode(output[0], skip_special_tokens=True)
+    #output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=256, temperature = 0.1)
+    #output = tokenizer.decode(output[0], skip_special_tokens=True)
+
+    output = model.generate(input_text, sampling_params)
+    output = output.outputs[0].text
 
     #return output.split("### Assistant: ")[1]
     return output
@@ -68,8 +73,11 @@ def policy_compare(policy1, policy2):
     if device != "cpu":
         inputs = inputs.to('cuda')
         
-    output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=256, temperature = 0.1)
-    output = tokenizer.decode(output[0], skip_special_tokens=True)
+    #output = model.generate(**inputs, do_sample=True, top_p=0.95, top_k=60, max_new_tokens=256, temperature = 0.1)
+    #output = tokenizer.decode(output[0], skip_special_tokens=True)
+
+    output = model.generate(input_text, sampling_params)
+    output = output.outputs[0].text
 
     #return output.split("### Assistant: ")[1]
     return output

@@ -9,3 +9,5 @@ accelerate
 lfs
 vllm
 huggingface_hub
+filelock
+flash_attn
