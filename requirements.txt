@@ -11,3 +11,4 @@ vllm
 huggingface_hub
 filelock==3.13.4
 flash_attn
+torch==2.1.2

@@ -24,7 +24,7 @@ os.environ['HF_DATASETS_CACHE'] = cache_dir
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 os.environ['HF_TOKEN'] = hf_token
 
-sampling_params = SamplingParams(temperature=0.1, top_p=0.3, top_k=60)
+sampling_params = SamplingParams(temperature=0.1, top_p=0.95, top_k=60, max_tokens = 512)
 
 task = 'compare'
 device = "auto"
