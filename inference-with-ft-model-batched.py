@@ -95,6 +95,21 @@ def generate_pairs_with_indices(docs, num_pairs):
         pairs = pd.concat([pairs, pd.DataFrame([pair])], ignore_index=True)
     return(pairs)
 
+# batched version of the policy comparison function
+# apply after generating the comparison prompt, so the only input is the "prompt" column
+def policy_create_prompt(policy1, policy2, prompt):
+
+    input_text = prompt + "\n\n Policy 1: \n\n" + str(policy1) + "\n\n Policy 2:\n" + str(policy2) + "### Assistant: "
+
+    return input_text
+
+def policy_compare_batched(df):
+
+    outputs = model.generate(df['prompt'], sampling_params)
+    df['output'] = [output.outputs[0].text for output in outputs]
+
+    return df
+
 start_time = datetime.now()
 print('Start time: {}'.format(start_time))
 
@@ -190,12 +205,14 @@ if task == 'compare':
         If either of the two policies does not mention privacy or the right to disconnect, state "Policy [1,2] does not mention privacy" for the relevant policy and do not answer the question. \n
         '''
    
-    df = generate_pairs_with_indices(docs, 50)
+    df = generate_pairs_with_indices(docs, 1000)
     print(df)
 
-    df['output'] = df.apply(lambda row: policy_compare(row['policy1'],row['policy2']), axis = 1)
+    df['prompt'] = df.apply(lambda row: policy_create_prompt(row['policy1'],row['policy2'],prompt), axis = 1)
+    df = policy_compare_batched(df)
+
     print(df)
-    filename = 'wide-files/'+ topic + '_compare_combined_mixtral_pilot.csv'
+    filename = 'wide-files/'+ topic + '_compare_combined_mixtral_pilot_batched.csv'
     
 
 df.to_csv(filename)
